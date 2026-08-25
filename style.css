@@ -53,6 +53,7 @@ th { position: sticky; top: 0; background: var(--card); }
 .num-pos { color: #16803b; font-weight: 600; }
 .num-neg { color: #c43b3b; font-weight: 600; }
 .summary-plot img { width: 100%; height: auto; min-width: 900px; display: block; }
+.benchmark-speedup-plot img { width: 100%; height: auto; min-width: 700px; display: block; }
 .plot-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
