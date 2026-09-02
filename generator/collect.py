@@ -134,6 +134,7 @@ def build_side(
         corunner_full,
         "mosmodel training data",
     )
+    signed_speedup = speedup(shared_cpi, uniform_cpi)
 
     result = {
         "focal_short": focal_short,
@@ -144,8 +145,8 @@ def build_side(
         "uniform_mpki": uniform_mpki,
         "shared_cpi": shared_cpi,
         "uniform_cpi": uniform_cpi,
-        "speedup": speedup(shared_cpi, uniform_cpi),
-        "slowdown": max(0.0, (uniform_cpi / shared_cpi - 1.0) * 100.0),
+        "speedup": signed_speedup,
+        "slowdown": max(0.0, -signed_speedup),
         "model_a": a,
         "model_b": b,
         "mosmodel_points": points,
@@ -243,9 +244,9 @@ def main() -> int:
                 "shared_cpi",
                 "uniform_cpi",
                 "speedup",
-                "slowdown",
             ):
                 combined[key] = (side1[key] + side2[key]) / 2.0
+            combined["slowdown"] = max(0.0, -combined["speedup"])
             combined["corunner_speedup"] = combined["speedup"]
             directional_results.append(combined)
         else:
@@ -266,7 +267,7 @@ def main() -> int:
                 "mean_speedup": mean(values),
                 "median_speedup": median(values),
                 "min_speedup": min(values),
-                "max_slowdown": max(item["slowdown"] for item in items),
+                "max_slowdown": max(0.0, -min(values)),
                 "max_speedup": max(values),
                 "speedups": values,
                 "pairs": items,

@@ -41,11 +41,9 @@ The publishable website is generated directly in the tlb-results repository:
   results.json
   .nojekyll
   figures/*.svg
-  figures/*.png
   figures/*.pdf
 
 The HTML embeds the SVG figures. Clicking a figure opens its PDF version.
-PNG copies are also generated for compatibility or use in email/slides.
 
 Simulation MPKI/CPI
 -------------------

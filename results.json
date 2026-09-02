@@ -20,7 +20,7 @@
       "mean_speedup": 14.910844374241334,
       "median_speedup": 5.772878141299187,
       "min_speedup": -0.8333333333333304,
-      "max_slowdown": 0.8403361344537785,
+      "max_slowdown": 0.8333333333333304,
       "max_speedup": 48.51485148514851,
       "speedups": [
         6.140350877192979,
@@ -208,7 +208,7 @@
           "shared_cpi": 1.19,
           "uniform_cpi": 1.2,
           "speedup": -0.8333333333333304,
-          "slowdown": 0.8403361344537785,
+          "slowdown": 0.8333333333333304,
           "model_a": 0.042,
           "model_b": 0.929,
           "mosmodel_points": [
@@ -848,7 +848,7 @@
       "mean_speedup": 1.859609237179987,
       "median_speedup": -0.3984063745019806,
       "min_speedup": -3.435114503816805,
-      "max_slowdown": 3.5573122529644285,
+      "max_slowdown": 3.435114503816805,
       "max_speedup": 16.666666666666675,
       "speedups": [
         2.183406113537112,
@@ -932,7 +932,7 @@
           "shared_cpi": 2.53,
           "uniform_cpi": 2.62,
           "speedup": -3.435114503816805,
-          "slowdown": 3.5573122529644285,
+          "slowdown": 3.435114503816805,
           "model_a": 0.021,
           "model_b": 2.202,
           "mosmodel_points": [
@@ -963,7 +963,7 @@
           "shared_cpi": 2.5,
           "uniform_cpi": 2.51,
           "speedup": -0.3984063745019806,
-          "slowdown": 0.40000000000000036,
+          "slowdown": 0.3984063745019806,
           "model_a": 0.025,
           "model_b": 2.265,
           "mosmodel_points": [
@@ -1025,7 +1025,7 @@
           "shared_cpi": 2.43,
           "uniform_cpi": 2.44,
           "speedup": -0.4098360655737654,
-          "slowdown": 0.411522633744843,
+          "slowdown": 0.4098360655737654,
           "model_a": 0.022,
           "model_b": 2.101,
           "mosmodel_points": [
@@ -1056,7 +1056,7 @@
           "shared_cpi": 2.38,
           "uniform_cpi": 2.44,
           "speedup": -2.4590163934426257,
-          "slowdown": 2.521008403361358,
+          "slowdown": 2.4590163934426257,
           "model_a": 0.02,
           "model_b": 2.191,
           "mosmodel_points": [
@@ -1086,7 +1086,7 @@
       "mean_speedup": 2.906169323487775,
       "median_speedup": 1.6348773841961872,
       "min_speedup": -0.3095975232198067,
-      "max_slowdown": 0.31055900621117516,
+      "max_slowdown": 0.3095975232198067,
       "max_speedup": 13.939393939393941,
       "speedups": [
         2.580645161290329,
@@ -1271,7 +1271,7 @@
           "shared_cpi": 3.22,
           "uniform_cpi": 3.23,
           "speedup": -0.3095975232198067,
-          "slowdown": 0.31055900621117516,
+          "slowdown": 0.3095975232198067,
           "model_a": 0.023,
           "model_b": 2.837,
           "mosmodel_points": [
@@ -1364,7 +1364,7 @@
           "shared_cpi": 4.1,
           "uniform_cpi": 4.105,
           "speedup": -0.12195121951219523,
-          "slowdown": 0.12224938875304847,
+          "slowdown": 0.12195121951219523,
           "model_a": 0.011,
           "model_b": 3.632,
           "mosmodel_points": [
@@ -1818,7 +1818,7 @@
       "mean_speedup": 0.7821230901765792,
       "median_speedup": 0.0,
       "min_speedup": -4.9792531120331995,
-      "max_slowdown": 5.240174672489095,
+      "max_slowdown": 4.9792531120331995,
       "max_speedup": 5.947955390334569,
       "speedups": [
         0.0,
@@ -2006,7 +2006,7 @@
           "shared_cpi": 4.58,
           "uniform_cpi": 4.82,
           "speedup": -4.9792531120331995,
-          "slowdown": 5.240174672489095,
+          "slowdown": 4.9792531120331995,
           "model_a": 0.019,
           "model_b": 3.539,
           "mosmodel_points": [
@@ -2130,7 +2130,7 @@
           "shared_cpi": 5.27,
           "uniform_cpi": 5.36,
           "speedup": -1.679104477611959,
-          "slowdown": 1.707779886148031,
+          "slowdown": 1.679104477611959,
           "model_a": 0.021,
           "model_b": 3.97,
           "mosmodel_points": [
@@ -2995,16 +2995,16 @@
       "short": "bc_k4",
       "full": "gapbs/bc-kron-4GB",
       "co_runner_count": 6,
-      "mean_speedup": -0.4078073109180865,
-      "median_speedup": -0.2408276821422306,
-      "min_speedup": -1.178781925343808,
-      "max_slowdown": 1.1928429423459175,
+      "mean_speedup": -0.21134365669411848,
+      "median_speedup": -0.11737089201877549,
+      "min_speedup": -1.025641025641022,
+      "max_slowdown": 1.025641025641022,
       "max_speedup": 0.23923444976077235,
       "speedups": [
         0.0,
         0.23923444976077235,
         -0.23474178403755097,
-        -1.178781925343808,
+        0.0,
         -0.24691358024691024,
         -1.025641025641022
       ],
@@ -3081,7 +3081,7 @@
           "shared_cpi": 4.25,
           "uniform_cpi": 4.26,
           "speedup": -0.23474178403755097,
-          "slowdown": 0.23529411764704466,
+          "slowdown": 0.23474178403755097,
           "model_a": 0.016,
           "model_b": 3.42,
           "mosmodel_points": [
@@ -3107,12 +3107,12 @@
           "focal_full": "gapbs/bc-kron-4GB",
           "corunner_short": "pr",
           "corunner_full": "gapbs/pr-urand-4GB",
-          "shared_mpki": 48.9,
+          "shared_mpki": 52.4,
           "uniform_mpki": 52.7,
-          "shared_cpi": 5.03,
+          "shared_cpi": 5.09,
           "uniform_cpi": 5.09,
-          "speedup": -1.178781925343808,
-          "slowdown": 1.1928429423459175,
+          "speedup": 0.0,
+          "slowdown": 0.0,
           "model_a": 0.018,
           "model_b": 4.145,
           "mosmodel_points": [
@@ -3131,7 +3131,7 @@
           "stlb_focal_only_percent": 0.0,
           "stlb_corunner_only_percent": 3.1,
           "stlb_state_sample_count": null,
-          "corunner_speedup": -0.13642564802182067
+          "corunner_speedup": 0.0
         },
         {
           "focal_short": "bc_k4",
@@ -3143,7 +3143,7 @@
           "shared_cpi": 4.04,
           "uniform_cpi": 4.05,
           "speedup": -0.24691358024691024,
-          "slowdown": 0.24752475247524774,
+          "slowdown": 0.24691358024691024,
           "model_a": 0.018,
           "model_b": 3.198,
           "mosmodel_points": [
@@ -3174,7 +3174,7 @@
           "shared_cpi": 3.86,
           "uniform_cpi": 3.9,
           "speedup": -1.025641025641022,
-          "slowdown": 1.0362694300518172,
+          "slowdown": 1.025641025641022,
           "model_a": 0.014,
           "model_b": 3.162,
           "mosmodel_points": [
@@ -3198,571 +3198,13 @@
       ]
     },
     {
-      "short": "pr",
-      "full": "gapbs/pr-urand-4GB",
-      "co_runner_count": 17,
-      "mean_speedup": -0.27377262696002924,
-      "median_speedup": 0.0,
-      "min_speedup": -1.331114808652245,
-      "max_slowdown": 1.3490725126475533,
-      "max_speedup": 0.23474178403755097,
-      "speedups": [
-        -0.886524822695034,
-        0.0,
-        -0.13642564802182067,
-        0.0,
-        0.0,
-        -0.6756756756756799,
-        0.0,
-        0.23474178403755097,
-        0.0,
-        0.0,
-        0.0,
-        -0.8431703204047181,
-        0.0,
-        0.0,
-        -1.01596516690855,
-        0.0,
-        -1.331114808652245
-      ],
-      "pairs": [
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "astar",
-          "corunner_full": "spec_cpu2006/473.astar",
-          "shared_mpki": 160.2,
-          "uniform_mpki": 172.4,
-          "shared_cpi": 5.59,
-          "uniform_cpi": 5.64,
-          "speedup": -0.886524822695034,
-          "slowdown": 0.8944543828264706,
-          "model_a": 0.004,
-          "model_b": 4.949,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 160.08,
-              "cpi": 5.57
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.0,
-              "cpi": 4.95
-            }
-          ],
-          "stlb_shared_percent": 0.23,
-          "stlb_focal_only_percent": 3.79,
-          "stlb_corunner_only_percent": 95.99,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 16.666666666666675
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "bc",
-          "corunner_full": "gapbs/bc-urand-4GB",
-          "shared_mpki": 160.5,
-          "uniform_mpki": 160.6,
-          "shared_cpi": 7.07,
-          "uniform_cpi": 7.07,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.008,
-          "model_b": 5.79,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 160.54,
-              "cpi": 7.03
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 5.79
-            }
-          ],
-          "stlb_shared_percent": 99.98,
-          "stlb_focal_only_percent": 0.02,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "bc_k4",
-          "corunner_full": "gapbs/bc-kron-4GB",
-          "shared_mpki": 160.1,
-          "uniform_mpki": 160.9,
-          "shared_cpi": 7.32,
-          "uniform_cpi": 7.33,
-          "speedup": -0.13642564802182067,
-          "slowdown": 0.1366120218579292,
-          "model_a": 0.009,
-          "model_b": 5.883,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 160.94,
-              "cpi": 7.29
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 5.88
-            }
-          ],
-          "stlb_shared_percent": 96.9,
-          "stlb_focal_only_percent": 3.1,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -1.178781925343808
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "bfs1",
-          "corunner_full": "gapbs/bfs-urand-1GB",
-          "shared_mpki": 159.7,
-          "uniform_mpki": 159.7,
-          "shared_cpi": 6.41,
-          "uniform_cpi": 6.41,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.005,
-          "model_b": 5.612,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 159.86,
-              "cpi": 6.38
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 5.61
-            }
-          ],
-          "stlb_shared_percent": 96.61,
-          "stlb_focal_only_percent": 3.39,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -1.2903225806451646
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "cactuss",
-          "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
-          "shared_mpki": 159.5,
-          "uniform_mpki": 159.5,
-          "shared_cpi": 6.11,
-          "uniform_cpi": 6.11,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.004,
-          "model_b": 5.473,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 159.58,
-              "cpi": 6.07
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.0,
-              "cpi": 5.47
-            }
-          ],
-          "stlb_shared_percent": 89.31,
-          "stlb_focal_only_percent": 10.69,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "cc",
-          "corunner_full": "gapbs/cc-urand-4GB",
-          "shared_mpki": 159.8,
-          "uniform_mpki": 171.2,
-          "shared_cpi": 5.88,
-          "uniform_cpi": 5.92,
-          "speedup": -0.6756756756756799,
-          "slowdown": 0.6802721088435382,
-          "model_a": 0.003,
-          "model_b": 5.404,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 159.67,
-              "cpi": 5.9
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 5.4
-            }
-          ],
-          "stlb_shared_percent": 6.1,
-          "stlb_focal_only_percent": 0.07,
-          "stlb_corunner_only_percent": 93.83,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 19.453924914675767
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "gamess",
-          "corunner_full": "spec_cpu2006/416.gamess",
-          "shared_mpki": 159.0,
-          "uniform_mpki": 159.0,
-          "shared_cpi": 5.24,
-          "uniform_cpi": 5.24,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.003,
-          "model_b": 4.766,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 158.97,
-              "cpi": 5.2
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.0,
-              "cpi": 4.77
-            }
-          ],
-          "stlb_shared_percent": 96.18,
-          "stlb_focal_only_percent": 3.82,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "graph4",
-          "corunner_full": "graph500-2.1/4GB",
-          "shared_mpki": 163.8,
-          "uniform_mpki": 162.1,
-          "shared_cpi": 8.54,
-          "uniform_cpi": 8.52,
-          "speedup": 0.23474178403755097,
-          "slowdown": 0.0,
-          "model_a": 0.013,
-          "model_b": 6.41,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 162.07,
-              "cpi": 8.47
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.03,
-              "cpi": 6.41
-            }
-          ],
-          "stlb_shared_percent": 97.29,
-          "stlb_focal_only_percent": 2.71,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "gups",
-          "corunner_full": "gups/2GB",
-          "shared_mpki": 159.7,
-          "uniform_mpki": 159.7,
-          "shared_cpi": 8.61,
-          "uniform_cpi": 8.61,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.016,
-          "model_b": 6.056,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 159.91,
-              "cpi": 8.61
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 6.06
-            }
-          ],
-          "stlb_shared_percent": 94.96,
-          "stlb_focal_only_percent": 5.04,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -0.2358490566037652
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "mcf17",
-          "corunner_full": "spec_cpu2017/605.mcf_s",
-          "shared_mpki": 160.8,
-          "uniform_mpki": 160.8,
-          "shared_cpi": 7.11,
-          "uniform_cpi": 7.11,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.007,
-          "model_b": 5.986,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 160.94,
-              "cpi": 7.09
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 5.99
-            }
-          ],
-          "stlb_shared_percent": 96.81,
-          "stlb_focal_only_percent": 3.19,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "omnet06",
-          "corunner_full": "spec_cpu2006/471.omnetpp",
-          "shared_mpki": 159.7,
-          "uniform_mpki": 159.7,
-          "shared_cpi": 5.97,
-          "uniform_cpi": 5.97,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.004,
-          "model_b": 5.332,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 159.75,
-              "cpi": 6.05
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 5.33
-            }
-          ],
-          "stlb_shared_percent": 96.32,
-          "stlb_focal_only_percent": 3.68,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "omnet17",
-          "corunner_full": "spec_cpu2017/620.omnetpp_s",
-          "shared_mpki": 159.7,
-          "uniform_mpki": 174.1,
-          "shared_cpi": 5.88,
-          "uniform_cpi": 5.93,
-          "speedup": -0.8431703204047181,
-          "slowdown": 0.8503401360544283,
-          "model_a": 0.004,
-          "model_b": 5.237,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 159.78,
-              "cpi": 5.89
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 5.24
-            }
-          ],
-          "stlb_shared_percent": 3.19,
-          "stlb_focal_only_percent": 3.56,
-          "stlb_corunner_only_percent": 93.25,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 7.1729957805907185
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "pr",
-          "corunner_full": "gapbs/pr-urand-4GB",
-          "shared_mpki": 162.5,
-          "uniform_mpki": 162.5,
-          "shared_cpi": 9.73,
-          "uniform_cpi": 9.73,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.012,
-          "model_b": 7.776,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 162.48,
-              "cpi": 9.7
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.04,
-              "cpi": 7.78
-            }
-          ],
-          "stlb_shared_percent": 99.97,
-          "stlb_focal_only_percent": 0.0,
-          "stlb_corunner_only_percent": 0.03,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "pr_k4",
-          "corunner_full": "gapbs/pr-kron-4GB",
-          "shared_mpki": 162.5,
-          "uniform_mpki": 162.5,
-          "shared_cpi": 9.14,
-          "uniform_cpi": 9.14,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.013,
-          "model_b": 7.031,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 162.46,
-              "cpi": 9.09
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.04,
-              "cpi": 7.03
-            }
-          ],
-          "stlb_shared_percent": 99.63,
-          "stlb_focal_only_percent": 0.0,
-          "stlb_corunner_only_percent": 0.37,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "sssp1",
-          "corunner_full": "gapbs/sssp-urand-1GB",
-          "shared_mpki": 161.1,
-          "uniform_mpki": 172.7,
-          "shared_cpi": 6.82,
-          "uniform_cpi": 6.89,
-          "speedup": -1.01596516690855,
-          "slowdown": 1.026392961876832,
-          "model_a": 0.006,
-          "model_b": 5.856,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 161.08,
-              "cpi": 6.81
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 5.86
-            }
-          ],
-          "stlb_shared_percent": 3.84,
-          "stlb_focal_only_percent": 0.29,
-          "stlb_corunner_only_percent": 95.88,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 4.553119730185506
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "sssp_k4",
-          "corunner_full": "gapbs/sssp-kron-4GB",
-          "shared_mpki": 161.4,
-          "uniform_mpki": 161.4,
-          "shared_cpi": 7.44,
-          "uniform_cpi": 7.44,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.009,
-          "model_b": 5.99,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 161.36,
-              "cpi": 7.39
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 5.99
-            }
-          ],
-          "stlb_shared_percent": 98.49,
-          "stlb_focal_only_percent": 0.0,
-          "stlb_corunner_only_percent": 1.51,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "xalan17",
-          "corunner_full": "spec_cpu2017/623.xalancbmk_s",
-          "shared_mpki": 160.5,
-          "uniform_mpki": 173.4,
-          "shared_cpi": 5.93,
-          "uniform_cpi": 6.01,
-          "speedup": -1.331114808652245,
-          "slowdown": 1.3490725126475533,
-          "model_a": 0.006,
-          "model_b": 4.972,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 160.84,
-              "cpi": 5.89
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 4.97
-            }
-          ],
-          "stlb_shared_percent": 3.23,
-          "stlb_focal_only_percent": 0.3,
-          "stlb_corunner_only_percent": 96.47,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 38.39999999999999
-        }
-      ]
-    },
-    {
       "short": "bc",
       "full": "gapbs/bc-urand-4GB",
       "co_runner_count": 6,
       "mean_speedup": -0.31983394131633314,
       "median_speedup": 0.0,
       "min_speedup": -1.2638230647709303,
-      "max_slowdown": 1.2799999999999923,
+      "max_slowdown": 1.2638230647709303,
       "max_speedup": 0.16583747927030323,
       "speedups": [
         0.0,
@@ -3814,7 +3256,7 @@
           "shared_cpi": 6.04,
           "uniform_cpi": 6.09,
           "speedup": -0.8210180623973717,
-          "slowdown": 0.8278145695364225,
+          "slowdown": 0.8210180623973717,
           "model_a": 0.031,
           "model_b": 4.344,
           "mosmodel_points": [
@@ -3938,7 +3380,7 @@
           "shared_cpi": 6.25,
           "uniform_cpi": 6.33,
           "speedup": -1.2638230647709303,
-          "slowdown": 1.2799999999999923,
+          "slowdown": 1.2638230647709303,
           "model_a": 0.023,
           "model_b": 4.798,
           "mosmodel_points": [
@@ -3968,7 +3410,7 @@
       "mean_speedup": -0.7682235641621497,
       "median_speedup": 0.0,
       "min_speedup": -3.208556149732622,
-      "max_slowdown": 3.314917127071837,
+      "max_slowdown": 3.208556149732622,
       "max_speedup": 0.0,
       "speedups": [
         -1.7341040462427793,
@@ -4001,7 +3443,7 @@
           "shared_cpi": 1.7,
           "uniform_cpi": 1.73,
           "speedup": -1.7341040462427793,
-          "slowdown": 1.764705882352935,
+          "slowdown": 1.7341040462427793,
           "model_a": 0.024,
           "model_b": 1.572,
           "mosmodel_points": [
@@ -4156,7 +3598,7 @@
           "shared_cpi": 1.81,
           "uniform_cpi": 1.87,
           "speedup": -3.208556149732622,
-          "slowdown": 3.314917127071837,
+          "slowdown": 3.208556149732622,
           "model_a": 0.02,
           "model_b": 1.703,
           "mosmodel_points": [
@@ -4280,7 +3722,7 @@
           "shared_cpi": 2.06,
           "uniform_cpi": 2.09,
           "speedup": -1.4354066985645786,
-          "slowdown": 1.4563106796116498,
+          "slowdown": 1.4354066985645786,
           "model_a": 0.024,
           "model_b": 1.921,
           "mosmodel_points": [
@@ -4311,7 +3753,7 @@
           "shared_cpi": 2.14,
           "uniform_cpi": 2.15,
           "speedup": -0.46511627906975495,
-          "slowdown": 0.4672897196261516,
+          "slowdown": 0.46511627906975495,
           "model_a": 0.022,
           "model_b": 2.018,
           "mosmodel_points": [
@@ -4404,7 +3846,7 @@
           "shared_cpi": 3.06,
           "uniform_cpi": 3.1,
           "speedup": -1.2903225806451646,
-          "slowdown": 1.3071895424836555,
+          "slowdown": 1.2903225806451646,
           "model_a": 0.022,
           "model_b": 2.9,
           "mosmodel_points": [
@@ -4435,7 +3877,7 @@
           "shared_cpi": 2.61,
           "uniform_cpi": 2.65,
           "speedup": -1.5094339622641506,
-          "slowdown": 1.5325670498084198,
+          "slowdown": 1.5094339622641506,
           "model_a": 0.021,
           "model_b": 2.463,
           "mosmodel_points": [
@@ -4497,7 +3939,7 @@
           "shared_cpi": 1.99,
           "uniform_cpi": 2.04,
           "speedup": -2.450980392156865,
-          "slowdown": 2.5125628140703515,
+          "slowdown": 2.450980392156865,
           "model_a": 0.026,
           "model_b": 1.841,
           "mosmodel_points": [
@@ -4528,7 +3970,7 @@
           "shared_cpi": 1.7,
           "uniform_cpi": 1.73,
           "speedup": -1.7341040462427793,
-          "slowdown": 1.764705882352935,
+          "slowdown": 1.7341040462427793,
           "model_a": 0.024,
           "model_b": 1.564,
           "mosmodel_points": [
@@ -4558,7 +4000,7 @@
       "mean_speedup": -0.2980812573244414,
       "median_speedup": -0.16501650165016146,
       "min_speedup": -0.7827788649706457,
-      "max_slowdown": 0.7889546351084853,
+      "max_slowdown": 0.7827788649706457,
       "max_speedup": 0.0,
       "speedups": [
         0.0,
@@ -4641,7 +4083,7 @@
           "shared_cpi": 6.04,
           "uniform_cpi": 6.06,
           "speedup": -0.3300330033003229,
-          "slowdown": 0.3311258278145601,
+          "slowdown": 0.3300330033003229,
           "model_a": 0.008,
           "model_b": 4.838,
           "mosmodel_points": [
@@ -4703,7 +4145,7 @@
           "shared_cpi": 5.88,
           "uniform_cpi": 5.92,
           "speedup": -0.6756756756756799,
-          "slowdown": 0.6802721088435382,
+          "slowdown": 0.6756756756756799,
           "model_a": 0.008,
           "model_b": 4.677,
           "mosmodel_points": [
@@ -4734,7 +4176,7 @@
           "shared_cpi": 5.07,
           "uniform_cpi": 5.11,
           "speedup": -0.7827788649706457,
-          "slowdown": 0.7889546351084853,
+          "slowdown": 0.7827788649706457,
           "model_a": 0.008,
           "model_b": 3.869,
           "mosmodel_points": [
@@ -4758,13 +4200,571 @@
       ]
     },
     {
+      "short": "pr",
+      "full": "gapbs/pr-urand-4GB",
+      "co_runner_count": 17,
+      "mean_speedup": -0.2795559290786016,
+      "median_speedup": 0.0,
+      "min_speedup": -1.331114808652245,
+      "max_slowdown": 1.331114808652245,
+      "max_speedup": 0.0,
+      "speedups": [
+        -0.886524822695034,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.6756756756756799,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.8431703204047181,
+        0.0,
+        0.0,
+        -1.01596516690855,
+        0.0,
+        -1.331114808652245
+      ],
+      "pairs": [
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "astar",
+          "corunner_full": "spec_cpu2006/473.astar",
+          "shared_mpki": 160.2,
+          "uniform_mpki": 172.4,
+          "shared_cpi": 5.59,
+          "uniform_cpi": 5.64,
+          "speedup": -0.886524822695034,
+          "slowdown": 0.886524822695034,
+          "model_a": 0.004,
+          "model_b": 4.949,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 160.08,
+              "cpi": 5.57
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.0,
+              "cpi": 4.95
+            }
+          ],
+          "stlb_shared_percent": 0.23,
+          "stlb_focal_only_percent": 3.79,
+          "stlb_corunner_only_percent": 95.99,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 16.666666666666675
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "bc",
+          "corunner_full": "gapbs/bc-urand-4GB",
+          "shared_mpki": 160.6,
+          "uniform_mpki": 160.6,
+          "shared_cpi": 7.07,
+          "uniform_cpi": 7.07,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.008,
+          "model_b": 5.79,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 160.54,
+              "cpi": 7.03
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 5.79
+            }
+          ],
+          "stlb_shared_percent": 99.98,
+          "stlb_focal_only_percent": 0.02,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "bc_k4",
+          "corunner_full": "gapbs/bc-kron-4GB",
+          "shared_mpki": 160.9,
+          "uniform_mpki": 160.9,
+          "shared_cpi": 7.33,
+          "uniform_cpi": 7.33,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.009,
+          "model_b": 5.883,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 160.94,
+              "cpi": 7.29
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 5.88
+            }
+          ],
+          "stlb_shared_percent": 96.9,
+          "stlb_focal_only_percent": 3.1,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "bfs1",
+          "corunner_full": "gapbs/bfs-urand-1GB",
+          "shared_mpki": 159.7,
+          "uniform_mpki": 159.7,
+          "shared_cpi": 6.41,
+          "uniform_cpi": 6.41,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.005,
+          "model_b": 5.612,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 159.86,
+              "cpi": 6.38
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 5.61
+            }
+          ],
+          "stlb_shared_percent": 96.61,
+          "stlb_focal_only_percent": 3.39,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": -1.2903225806451646
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "cactuss",
+          "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+          "shared_mpki": 159.5,
+          "uniform_mpki": 159.5,
+          "shared_cpi": 6.11,
+          "uniform_cpi": 6.11,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.004,
+          "model_b": 5.473,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 159.58,
+              "cpi": 6.07
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.0,
+              "cpi": 5.47
+            }
+          ],
+          "stlb_shared_percent": 89.31,
+          "stlb_focal_only_percent": 10.69,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "cc",
+          "corunner_full": "gapbs/cc-urand-4GB",
+          "shared_mpki": 159.8,
+          "uniform_mpki": 171.2,
+          "shared_cpi": 5.88,
+          "uniform_cpi": 5.92,
+          "speedup": -0.6756756756756799,
+          "slowdown": 0.6756756756756799,
+          "model_a": 0.003,
+          "model_b": 5.404,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 159.67,
+              "cpi": 5.9
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 5.4
+            }
+          ],
+          "stlb_shared_percent": 6.1,
+          "stlb_focal_only_percent": 0.07,
+          "stlb_corunner_only_percent": 93.83,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 19.453924914675767
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "gamess",
+          "corunner_full": "spec_cpu2006/416.gamess",
+          "shared_mpki": 159.0,
+          "uniform_mpki": 159.0,
+          "shared_cpi": 5.24,
+          "uniform_cpi": 5.24,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.003,
+          "model_b": 4.766,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 158.97,
+              "cpi": 5.2
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.0,
+              "cpi": 4.77
+            }
+          ],
+          "stlb_shared_percent": 96.18,
+          "stlb_focal_only_percent": 3.82,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "graph4",
+          "corunner_full": "graph500-2.1/4GB",
+          "shared_mpki": 162.1,
+          "uniform_mpki": 162.1,
+          "shared_cpi": 8.52,
+          "uniform_cpi": 8.52,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.013,
+          "model_b": 6.41,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 162.07,
+              "cpi": 8.47
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.03,
+              "cpi": 6.41
+            }
+          ],
+          "stlb_shared_percent": 97.29,
+          "stlb_focal_only_percent": 2.71,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "gups",
+          "corunner_full": "gups/2GB",
+          "shared_mpki": 159.7,
+          "uniform_mpki": 159.7,
+          "shared_cpi": 8.61,
+          "uniform_cpi": 8.61,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.016,
+          "model_b": 6.056,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 159.91,
+              "cpi": 8.61
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 6.06
+            }
+          ],
+          "stlb_shared_percent": 94.96,
+          "stlb_focal_only_percent": 5.04,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": -0.2358490566037652
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "mcf17",
+          "corunner_full": "spec_cpu2017/605.mcf_s",
+          "shared_mpki": 160.8,
+          "uniform_mpki": 160.8,
+          "shared_cpi": 7.11,
+          "uniform_cpi": 7.11,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.007,
+          "model_b": 5.986,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 160.94,
+              "cpi": 7.09
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 5.99
+            }
+          ],
+          "stlb_shared_percent": 96.81,
+          "stlb_focal_only_percent": 3.19,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "omnet06",
+          "corunner_full": "spec_cpu2006/471.omnetpp",
+          "shared_mpki": 159.7,
+          "uniform_mpki": 159.7,
+          "shared_cpi": 5.97,
+          "uniform_cpi": 5.97,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.004,
+          "model_b": 5.332,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 159.75,
+              "cpi": 6.05
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 5.33
+            }
+          ],
+          "stlb_shared_percent": 96.32,
+          "stlb_focal_only_percent": 3.68,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "omnet17",
+          "corunner_full": "spec_cpu2017/620.omnetpp_s",
+          "shared_mpki": 159.7,
+          "uniform_mpki": 174.1,
+          "shared_cpi": 5.88,
+          "uniform_cpi": 5.93,
+          "speedup": -0.8431703204047181,
+          "slowdown": 0.8431703204047181,
+          "model_a": 0.004,
+          "model_b": 5.237,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 159.78,
+              "cpi": 5.89
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 5.24
+            }
+          ],
+          "stlb_shared_percent": 3.19,
+          "stlb_focal_only_percent": 3.56,
+          "stlb_corunner_only_percent": 93.25,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 7.1729957805907185
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "pr",
+          "corunner_full": "gapbs/pr-urand-4GB",
+          "shared_mpki": 162.5,
+          "uniform_mpki": 162.5,
+          "shared_cpi": 9.73,
+          "uniform_cpi": 9.73,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.012,
+          "model_b": 7.776,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 162.48,
+              "cpi": 9.7
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.04,
+              "cpi": 7.78
+            }
+          ],
+          "stlb_shared_percent": 99.97,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 0.03,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "pr_k4",
+          "corunner_full": "gapbs/pr-kron-4GB",
+          "shared_mpki": 162.5,
+          "uniform_mpki": 162.5,
+          "shared_cpi": 9.14,
+          "uniform_cpi": 9.14,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.013,
+          "model_b": 7.031,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 162.46,
+              "cpi": 9.09
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.04,
+              "cpi": 7.03
+            }
+          ],
+          "stlb_shared_percent": 99.63,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 0.37,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "sssp1",
+          "corunner_full": "gapbs/sssp-urand-1GB",
+          "shared_mpki": 161.1,
+          "uniform_mpki": 172.7,
+          "shared_cpi": 6.82,
+          "uniform_cpi": 6.89,
+          "speedup": -1.01596516690855,
+          "slowdown": 1.01596516690855,
+          "model_a": 0.006,
+          "model_b": 5.856,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 161.08,
+              "cpi": 6.81
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 5.86
+            }
+          ],
+          "stlb_shared_percent": 3.84,
+          "stlb_focal_only_percent": 0.29,
+          "stlb_corunner_only_percent": 95.88,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 4.553119730185506
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "sssp_k4",
+          "corunner_full": "gapbs/sssp-kron-4GB",
+          "shared_mpki": 161.4,
+          "uniform_mpki": 161.4,
+          "shared_cpi": 7.44,
+          "uniform_cpi": 7.44,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.009,
+          "model_b": 5.99,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 161.36,
+              "cpi": 7.39
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 5.99
+            }
+          ],
+          "stlb_shared_percent": 98.49,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 1.51,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "xalan17",
+          "corunner_full": "spec_cpu2017/623.xalancbmk_s",
+          "shared_mpki": 160.5,
+          "uniform_mpki": 173.4,
+          "shared_cpi": 5.93,
+          "uniform_cpi": 6.01,
+          "speedup": -1.331114808652245,
+          "slowdown": 1.331114808652245,
+          "model_a": 0.006,
+          "model_b": 4.972,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 160.84,
+              "cpi": 5.89
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 4.97
+            }
+          ],
+          "stlb_shared_percent": 3.23,
+          "stlb_focal_only_percent": 0.3,
+          "stlb_corunner_only_percent": 96.47,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 38.39999999999999
+        }
+      ]
+    },
+    {
       "short": "sssp_k4",
       "full": "gapbs/sssp-kron-4GB",
       "co_runner_count": 6,
       "mean_speedup": -0.6191522687543324,
       "median_speedup": -0.6734083076364916,
       "min_speedup": -1.278772378516635,
-      "max_slowdown": 1.2953367875647714,
+      "max_slowdown": 1.278772378516635,
       "max_speedup": 0.0,
       "speedups": [
         0.0,
@@ -4816,7 +4816,7 @@
           "shared_cpi": 4.54,
           "uniform_cpi": 4.59,
           "speedup": -1.0893246187363759,
-          "slowdown": 1.1013215859030812,
+          "slowdown": 1.0893246187363759,
           "model_a": 0.013,
           "model_b": 3.648,
           "mosmodel_points": [
@@ -4847,7 +4847,7 @@
           "shared_cpi": 4.41,
           "uniform_cpi": 4.44,
           "speedup": -0.6756756756756799,
-          "slowdown": 0.6802721088435382,
+          "slowdown": 0.6756756756756799,
           "model_a": 0.012,
           "model_b": 3.612,
           "mosmodel_points": [
@@ -4909,7 +4909,7 @@
           "shared_cpi": 4.44,
           "uniform_cpi": 4.47,
           "speedup": -0.6711409395973034,
-          "slowdown": 0.6756756756756577,
+          "slowdown": 0.6711409395973034,
           "model_a": 0.012,
           "model_b": 3.621,
           "mosmodel_points": [
@@ -4940,7 +4940,7 @@
           "shared_cpi": 3.86,
           "uniform_cpi": 3.91,
           "speedup": -1.278772378516635,
-          "slowdown": 1.2953367875647714,
+          "slowdown": 1.278772378516635,
           "model_a": 0.011,
           "model_b": 3.115,
           "mosmodel_points": [
@@ -4970,7 +4970,7 @@
       "mean_speedup": -0.480800402675402,
       "median_speedup": -0.3409090909090917,
       "min_speedup": -1.302083333333326,
-      "max_slowdown": 1.319261213720302,
+      "max_slowdown": 1.302083333333326,
       "max_speedup": 0.0,
       "speedups": [
         0.0,
@@ -5053,7 +5053,7 @@
           "shared_cpi": 4.37,
           "uniform_cpi": 4.4,
           "speedup": -0.6818181818181834,
-          "slowdown": 0.6864988558352492,
+          "slowdown": 0.6818181818181834,
           "model_a": 0.009,
           "model_b": 3.507,
           "mosmodel_points": [
@@ -5079,7 +5079,7 @@
           "focal_full": "graph500-2.1/4GB",
           "corunner_short": "pr",
           "corunner_full": "gapbs/pr-urand-4GB",
-          "shared_mpki": 98.6,
+          "shared_mpki": 98.3,
           "uniform_mpki": 98.7,
           "shared_cpi": 6.05,
           "uniform_cpi": 6.05,
@@ -5103,7 +5103,7 @@
           "stlb_focal_only_percent": 0.0,
           "stlb_corunner_only_percent": 2.71,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 0.23474178403755097
+          "corunner_speedup": 0.0
         },
         {
           "focal_short": "graph4",
@@ -5115,7 +5115,7 @@
           "shared_cpi": 4.4,
           "uniform_cpi": 4.44,
           "speedup": -0.9009009009009028,
-          "slowdown": 0.9090909090909038,
+          "slowdown": 0.9009009009009028,
           "model_a": 0.01,
           "model_b": 3.426,
           "mosmodel_points": [
@@ -5146,7 +5146,7 @@
           "shared_cpi": 3.79,
           "uniform_cpi": 3.84,
           "speedup": -1.302083333333326,
-          "slowdown": 1.319261213720302,
+          "slowdown": 1.302083333333326,
           "model_a": 0.009,
           "model_b": 2.913,
           "mosmodel_points": [
@@ -5176,7 +5176,7 @@
       "mean_speedup": -0.6659933800103027,
       "median_speedup": -0.1179245283018826,
       "min_speedup": -3.488372093023262,
-      "max_slowdown": 3.6144578313253017,
+      "max_slowdown": 3.488372093023262,
       "max_speedup": 0.0,
       "speedups": [
         0.0,
@@ -5228,7 +5228,7 @@
           "shared_cpi": 3.67,
           "uniform_cpi": 3.68,
           "speedup": -0.27173913043478937,
-          "slowdown": 0.2724795640327127,
+          "slowdown": 0.27173913043478937,
           "model_a": 0.052,
           "model_b": 1.603,
           "mosmodel_points": [
@@ -5290,7 +5290,7 @@
           "shared_cpi": 4.23,
           "uniform_cpi": 4.24,
           "speedup": -0.2358490566037652,
-          "slowdown": 0.23640661938533203,
+          "slowdown": 0.2358490566037652,
           "model_a": 0.064,
           "model_b": 1.692,
           "mosmodel_points": [
@@ -5352,7 +5352,7 @@
           "shared_cpi": 3.32,
           "uniform_cpi": 3.44,
           "speedup": -3.488372093023262,
-          "slowdown": 3.6144578313253017,
+          "slowdown": 3.488372093023262,
           "model_a": 0.037,
           "model_b": 1.849,
           "mosmodel_points": [
@@ -5620,7 +5620,7 @@
       "mean_speedup": -0.0714285714285715,
       "median_speedup": 0.0,
       "min_speedup": -0.5000000000000004,
-      "max_slowdown": 0.5025125628140614,
+      "max_slowdown": 0.5000000000000004,
       "max_speedup": 0.0,
       "speedups": [
         0.0,
@@ -5704,7 +5704,7 @@
           "shared_cpi": 1.99,
           "uniform_cpi": 2.0,
           "speedup": -0.5000000000000004,
-          "slowdown": 0.5025125628140614,
+          "slowdown": 0.5000000000000004,
           "model_a": 0.028,
           "model_b": 1.702,
           "mosmodel_points": [
@@ -6364,7 +6364,7 @@
         "shared_cpi": 1.7,
         "uniform_cpi": 1.73,
         "speedup": -1.7341040462427793,
-        "slowdown": 1.764705882352935,
+        "slowdown": 1.7341040462427793,
         "model_a": 0.024,
         "model_b": 1.572,
         "mosmodel_points": [
@@ -6475,7 +6475,7 @@
         "shared_cpi": 2.53,
         "uniform_cpi": 2.62,
         "speedup": -3.435114503816805,
-        "slowdown": 3.5573122529644285,
+        "slowdown": 3.435114503816805,
         "model_a": 0.021,
         "model_b": 2.202,
         "mosmodel_points": [
@@ -6546,7 +6546,7 @@
         "shared_cpi": 2.5,
         "uniform_cpi": 2.51,
         "speedup": -0.3984063745019806,
-        "slowdown": 0.40000000000000036,
+        "slowdown": 0.3984063745019806,
         "model_a": 0.025,
         "model_b": 2.265,
         "mosmodel_points": [
@@ -6648,7 +6648,7 @@
         "shared_cpi": 5.59,
         "uniform_cpi": 5.64,
         "speedup": -0.886524822695034,
-        "slowdown": 0.8944543828264706,
+        "slowdown": 0.886524822695034,
         "model_a": 0.004,
         "model_b": 4.949,
         "mosmodel_points": [
@@ -6688,7 +6688,7 @@
         "shared_cpi": 2.43,
         "uniform_cpi": 2.44,
         "speedup": -0.4098360655737654,
-        "slowdown": 0.411522633744843,
+        "slowdown": 0.4098360655737654,
         "model_a": 0.022,
         "model_b": 2.101,
         "mosmodel_points": [
@@ -6759,7 +6759,7 @@
         "shared_cpi": 2.38,
         "uniform_cpi": 2.44,
         "speedup": -2.4590163934426257,
-        "slowdown": 2.521008403361358,
+        "slowdown": 2.4590163934426257,
         "model_a": 0.02,
         "model_b": 2.191,
         "mosmodel_points": [
@@ -6901,7 +6901,7 @@
         "shared_cpi": 6.04,
         "uniform_cpi": 6.09,
         "speedup": -0.8210180623973717,
-        "slowdown": 0.8278145695364225,
+        "slowdown": 0.8210180623973717,
         "model_a": 0.031,
         "model_b": 4.344,
         "mosmodel_points": [
@@ -7069,7 +7069,7 @@
         "focal_full": "gapbs/pr-urand-4GB",
         "corunner_short": "bc",
         "corunner_full": "gapbs/bc-urand-4GB",
-        "shared_mpki": 160.5,
+        "shared_mpki": 160.6,
         "uniform_mpki": 160.6,
         "shared_cpi": 7.07,
         "uniform_cpi": 7.07,
@@ -7185,7 +7185,7 @@
         "shared_cpi": 6.25,
         "uniform_cpi": 6.33,
         "speedup": -1.2638230647709303,
-        "slowdown": 1.2799999999999923,
+        "slowdown": 1.2638230647709303,
         "model_a": 0.023,
         "model_b": 4.798,
         "mosmodel_points": [
@@ -7398,7 +7398,7 @@
         "shared_cpi": 4.25,
         "uniform_cpi": 4.26,
         "speedup": -0.23474178403755097,
-        "slowdown": 0.23529411764704466,
+        "slowdown": 0.23474178403755097,
         "model_a": 0.016,
         "model_b": 3.42,
         "mosmodel_points": [
@@ -7464,12 +7464,12 @@
         "focal_full": "gapbs/bc-kron-4GB",
         "corunner_short": "pr",
         "corunner_full": "gapbs/pr-urand-4GB",
-        "shared_mpki": 48.9,
+        "shared_mpki": 52.4,
         "uniform_mpki": 52.7,
-        "shared_cpi": 5.03,
+        "shared_cpi": 5.09,
         "uniform_cpi": 5.09,
-        "speedup": -1.178781925343808,
-        "slowdown": 1.1928429423459175,
+        "speedup": 0.0,
+        "slowdown": 0.0,
         "model_a": 0.018,
         "model_b": 4.145,
         "mosmodel_points": [
@@ -7488,19 +7488,19 @@
         "stlb_focal_only_percent": 0.0,
         "stlb_corunner_only_percent": 3.1,
         "stlb_state_sample_count": null,
-        "corunner_speedup": -0.13642564802182067
+        "corunner_speedup": 0.0
       },
       "side2": {
         "focal_short": "pr",
         "focal_full": "gapbs/pr-urand-4GB",
         "corunner_short": "bc_k4",
         "corunner_full": "gapbs/bc-kron-4GB",
-        "shared_mpki": 160.1,
+        "shared_mpki": 160.9,
         "uniform_mpki": 160.9,
-        "shared_cpi": 7.32,
+        "shared_cpi": 7.33,
         "uniform_cpi": 7.33,
-        "speedup": -0.13642564802182067,
-        "slowdown": 0.1366120218579292,
+        "speedup": 0.0,
+        "slowdown": 0.0,
         "model_a": 0.009,
         "model_b": 5.883,
         "mosmodel_points": [
@@ -7519,7 +7519,7 @@
         "stlb_focal_only_percent": 3.1,
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
-        "corunner_speedup": -1.178781925343808
+        "corunner_speedup": 0.0
       }
     },
     {
@@ -7540,7 +7540,7 @@
         "shared_cpi": 4.04,
         "uniform_cpi": 4.05,
         "speedup": -0.24691358024691024,
-        "slowdown": 0.24752475247524774,
+        "slowdown": 0.24691358024691024,
         "model_a": 0.018,
         "model_b": 3.198,
         "mosmodel_points": [
@@ -7611,7 +7611,7 @@
         "shared_cpi": 3.86,
         "uniform_cpi": 3.9,
         "speedup": -1.025641025641022,
-        "slowdown": 1.0362694300518172,
+        "slowdown": 1.025641025641022,
         "model_a": 0.014,
         "model_b": 3.162,
         "mosmodel_points": [
@@ -7824,7 +7824,7 @@
         "shared_cpi": 1.81,
         "uniform_cpi": 1.87,
         "speedup": -3.208556149732622,
-        "slowdown": 3.314917127071837,
+        "slowdown": 3.208556149732622,
         "model_a": 0.02,
         "model_b": 1.703,
         "mosmodel_points": [
@@ -8108,7 +8108,7 @@
         "shared_cpi": 2.06,
         "uniform_cpi": 2.09,
         "speedup": -1.4354066985645786,
-        "slowdown": 1.4563106796116498,
+        "slowdown": 1.4354066985645786,
         "model_a": 0.024,
         "model_b": 1.921,
         "mosmodel_points": [
@@ -8179,7 +8179,7 @@
         "shared_cpi": 2.14,
         "uniform_cpi": 2.15,
         "speedup": -0.46511627906975495,
-        "slowdown": 0.4672897196261516,
+        "slowdown": 0.46511627906975495,
         "model_a": 0.022,
         "model_b": 2.018,
         "mosmodel_points": [
@@ -8392,7 +8392,7 @@
         "shared_cpi": 3.06,
         "uniform_cpi": 3.1,
         "speedup": -1.2903225806451646,
-        "slowdown": 1.3071895424836555,
+        "slowdown": 1.2903225806451646,
         "model_a": 0.022,
         "model_b": 2.9,
         "mosmodel_points": [
@@ -8463,7 +8463,7 @@
         "shared_cpi": 2.61,
         "uniform_cpi": 2.65,
         "speedup": -1.5094339622641506,
-        "slowdown": 1.5325670498084198,
+        "slowdown": 1.5094339622641506,
         "model_a": 0.021,
         "model_b": 2.463,
         "mosmodel_points": [
@@ -8605,7 +8605,7 @@
         "shared_cpi": 1.99,
         "uniform_cpi": 2.04,
         "speedup": -2.450980392156865,
-        "slowdown": 2.5125628140703515,
+        "slowdown": 2.450980392156865,
         "model_a": 0.026,
         "model_b": 1.841,
         "mosmodel_points": [
@@ -8676,7 +8676,7 @@
         "shared_cpi": 1.7,
         "uniform_cpi": 1.73,
         "speedup": -1.7341040462427793,
-        "slowdown": 1.764705882352935,
+        "slowdown": 1.7341040462427793,
         "model_a": 0.024,
         "model_b": 1.564,
         "mosmodel_points": [
@@ -9630,7 +9630,7 @@
         "shared_cpi": 3.22,
         "uniform_cpi": 3.23,
         "speedup": -0.3095975232198067,
-        "slowdown": 0.31055900621117516,
+        "slowdown": 0.3095975232198067,
         "model_a": 0.023,
         "model_b": 2.837,
         "mosmodel_points": [
@@ -9772,7 +9772,7 @@
         "shared_cpi": 5.88,
         "uniform_cpi": 5.92,
         "speedup": -0.6756756756756799,
-        "slowdown": 0.6802721088435382,
+        "slowdown": 0.6756756756756799,
         "model_a": 0.003,
         "model_b": 5.404,
         "mosmodel_points": [
@@ -9843,7 +9843,7 @@
         "shared_cpi": 4.58,
         "uniform_cpi": 4.82,
         "speedup": -4.9792531120331995,
-        "slowdown": 5.240174672489095,
+        "slowdown": 4.9792531120331995,
         "model_a": 0.019,
         "model_b": 3.539,
         "mosmodel_points": [
@@ -9914,7 +9914,7 @@
         "shared_cpi": 1.19,
         "uniform_cpi": 1.2,
         "speedup": -0.8333333333333304,
-        "slowdown": 0.8403361344537785,
+        "slowdown": 0.8333333333333304,
         "model_a": 0.042,
         "model_b": 0.929,
         "mosmodel_points": [
@@ -10309,7 +10309,7 @@
         "shared_cpi": 4.37,
         "uniform_cpi": 4.4,
         "speedup": -0.6818181818181834,
-        "slowdown": 0.6864988558352492,
+        "slowdown": 0.6818181818181834,
         "model_a": 0.009,
         "model_b": 3.507,
         "mosmodel_points": [
@@ -10375,7 +10375,7 @@
         "focal_full": "graph500-2.1/4GB",
         "corunner_short": "pr",
         "corunner_full": "gapbs/pr-urand-4GB",
-        "shared_mpki": 98.6,
+        "shared_mpki": 98.3,
         "uniform_mpki": 98.7,
         "shared_cpi": 6.05,
         "uniform_cpi": 6.05,
@@ -10399,18 +10399,18 @@
         "stlb_focal_only_percent": 0.0,
         "stlb_corunner_only_percent": 2.71,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 0.23474178403755097
+        "corunner_speedup": 0.0
       },
       "side2": {
         "focal_short": "pr",
         "focal_full": "gapbs/pr-urand-4GB",
         "corunner_short": "graph4",
         "corunner_full": "graph500-2.1/4GB",
-        "shared_mpki": 163.8,
+        "shared_mpki": 162.1,
         "uniform_mpki": 162.1,
-        "shared_cpi": 8.54,
+        "shared_cpi": 8.52,
         "uniform_cpi": 8.52,
-        "speedup": 0.23474178403755097,
+        "speedup": 0.0,
         "slowdown": 0.0,
         "model_a": 0.013,
         "model_b": 6.41,
@@ -10451,7 +10451,7 @@
         "shared_cpi": 4.4,
         "uniform_cpi": 4.44,
         "speedup": -0.9009009009009028,
-        "slowdown": 0.9090909090909038,
+        "slowdown": 0.9009009009009028,
         "model_a": 0.01,
         "model_b": 3.426,
         "mosmodel_points": [
@@ -10522,7 +10522,7 @@
         "shared_cpi": 3.79,
         "uniform_cpi": 3.84,
         "speedup": -1.302083333333326,
-        "slowdown": 1.319261213720302,
+        "slowdown": 1.302083333333326,
         "model_a": 0.009,
         "model_b": 2.913,
         "mosmodel_points": [
@@ -10593,7 +10593,7 @@
         "shared_cpi": 3.67,
         "uniform_cpi": 3.68,
         "speedup": -0.27173913043478937,
-        "slowdown": 0.2724795640327127,
+        "slowdown": 0.27173913043478937,
         "model_a": 0.052,
         "model_b": 1.603,
         "mosmodel_points": [
@@ -10735,7 +10735,7 @@
         "shared_cpi": 4.23,
         "uniform_cpi": 4.24,
         "speedup": -0.2358490566037652,
-        "slowdown": 0.23640661938533203,
+        "slowdown": 0.2358490566037652,
         "model_a": 0.064,
         "model_b": 1.692,
         "mosmodel_points": [
@@ -10877,7 +10877,7 @@
         "shared_cpi": 3.32,
         "uniform_cpi": 3.44,
         "speedup": -3.488372093023262,
-        "slowdown": 3.6144578313253017,
+        "slowdown": 3.488372093023262,
         "model_a": 0.037,
         "model_b": 1.849,
         "mosmodel_points": [
@@ -10979,7 +10979,7 @@
         "shared_cpi": 4.09,
         "uniform_cpi": 4.1,
         "speedup": -0.24390243902439046,
-        "slowdown": 0.24449877750609694,
+        "slowdown": 0.24390243902439046,
         "model_a": 0.011,
         "model_b": 3.632,
         "mosmodel_points": [
@@ -11121,7 +11121,7 @@
         "shared_cpi": 1.99,
         "uniform_cpi": 2.0,
         "speedup": -0.5000000000000004,
-        "slowdown": 0.5025125628140614,
+        "slowdown": 0.5000000000000004,
         "model_a": 0.028,
         "model_b": 1.702,
         "mosmodel_points": [
@@ -11263,7 +11263,7 @@
         "shared_cpi": 5.27,
         "uniform_cpi": 5.36,
         "speedup": -1.679104477611959,
-        "slowdown": 1.707779886148031,
+        "slowdown": 1.679104477611959,
         "model_a": 0.021,
         "model_b": 3.97,
         "mosmodel_points": [
@@ -11334,7 +11334,7 @@
         "shared_cpi": 4.54,
         "uniform_cpi": 4.59,
         "speedup": -1.0893246187363759,
-        "slowdown": 1.1013215859030812,
+        "slowdown": 1.0893246187363759,
         "model_a": 0.013,
         "model_b": 3.648,
         "mosmodel_points": [
@@ -11760,7 +11760,7 @@
         "shared_cpi": 6.04,
         "uniform_cpi": 6.06,
         "speedup": -0.3300330033003229,
-        "slowdown": 0.3311258278145601,
+        "slowdown": 0.3300330033003229,
         "model_a": 0.008,
         "model_b": 4.838,
         "mosmodel_points": [
@@ -11902,7 +11902,7 @@
         "shared_cpi": 4.41,
         "uniform_cpi": 4.44,
         "speedup": -0.6756756756756799,
-        "slowdown": 0.6802721088435382,
+        "slowdown": 0.6756756756756799,
         "model_a": 0.012,
         "model_b": 3.612,
         "mosmodel_points": [
@@ -12257,7 +12257,7 @@
         "shared_cpi": 5.88,
         "uniform_cpi": 5.93,
         "speedup": -0.8431703204047181,
-        "slowdown": 0.8503401360544283,
+        "slowdown": 0.8431703204047181,
         "model_a": 0.004,
         "model_b": 5.237,
         "mosmodel_points": [
@@ -12581,7 +12581,7 @@
         "shared_cpi": 6.82,
         "uniform_cpi": 6.89,
         "speedup": -1.01596516690855,
-        "slowdown": 1.026392961876832,
+        "slowdown": 1.01596516690855,
         "model_a": 0.006,
         "model_b": 5.856,
         "mosmodel_points": [
@@ -12723,7 +12723,7 @@
         "shared_cpi": 5.93,
         "uniform_cpi": 6.01,
         "speedup": -1.331114808652245,
-        "slowdown": 1.3490725126475533,
+        "slowdown": 1.331114808652245,
         "model_a": 0.006,
         "model_b": 4.972,
         "mosmodel_points": [
@@ -12794,7 +12794,7 @@
         "shared_cpi": 5.88,
         "uniform_cpi": 5.92,
         "speedup": -0.6756756756756799,
-        "slowdown": 0.6802721088435382,
+        "slowdown": 0.6756756756756799,
         "model_a": 0.008,
         "model_b": 4.677,
         "mosmodel_points": [
@@ -12865,7 +12865,7 @@
         "shared_cpi": 5.07,
         "uniform_cpi": 5.11,
         "speedup": -0.7827788649706457,
-        "slowdown": 0.7889546351084853,
+        "slowdown": 0.7827788649706457,
         "model_a": 0.008,
         "model_b": 3.869,
         "mosmodel_points": [
@@ -13038,7 +13038,7 @@
         "shared_cpi": 4.44,
         "uniform_cpi": 4.47,
         "speedup": -0.6711409395973034,
-        "slowdown": 0.6756756756756577,
+        "slowdown": 0.6711409395973034,
         "model_a": 0.012,
         "model_b": 3.621,
         "mosmodel_points": [
@@ -13149,7 +13149,7 @@
         "shared_cpi": 3.86,
         "uniform_cpi": 3.91,
         "speedup": -1.278772378516635,
-        "slowdown": 1.2953367875647714,
+        "slowdown": 1.278772378516635,
         "model_a": 0.011,
         "model_b": 3.115,
         "mosmodel_points": [

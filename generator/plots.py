@@ -8,16 +8,17 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
 
-FIGURE_FORMATS = ("svg", "png", "pdf")
+FIGURE_FORMATS = ("svg", "pdf")
 
 
 def _save(fig, output_base: Path) -> None:
     output_base.parent.mkdir(parents=True, exist_ok=True)
     for suffix in FIGURE_FORMATS:
-        kwargs = {"bbox_inches": "tight"}
-        if suffix == "png":
-            kwargs["dpi"] = 180
-        fig.savefig(output_base.with_suffix(f".{suffix}"), format=suffix, **kwargs)
+        fig.savefig(
+            output_base.with_suffix(f".{suffix}"),
+            format=suffix,
+            bbox_inches="tight",
+        )
     plt.close(fig)
 
 
