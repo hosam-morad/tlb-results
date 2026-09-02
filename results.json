@@ -8,8 +8,8 @@
     "workloads_script": "../tlbsim2/archive/hosam.morad/common_smt_workloads.py"
   },
   "collection": {
-    "current_workload_count": 95,
-    "completed_workload_count": 95,
+    "current_workload_count": 98,
+    "completed_workload_count": 98,
     "skipped_workloads": []
   },
   "benchmarks": [
@@ -17,7 +17,7 @@
       "short": "xalan17",
       "full": "spec_cpu2017/623.xalancbmk_s",
       "co_runner_count": 18,
-      "mean_speedup": 14.813802252027587,
+      "mean_speedup": 14.910844374241334,
       "median_speedup": 5.772878141299187,
       "min_speedup": -0.8333333333333304,
       "max_slowdown": 0.8403361344537785,
@@ -35,9 +35,9 @@
         0.0,
         1.5037593984962516,
         4.464285714285698,
-        0.0,
+        0.8771929824561431,
         38.39999999999999,
-        45.21739130434783,
+        46.08695652173913,
         0.7751937984496138,
         33.33333333333335,
         0.0
@@ -48,7 +48,7 @@
           "focal_full": "spec_cpu2017/623.xalancbmk_s",
           "corunner_short": "astar",
           "corunner_full": "spec_cpu2006/473.astar",
-          "shared_mpki": 6.9,
+          "shared_mpki": 7.0,
           "uniform_mpki": 5.2,
           "shared_cpi": 1.21,
           "uniform_cpi": 1.14,
@@ -203,7 +203,7 @@
           "focal_full": "spec_cpu2017/623.xalancbmk_s",
           "corunner_short": "cc",
           "corunner_full": "gapbs/cc-urand-4GB",
-          "shared_mpki": 6.1,
+          "shared_mpki": 6.2,
           "uniform_mpki": 6.3,
           "shared_cpi": 1.19,
           "uniform_cpi": 1.2,
@@ -227,7 +227,7 @@
           "stlb_focal_only_percent": 4.56,
           "stlb_corunner_only_percent": 1.27,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 0.23866348448686736
+          "corunner_speedup": 0.0
         },
         {
           "focal_short": "xalan17",
@@ -265,7 +265,7 @@
           "focal_full": "spec_cpu2017/623.xalancbmk_s",
           "corunner_short": "graph4",
           "corunner_full": "graph500-2.1/4GB",
-          "shared_mpki": 13.0,
+          "shared_mpki": 13.1,
           "uniform_mpki": 1.7,
           "shared_cpi": 1.5,
           "uniform_cpi": 1.01,
@@ -296,7 +296,7 @@
           "focal_full": "spec_cpu2017/623.xalancbmk_s",
           "corunner_short": "gups",
           "corunner_full": "gups/2GB",
-          "shared_mpki": 8.6,
+          "shared_mpki": 8.7,
           "uniform_mpki": 5.0,
           "shared_cpi": 1.44,
           "uniform_cpi": 1.24,
@@ -358,7 +358,7 @@
           "focal_full": "spec_cpu2017/623.xalancbmk_s",
           "corunner_short": "mcf17",
           "corunner_full": "spec_cpu2017/605.mcf_s",
-          "shared_mpki": 8.3,
+          "shared_mpki": 8.4,
           "uniform_mpki": 8.0,
           "shared_cpi": 1.35,
           "uniform_cpi": 1.33,
@@ -382,7 +382,7 @@
           "stlb_focal_only_percent": 7.66,
           "stlb_corunner_only_percent": 0.0,
           "stlb_state_sample_count": null,
-          "corunner_speedup": -0.49261083743841194
+          "corunner_speedup": 0.0
         },
         {
           "focal_short": "xalan17",
@@ -422,9 +422,9 @@
           "corunner_full": "spec_cpu2017/620.omnetpp_s",
           "shared_mpki": 5.4,
           "uniform_mpki": 5.4,
-          "shared_cpi": 1.14,
+          "shared_cpi": 1.15,
           "uniform_cpi": 1.14,
-          "speedup": 0.0,
+          "speedup": 0.8771929824561431,
           "slowdown": 0.0,
           "model_a": 0.045,
           "model_b": 0.903,
@@ -451,7 +451,7 @@
           "focal_full": "spec_cpu2017/623.xalancbmk_s",
           "corunner_short": "pr",
           "corunner_full": "gapbs/pr-urand-4GB",
-          "shared_mpki": 13.0,
+          "shared_mpki": 13.1,
           "uniform_mpki": 1.6,
           "shared_cpi": 1.73,
           "uniform_cpi": 1.25,
@@ -482,11 +482,11 @@
           "focal_full": "spec_cpu2017/623.xalancbmk_s",
           "corunner_short": "pr_k4",
           "corunner_full": "gapbs/pr-kron-4GB",
-          "shared_mpki": 13.2,
+          "shared_mpki": 13.3,
           "uniform_mpki": 1.7,
-          "shared_cpi": 1.67,
+          "shared_cpi": 1.68,
           "uniform_cpi": 1.15,
-          "speedup": 45.21739130434783,
+          "speedup": 46.08695652173913,
           "slowdown": 0.0,
           "model_a": 0.045,
           "model_b": 1.078,
@@ -604,30 +604,503 @@
       ]
     },
     {
+      "short": "cc",
+      "full": "gapbs/cc-urand-4GB",
+      "co_runner_count": 7,
+      "mean_speedup": 4.427949318926738,
+      "median_speedup": 1.7429193899782147,
+      "min_speedup": 0.0,
+      "max_slowdown": 0.0,
+      "max_speedup": 19.453924914675767,
+      "speedups": [
+        1.7429193899782147,
+        1.8433179723502224,
+        0.0,
+        0.4158004158004269,
+        19.453924914675767,
+        7.539682539682535,
+        0.0
+      ],
+      "pairs": [
+        {
+          "focal_short": "cc",
+          "focal_full": "gapbs/cc-urand-4GB",
+          "corunner_short": "bfs1",
+          "corunner_full": "gapbs/bfs-urand-1GB",
+          "shared_mpki": 9.7,
+          "uniform_mpki": 8.6,
+          "shared_cpi": 4.67,
+          "uniform_cpi": 4.59,
+          "speedup": 1.7429193899782147,
+          "slowdown": 0.0,
+          "model_a": 0.062,
+          "model_b": 4.064,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 10.52,
+              "cpi": 4.72
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 4.07
+            }
+          ],
+          "stlb_shared_percent": 81.7,
+          "stlb_focal_only_percent": 18.3,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": -3.208556149732622
+        },
+        {
+          "focal_short": "cc",
+          "focal_full": "gapbs/cc-urand-4GB",
+          "corunner_short": "cactuss",
+          "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+          "shared_mpki": 8.1,
+          "uniform_mpki": 7.0,
+          "shared_cpi": 4.42,
+          "uniform_cpi": 4.34,
+          "speedup": 1.8433179723502224,
+          "slowdown": 0.0,
+          "model_a": 0.073,
+          "model_b": 3.826,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 8.85,
+              "cpi": 4.47
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.0,
+              "cpi": 3.83
+            }
+          ],
+          "stlb_shared_percent": 16.29,
+          "stlb_focal_only_percent": 83.71,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "cc",
+          "focal_full": "gapbs/cc-urand-4GB",
+          "corunner_short": "mcf",
+          "corunner_full": "spec_cpu2006/429.mcf",
+          "shared_mpki": 17.0,
+          "uniform_mpki": 17.0,
+          "shared_cpi": 5.33,
+          "uniform_cpi": 5.33,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.052,
+          "model_b": 4.442,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 16.72,
+              "cpi": 5.31
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.06,
+              "cpi": 4.45
+            }
+          ],
+          "stlb_shared_percent": 93.68,
+          "stlb_focal_only_percent": 2.88,
+          "stlb_corunner_only_percent": 3.43,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": -0.3095975232198067
+        },
+        {
+          "focal_short": "cc",
+          "focal_full": "gapbs/cc-urand-4GB",
+          "corunner_short": "mcf17",
+          "corunner_full": "spec_cpu2017/605.mcf_s",
+          "shared_mpki": 13.7,
+          "uniform_mpki": 13.4,
+          "shared_cpi": 4.83,
+          "uniform_cpi": 4.81,
+          "speedup": 0.4158004158004269,
+          "slowdown": 0.0,
+          "model_a": 0.053,
+          "model_b": 4.107,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 13.84,
+              "cpi": 4.85
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.04,
+              "cpi": 4.11
+            }
+          ],
+          "stlb_shared_percent": 87.74,
+          "stlb_focal_only_percent": 8.66,
+          "stlb_corunner_only_percent": 3.6,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "cc",
+          "focal_full": "gapbs/cc-urand-4GB",
+          "corunner_short": "pr",
+          "corunner_full": "gapbs/pr-urand-4GB",
+          "shared_mpki": 24.0,
+          "uniform_mpki": 7.1,
+          "shared_cpi": 7.0,
+          "uniform_cpi": 5.86,
+          "speedup": 19.453924914675767,
+          "slowdown": 0.0,
+          "model_a": 0.067,
+          "model_b": 5.387,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 23.51,
+              "cpi": 6.97
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.09,
+              "cpi": 5.39
+            }
+          ],
+          "stlb_shared_percent": 6.1,
+          "stlb_focal_only_percent": 93.83,
+          "stlb_corunner_only_percent": 0.07,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": -0.6756756756756799
+        },
+        {
+          "focal_short": "cc",
+          "focal_full": "gapbs/cc-urand-4GB",
+          "corunner_short": "sssp1",
+          "corunner_full": "gapbs/sssp-urand-1GB",
+          "shared_mpki": 17.8,
+          "uniform_mpki": 10.8,
+          "shared_cpi": 5.42,
+          "uniform_cpi": 5.04,
+          "speedup": 7.539682539682535,
+          "slowdown": 0.0,
+          "model_a": 0.055,
+          "model_b": 4.44,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 17.56,
+              "cpi": 5.41
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.08,
+              "cpi": 4.44
+            }
+          ],
+          "stlb_shared_percent": 41.12,
+          "stlb_focal_only_percent": 55.63,
+          "stlb_corunner_only_percent": 3.25,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": -4.9792531120331995
+        },
+        {
+          "focal_short": "cc",
+          "focal_full": "gapbs/cc-urand-4GB",
+          "corunner_short": "xalan17",
+          "corunner_full": "spec_cpu2017/623.xalancbmk_s",
+          "shared_mpki": 15.9,
+          "uniform_mpki": 15.9,
+          "shared_cpi": 4.19,
+          "uniform_cpi": 4.19,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.045,
+          "model_b": 3.474,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 15.46,
+              "cpi": 4.17
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 3.48
+            }
+          ],
+          "stlb_shared_percent": 94.17,
+          "stlb_focal_only_percent": 1.27,
+          "stlb_corunner_only_percent": 4.56,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": -0.8333333333333304
+        }
+      ]
+    },
+    {
+      "short": "astar",
+      "full": "spec_cpu2006/473.astar",
+      "co_runner_count": 7,
+      "mean_speedup": 1.859609237179987,
+      "median_speedup": -0.3984063745019806,
+      "min_speedup": -3.435114503816805,
+      "max_slowdown": 3.5573122529644285,
+      "max_speedup": 16.666666666666675,
+      "speedups": [
+        2.183406113537112,
+        0.8695652173912993,
+        -3.435114503816805,
+        -0.3984063745019806,
+        16.666666666666675,
+        -0.4098360655737654,
+        -2.4590163934426257
+      ],
+      "pairs": [
+        {
+          "focal_short": "astar",
+          "focal_full": "spec_cpu2006/473.astar",
+          "corunner_short": "bfs1",
+          "corunner_full": "gapbs/bfs-urand-1GB",
+          "shared_mpki": 1.9,
+          "uniform_mpki": 0.9,
+          "shared_cpi": 2.34,
+          "uniform_cpi": 2.29,
+          "speedup": 2.183406113537112,
+          "slowdown": 0.0,
+          "model_a": 0.047,
+          "model_b": 2.248,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 3.57,
+              "cpi": 2.42
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 2.25
+            }
+          ],
+          "stlb_shared_percent": 78.78,
+          "stlb_focal_only_percent": 21.22,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": -1.7341040462427793
+        },
+        {
+          "focal_short": "astar",
+          "focal_full": "spec_cpu2006/473.astar",
+          "corunner_short": "cactuss",
+          "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+          "shared_mpki": 5.0,
+          "uniform_mpki": 4.3,
+          "shared_cpi": 2.32,
+          "uniform_cpi": 2.3,
+          "speedup": 0.8695652173912993,
+          "slowdown": 0.0,
+          "model_a": 0.032,
+          "model_b": 2.161,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 5.65,
+              "cpi": 2.34
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.0,
+              "cpi": 2.16
+            }
+          ],
+          "stlb_shared_percent": 20.46,
+          "stlb_focal_only_percent": 79.54,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "astar",
+          "focal_full": "spec_cpu2006/473.astar",
+          "corunner_short": "mcf",
+          "corunner_full": "spec_cpu2006/429.mcf",
+          "shared_mpki": 15.4,
+          "uniform_mpki": 19.9,
+          "shared_cpi": 2.53,
+          "uniform_cpi": 2.62,
+          "speedup": -3.435114503816805,
+          "slowdown": 3.5573122529644285,
+          "model_a": 0.021,
+          "model_b": 2.202,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 14.27,
+              "cpi": 2.5
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.06,
+              "cpi": 2.2
+            }
+          ],
+          "stlb_shared_percent": 64.33,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 35.67,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 2.580645161290329
+        },
+        {
+          "focal_short": "astar",
+          "focal_full": "spec_cpu2006/473.astar",
+          "corunner_short": "mcf17",
+          "corunner_full": "spec_cpu2017/605.mcf_s",
+          "shared_mpki": 9.5,
+          "uniform_mpki": 9.9,
+          "shared_cpi": 2.5,
+          "uniform_cpi": 2.51,
+          "speedup": -0.3984063745019806,
+          "slowdown": 0.40000000000000036,
+          "model_a": 0.025,
+          "model_b": 2.265,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 9.28,
+              "cpi": 2.5
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 2.27
+            }
+          ],
+          "stlb_shared_percent": 94.28,
+          "stlb_focal_only_percent": 2.22,
+          "stlb_corunner_only_percent": 3.5,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "astar",
+          "focal_full": "spec_cpu2006/473.astar",
+          "corunner_short": "pr",
+          "corunner_full": "gapbs/pr-urand-4GB",
+          "shared_mpki": 15.9,
+          "uniform_mpki": 2.2,
+          "shared_cpi": 2.73,
+          "uniform_cpi": 2.34,
+          "speedup": 16.666666666666675,
+          "slowdown": 0.0,
+          "model_a": 0.028,
+          "model_b": 2.282,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 15.26,
+              "cpi": 2.7
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.06,
+              "cpi": 2.28
+            }
+          ],
+          "stlb_shared_percent": 0.23,
+          "stlb_focal_only_percent": 95.99,
+          "stlb_corunner_only_percent": 3.79,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": -0.886524822695034
+        },
+        {
+          "focal_short": "astar",
+          "focal_full": "spec_cpu2006/473.astar",
+          "corunner_short": "sssp1",
+          "corunner_full": "gapbs/sssp-urand-1GB",
+          "shared_mpki": 15.1,
+          "uniform_mpki": 15.2,
+          "shared_cpi": 2.43,
+          "uniform_cpi": 2.44,
+          "speedup": -0.4098360655737654,
+          "slowdown": 0.411522633744843,
+          "model_a": 0.022,
+          "model_b": 2.101,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 14.92,
+              "cpi": 2.43
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.06,
+              "cpi": 2.1
+            }
+          ],
+          "stlb_shared_percent": 98.98,
+          "stlb_focal_only_percent": 0.07,
+          "stlb_corunner_only_percent": 0.95,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "astar",
+          "focal_full": "spec_cpu2006/473.astar",
+          "corunner_short": "xalan17",
+          "corunner_full": "spec_cpu2017/623.xalancbmk_s",
+          "shared_mpki": 9.6,
+          "uniform_mpki": 12.6,
+          "shared_cpi": 2.38,
+          "uniform_cpi": 2.44,
+          "speedup": -2.4590163934426257,
+          "slowdown": 2.521008403361358,
+          "model_a": 0.02,
+          "model_b": 2.191,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 8.66,
+              "cpi": 2.37
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 2.19
+            }
+          ],
+          "stlb_shared_percent": 73.48,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 26.52,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 6.140350877192979
+        }
+      ]
+    },
+    {
       "short": "mcf",
       "full": "spec_cpu2006/429.mcf",
-      "co_runner_count": 18,
-      "mean_speedup": 7.1210287356185225,
-      "median_speedup": 2.6354375675258557,
-      "min_speedup": -0.12195121951219523,
-      "max_slowdown": 0.12224938875304847,
-      "max_speedup": 32.43847874720358,
+      "co_runner_count": 15,
+      "mean_speedup": 2.906169323487775,
+      "median_speedup": 1.6348773841961872,
+      "min_speedup": -0.3095975232198067,
+      "max_slowdown": 0.31055900621117516,
+      "max_speedup": 13.939393939393941,
       "speedups": [
-        3.8709677419354938,
-        3.592814371257491,
-        11.897106109324774,
+        2.580645161290329,
+        3.8922155688622784,
+        11.2540192926045,
         1.6348773841961872,
-        2.6315789473684292,
-        0.0,
-        0.34965034965035446,
-        30.20833333333335,
+        2.960526315789469,
+        -0.3095975232198067,
+        0.6993006993007089,
         0.47281323877068626,
         -0.12195121951219523,
         0.25706940874035134,
         2.639296187683282,
         0.0,
-        20.674157303370787,
-        32.43847874720358,
         3.693931398416894,
         13.939393939393941,
         0.0
@@ -638,11 +1111,11 @@
           "focal_full": "spec_cpu2006/429.mcf",
           "corunner_short": "astar",
           "corunner_full": "spec_cpu2006/473.astar",
-          "shared_mpki": 23.9,
+          "shared_mpki": 21.6,
           "uniform_mpki": 17.3,
-          "shared_cpi": 3.22,
+          "shared_cpi": 3.18,
           "uniform_cpi": 3.1,
-          "speedup": 3.8709677419354938,
+          "speedup": 2.580645161290329,
           "slowdown": 0.0,
           "model_a": 0.018,
           "model_b": 2.793,
@@ -669,11 +1142,11 @@
           "focal_full": "spec_cpu2006/429.mcf",
           "corunner_short": "bc",
           "corunner_full": "gapbs/bc-urand-4GB",
-          "shared_mpki": 23.3,
+          "shared_mpki": 23.5,
           "uniform_mpki": 17.8,
-          "shared_cpi": 3.46,
+          "shared_cpi": 3.47,
           "uniform_cpi": 3.34,
-          "speedup": 3.592814371257491,
+          "speedup": 3.8922155688622784,
           "slowdown": 0.0,
           "model_a": 0.023,
           "model_b": 2.929,
@@ -700,11 +1173,11 @@
           "focal_full": "spec_cpu2006/429.mcf",
           "corunner_short": "bc_k4",
           "corunner_full": "gapbs/bc-kron-4GB",
-          "shared_mpki": 28.6,
+          "shared_mpki": 27.5,
           "uniform_mpki": 9.8,
-          "shared_cpi": 3.48,
+          "shared_cpi": 3.46,
           "uniform_cpi": 3.11,
-          "speedup": 11.897106109324774,
+          "speedup": 11.2540192926045,
           "slowdown": 0.0,
           "model_a": 0.02,
           "model_b": 2.913,
@@ -724,14 +1197,14 @@
           "stlb_focal_only_percent": 88.73,
           "stlb_corunner_only_percent": 0.0,
           "stlb_state_sample_count": null,
-          "corunner_speedup": -0.9569377990430672
+          "corunner_speedup": 0.23923444976077235
         },
         {
           "focal_short": "mcf",
           "focal_full": "spec_cpu2006/429.mcf",
           "corunner_short": "bfs1",
           "corunner_full": "gapbs/bfs-urand-1GB",
-          "shared_mpki": 19.8,
+          "shared_mpki": 19.9,
           "uniform_mpki": 16.9,
           "shared_cpi": 3.73,
           "uniform_cpi": 3.67,
@@ -762,11 +1235,11 @@
           "focal_full": "spec_cpu2006/429.mcf",
           "corunner_short": "cactuss",
           "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
-          "shared_mpki": 13.5,
+          "shared_mpki": 13.9,
           "uniform_mpki": 9.1,
-          "shared_cpi": 3.12,
+          "shared_cpi": 3.13,
           "uniform_cpi": 3.04,
-          "speedup": 2.6315789473684292,
+          "speedup": 2.960526315789469,
           "slowdown": 0.0,
           "model_a": 0.018,
           "model_b": 2.88,
@@ -793,12 +1266,12 @@
           "focal_full": "spec_cpu2006/429.mcf",
           "corunner_short": "cc",
           "corunner_full": "gapbs/cc-urand-4GB",
-          "shared_mpki": 17.0,
+          "shared_mpki": 16.9,
           "uniform_mpki": 17.3,
-          "shared_cpi": 3.23,
+          "shared_cpi": 3.22,
           "uniform_cpi": 3.23,
-          "speedup": 0.0,
-          "slowdown": 0.0,
+          "speedup": -0.3095975232198067,
+          "slowdown": 0.31055900621117516,
           "model_a": 0.023,
           "model_b": 2.837,
           "mosmodel_points": [
@@ -826,9 +1299,9 @@
           "corunner_full": "spec_cpu2006/416.gamess",
           "shared_mpki": 10.4,
           "uniform_mpki": 9.7,
-          "shared_cpi": 2.87,
+          "shared_cpi": 2.88,
           "uniform_cpi": 2.86,
-          "speedup": 0.34965034965035446,
+          "speedup": 0.6993006993007089,
           "slowdown": 0.0,
           "model_a": 0.025,
           "model_b": 2.615,
@@ -853,40 +1326,9 @@
         {
           "focal_short": "mcf",
           "focal_full": "spec_cpu2006/429.mcf",
-          "corunner_short": "graph4",
-          "corunner_full": "graph500-2.1/4GB",
-          "shared_mpki": 54.2,
-          "uniform_mpki": 11.3,
-          "shared_cpi": 5.0,
-          "uniform_cpi": 3.84,
-          "speedup": 30.20833333333335,
-          "slowdown": 0.0,
-          "model_a": 0.027,
-          "model_b": 3.535,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 48.4,
-              "cpi": 4.84
-            },
-            {
-              "layout": "2MB",
-              "mpki": 5.51,
-              "cpi": 3.68
-            }
-          ],
-          "stlb_shared_percent": 2.34,
-          "stlb_focal_only_percent": 97.66,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -1.2875536480686844
-        },
-        {
-          "focal_short": "mcf",
-          "focal_full": "spec_cpu2006/429.mcf",
           "corunner_short": "gups",
           "corunner_full": "gups/2GB",
-          "shared_mpki": 28.5,
+          "shared_mpki": 28.4,
           "uniform_mpki": 28.1,
           "shared_cpi": 4.25,
           "uniform_cpi": 4.23,
@@ -1039,68 +1481,6 @@
         {
           "focal_short": "mcf",
           "focal_full": "spec_cpu2006/429.mcf",
-          "corunner_short": "pr",
-          "corunner_full": "gapbs/pr-urand-4GB",
-          "shared_mpki": 57.1,
-          "uniform_mpki": 15.3,
-          "shared_cpi": 5.37,
-          "uniform_cpi": 4.45,
-          "speedup": 20.674157303370787,
-          "slowdown": 0.0,
-          "model_a": 0.022,
-          "model_b": 4.111,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 51.77,
-              "cpi": 5.26
-            },
-            {
-              "layout": "2MB",
-              "mpki": 8.78,
-              "cpi": 4.31
-            }
-          ],
-          "stlb_shared_percent": 2.29,
-          "stlb_focal_only_percent": 94.62,
-          "stlb_corunner_only_percent": 3.1,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -1.386962552011095
-        },
-        {
-          "focal_short": "mcf",
-          "focal_full": "spec_cpu2006/429.mcf",
-          "corunner_short": "pr_k4",
-          "corunner_full": "gapbs/pr-kron-4GB",
-          "shared_mpki": 59.6,
-          "uniform_mpki": 15.5,
-          "shared_cpi": 5.92,
-          "uniform_cpi": 4.47,
-          "speedup": 32.43847874720358,
-          "slowdown": 0.0,
-          "model_a": 0.033,
-          "model_b": 3.957,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 52.53,
-              "cpi": 5.67
-            },
-            {
-              "layout": "2MB",
-              "mpki": 8.45,
-              "cpi": 4.23
-            }
-          ],
-          "stlb_shared_percent": 2.0,
-          "stlb_focal_only_percent": 95.07,
-          "stlb_corunner_only_percent": 2.93,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -0.830564784053156
-        },
-        {
-          "focal_short": "mcf",
-          "focal_full": "spec_cpu2006/429.mcf",
           "corunner_short": "sssp1",
           "corunner_full": "gapbs/sssp-urand-1GB",
           "shared_mpki": 30.1,
@@ -1190,418 +1570,6 @@
           "stlb_corunner_only_percent": 0.0,
           "stlb_state_sample_count": null,
           "corunner_speedup": 0.0
-        }
-      ]
-    },
-    {
-      "short": "cc",
-      "full": "gapbs/cc-urand-4GB",
-      "co_runner_count": 6,
-      "mean_speedup": 4.898498457437302,
-      "median_speedup": 1.0793599028893208,
-      "min_speedup": 0.0,
-      "max_slowdown": 0.0,
-      "max_speedup": 19.453924914675767,
-      "speedups": [
-        1.7429193899782147,
-        0.0,
-        0.4158004158004269,
-        19.453924914675767,
-        7.539682539682535,
-        0.23866348448686736
-      ],
-      "pairs": [
-        {
-          "focal_short": "cc",
-          "focal_full": "gapbs/cc-urand-4GB",
-          "corunner_short": "bfs1",
-          "corunner_full": "gapbs/bfs-urand-1GB",
-          "shared_mpki": 9.7,
-          "uniform_mpki": 8.6,
-          "shared_cpi": 4.67,
-          "uniform_cpi": 4.59,
-          "speedup": 1.7429193899782147,
-          "slowdown": 0.0,
-          "model_a": 0.062,
-          "model_b": 4.064,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 10.52,
-              "cpi": 4.72
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 4.07
-            }
-          ],
-          "stlb_shared_percent": 81.7,
-          "stlb_focal_only_percent": 18.3,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -3.208556149732622
-        },
-        {
-          "focal_short": "cc",
-          "focal_full": "gapbs/cc-urand-4GB",
-          "corunner_short": "mcf",
-          "corunner_full": "spec_cpu2006/429.mcf",
-          "shared_mpki": 17.1,
-          "uniform_mpki": 17.0,
-          "shared_cpi": 5.33,
-          "uniform_cpi": 5.33,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.052,
-          "model_b": 4.442,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 16.72,
-              "cpi": 5.31
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.06,
-              "cpi": 4.45
-            }
-          ],
-          "stlb_shared_percent": 93.68,
-          "stlb_focal_only_percent": 2.88,
-          "stlb_corunner_only_percent": 3.43,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "cc",
-          "focal_full": "gapbs/cc-urand-4GB",
-          "corunner_short": "mcf17",
-          "corunner_full": "spec_cpu2017/605.mcf_s",
-          "shared_mpki": 13.7,
-          "uniform_mpki": 13.4,
-          "shared_cpi": 4.83,
-          "uniform_cpi": 4.81,
-          "speedup": 0.4158004158004269,
-          "slowdown": 0.0,
-          "model_a": 0.053,
-          "model_b": 4.107,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 13.84,
-              "cpi": 4.85
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.04,
-              "cpi": 4.11
-            }
-          ],
-          "stlb_shared_percent": 87.74,
-          "stlb_focal_only_percent": 8.66,
-          "stlb_corunner_only_percent": 3.6,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "cc",
-          "focal_full": "gapbs/cc-urand-4GB",
-          "corunner_short": "pr",
-          "corunner_full": "gapbs/pr-urand-4GB",
-          "shared_mpki": 24.0,
-          "uniform_mpki": 7.1,
-          "shared_cpi": 7.0,
-          "uniform_cpi": 5.86,
-          "speedup": 19.453924914675767,
-          "slowdown": 0.0,
-          "model_a": 0.067,
-          "model_b": 5.387,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 23.51,
-              "cpi": 6.97
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.09,
-              "cpi": 5.39
-            }
-          ],
-          "stlb_shared_percent": 6.1,
-          "stlb_focal_only_percent": 93.83,
-          "stlb_corunner_only_percent": 0.07,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -0.6756756756756799
-        },
-        {
-          "focal_short": "cc",
-          "focal_full": "gapbs/cc-urand-4GB",
-          "corunner_short": "sssp1",
-          "corunner_full": "gapbs/sssp-urand-1GB",
-          "shared_mpki": 17.8,
-          "uniform_mpki": 10.8,
-          "shared_cpi": 5.42,
-          "uniform_cpi": 5.04,
-          "speedup": 7.539682539682535,
-          "slowdown": 0.0,
-          "model_a": 0.055,
-          "model_b": 4.44,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 17.56,
-              "cpi": 5.41
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.08,
-              "cpi": 4.44
-            }
-          ],
-          "stlb_shared_percent": 41.12,
-          "stlb_focal_only_percent": 55.63,
-          "stlb_corunner_only_percent": 3.25,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -4.9792531120331995
-        },
-        {
-          "focal_short": "cc",
-          "focal_full": "gapbs/cc-urand-4GB",
-          "corunner_short": "xalan17",
-          "corunner_full": "spec_cpu2017/623.xalancbmk_s",
-          "shared_mpki": 16.0,
-          "uniform_mpki": 15.9,
-          "shared_cpi": 4.2,
-          "uniform_cpi": 4.19,
-          "speedup": 0.23866348448686736,
-          "slowdown": 0.0,
-          "model_a": 0.045,
-          "model_b": 3.474,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 15.46,
-              "cpi": 4.17
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 3.48
-            }
-          ],
-          "stlb_shared_percent": 94.17,
-          "stlb_focal_only_percent": 1.27,
-          "stlb_corunner_only_percent": 4.56,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -0.8333333333333304
-        }
-      ]
-    },
-    {
-      "short": "astar",
-      "full": "spec_cpu2006/473.astar",
-      "co_runner_count": 6,
-      "mean_speedup": 2.024616573811435,
-      "median_speedup": -0.404121220037873,
-      "min_speedup": -3.435114503816805,
-      "max_slowdown": 3.5573122529644285,
-      "max_speedup": 16.666666666666675,
-      "speedups": [
-        2.183406113537112,
-        -3.435114503816805,
-        -0.3984063745019806,
-        16.666666666666675,
-        -0.4098360655737654,
-        -2.4590163934426257
-      ],
-      "pairs": [
-        {
-          "focal_short": "astar",
-          "focal_full": "spec_cpu2006/473.astar",
-          "corunner_short": "bfs1",
-          "corunner_full": "gapbs/bfs-urand-1GB",
-          "shared_mpki": 1.9,
-          "uniform_mpki": 0.9,
-          "shared_cpi": 2.34,
-          "uniform_cpi": 2.29,
-          "speedup": 2.183406113537112,
-          "slowdown": 0.0,
-          "model_a": 0.047,
-          "model_b": 2.248,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 3.57,
-              "cpi": 2.42
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 2.25
-            }
-          ],
-          "stlb_shared_percent": 78.78,
-          "stlb_focal_only_percent": 21.22,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -1.7341040462427793
-        },
-        {
-          "focal_short": "astar",
-          "focal_full": "spec_cpu2006/473.astar",
-          "corunner_short": "mcf",
-          "corunner_full": "spec_cpu2006/429.mcf",
-          "shared_mpki": 15.5,
-          "uniform_mpki": 19.9,
-          "shared_cpi": 2.53,
-          "uniform_cpi": 2.62,
-          "speedup": -3.435114503816805,
-          "slowdown": 3.5573122529644285,
-          "model_a": 0.021,
-          "model_b": 2.202,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 14.27,
-              "cpi": 2.5
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.06,
-              "cpi": 2.2
-            }
-          ],
-          "stlb_shared_percent": 64.33,
-          "stlb_focal_only_percent": 0.0,
-          "stlb_corunner_only_percent": 35.67,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 3.8709677419354938
-        },
-        {
-          "focal_short": "astar",
-          "focal_full": "spec_cpu2006/473.astar",
-          "corunner_short": "mcf17",
-          "corunner_full": "spec_cpu2017/605.mcf_s",
-          "shared_mpki": 9.6,
-          "uniform_mpki": 9.9,
-          "shared_cpi": 2.5,
-          "uniform_cpi": 2.51,
-          "speedup": -0.3984063745019806,
-          "slowdown": 0.40000000000000036,
-          "model_a": 0.025,
-          "model_b": 2.265,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 9.28,
-              "cpi": 2.5
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 2.27
-            }
-          ],
-          "stlb_shared_percent": 94.28,
-          "stlb_focal_only_percent": 2.22,
-          "stlb_corunner_only_percent": 3.5,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "astar",
-          "focal_full": "spec_cpu2006/473.astar",
-          "corunner_short": "pr",
-          "corunner_full": "gapbs/pr-urand-4GB",
-          "shared_mpki": 15.9,
-          "uniform_mpki": 2.2,
-          "shared_cpi": 2.73,
-          "uniform_cpi": 2.34,
-          "speedup": 16.666666666666675,
-          "slowdown": 0.0,
-          "model_a": 0.028,
-          "model_b": 2.282,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 15.26,
-              "cpi": 2.7
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.06,
-              "cpi": 2.28
-            }
-          ],
-          "stlb_shared_percent": 0.23,
-          "stlb_focal_only_percent": 95.99,
-          "stlb_corunner_only_percent": 3.79,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -0.886524822695034
-        },
-        {
-          "focal_short": "astar",
-          "focal_full": "spec_cpu2006/473.astar",
-          "corunner_short": "sssp1",
-          "corunner_full": "gapbs/sssp-urand-1GB",
-          "shared_mpki": 15.1,
-          "uniform_mpki": 15.2,
-          "shared_cpi": 2.43,
-          "uniform_cpi": 2.44,
-          "speedup": -0.4098360655737654,
-          "slowdown": 0.411522633744843,
-          "model_a": 0.022,
-          "model_b": 2.101,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 14.92,
-              "cpi": 2.43
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.06,
-              "cpi": 2.1
-            }
-          ],
-          "stlb_shared_percent": 98.98,
-          "stlb_focal_only_percent": 0.07,
-          "stlb_corunner_only_percent": 0.95,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "astar",
-          "focal_full": "spec_cpu2006/473.astar",
-          "corunner_short": "xalan17",
-          "corunner_full": "spec_cpu2017/623.xalancbmk_s",
-          "shared_mpki": 9.6,
-          "uniform_mpki": 12.6,
-          "shared_cpi": 2.38,
-          "uniform_cpi": 2.44,
-          "speedup": -2.4590163934426257,
-          "slowdown": 2.521008403361358,
-          "model_a": 0.02,
-          "model_b": 2.191,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 8.66,
-              "cpi": 2.37
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 2.19
-            }
-          ],
-          "stlb_shared_percent": 73.48,
-          "stlb_focal_only_percent": 0.0,
-          "stlb_corunner_only_percent": 26.52,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 6.140350877192979
         }
       ]
     },
@@ -1839,7 +1807,7 @@
           "stlb_focal_only_percent": 0.0,
           "stlb_corunner_only_percent": 0.0,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
+          "corunner_speedup": 0.8771929824561431
         }
       ]
     },
@@ -1909,7 +1877,7 @@
           "focal_full": "gapbs/sssp-urand-1GB",
           "corunner_short": "bc",
           "corunner_full": "gapbs/bc-urand-4GB",
-          "shared_mpki": 58.1,
+          "shared_mpki": 58.2,
           "uniform_mpki": 58.2,
           "shared_cpi": 4.95,
           "uniform_cpi": 4.95,
@@ -1933,14 +1901,14 @@
           "stlb_focal_only_percent": 3.05,
           "stlb_corunner_only_percent": 0.34,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
+          "corunner_speedup": 0.16583747927030323
         },
         {
           "focal_short": "sssp1",
           "focal_full": "gapbs/sssp-urand-1GB",
           "corunner_short": "bc_k4",
           "corunner_full": "gapbs/bc-kron-4GB",
-          "shared_mpki": 59.6,
+          "shared_mpki": 59.5,
           "uniform_mpki": 57.1,
           "shared_cpi": 5.1,
           "uniform_cpi": 5.05,
@@ -2095,7 +2063,7 @@
           "focal_full": "gapbs/sssp-urand-1GB",
           "corunner_short": "graph4",
           "corunner_full": "graph500-2.1/4GB",
-          "shared_mpki": 64.7,
+          "shared_mpki": 64.8,
           "uniform_mpki": 49.9,
           "shared_cpi": 5.7,
           "uniform_cpi": 5.38,
@@ -2219,7 +2187,7 @@
           "focal_full": "gapbs/sssp-urand-1GB",
           "corunner_short": "omnet06",
           "corunner_full": "spec_cpu2006/471.omnetpp",
-          "shared_mpki": 54.3,
+          "shared_mpki": 54.4,
           "uniform_mpki": 53.2,
           "shared_cpi": 4.73,
           "uniform_cpi": 4.71,
@@ -2281,7 +2249,7 @@
           "focal_full": "gapbs/sssp-urand-1GB",
           "corunner_short": "pr",
           "corunner_full": "gapbs/pr-urand-4GB",
-          "shared_mpki": 65.1,
+          "shared_mpki": 65.2,
           "uniform_mpki": 49.1,
           "shared_cpi": 6.2,
           "uniform_cpi": 5.93,
@@ -2437,10 +2405,10 @@
       "short": "mcf17",
       "full": "spec_cpu2017/605.mcf_s",
       "co_runner_count": 18,
-      "mean_speedup": 1.1954896883568753,
+      "mean_speedup": 1.2228569571034538,
       "median_speedup": 0.0,
-      "min_speedup": -0.49261083743841194,
-      "max_slowdown": 0.4950495049504955,
+      "min_speedup": 0.0,
+      "max_slowdown": 0.0,
       "max_speedup": 5.508474576271194,
       "speedups": [
         0.0,
@@ -2460,7 +2428,7 @@
         3.125,
         0.0,
         3.7209302325581506,
-        -0.49261083743841194
+        0.0
       ],
       "pairs": [
         {
@@ -2530,7 +2498,7 @@
           "focal_full": "spec_cpu2017/605.mcf_s",
           "corunner_short": "bc_k4",
           "corunner_full": "gapbs/bc-kron-4GB",
-          "shared_mpki": 8.6,
+          "shared_mpki": 8.5,
           "uniform_mpki": 3.8,
           "shared_cpi": 2.08,
           "uniform_cpi": 2.01,
@@ -2592,7 +2560,7 @@
           "focal_full": "spec_cpu2017/605.mcf_s",
           "corunner_short": "cactuss",
           "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
-          "shared_mpki": 3.2,
+          "shared_mpki": 3.1,
           "uniform_mpki": 1.3,
           "shared_cpi": 1.97,
           "uniform_cpi": 1.91,
@@ -2685,7 +2653,7 @@
           "focal_full": "spec_cpu2017/605.mcf_s",
           "corunner_short": "graph4",
           "corunner_full": "graph500-2.1/4GB",
-          "shared_mpki": 14.0,
+          "shared_mpki": 14.1,
           "uniform_mpki": 3.9,
           "shared_cpi": 2.49,
           "uniform_cpi": 2.36,
@@ -2933,7 +2901,7 @@
           "focal_full": "spec_cpu2017/605.mcf_s",
           "corunner_short": "sssp1",
           "corunner_full": "gapbs/sssp-urand-1GB",
-          "shared_mpki": 10.6,
+          "shared_mpki": 10.5,
           "uniform_mpki": 10.6,
           "shared_cpi": 2.15,
           "uniform_cpi": 2.15,
@@ -2995,12 +2963,12 @@
           "focal_full": "spec_cpu2017/605.mcf_s",
           "corunner_short": "xalan17",
           "corunner_full": "spec_cpu2017/623.xalancbmk_s",
-          "shared_mpki": 10.5,
+          "shared_mpki": 10.6,
           "uniform_mpki": 10.8,
-          "shared_cpi": 2.02,
+          "shared_cpi": 2.03,
           "uniform_cpi": 2.03,
-          "speedup": -0.49261083743841194,
-          "slowdown": 0.4950495049504955,
+          "speedup": 0.0,
+          "slowdown": 0.0,
           "model_a": 0.012,
           "model_b": 1.898,
           "mosmodel_points": [
@@ -3027,16 +2995,16 @@
       "short": "bc_k4",
       "full": "gapbs/bc-kron-4GB",
       "co_runner_count": 6,
-      "mean_speedup": -0.41070569816142505,
+      "mean_speedup": -0.4078073109180865,
       "median_speedup": -0.2408276821422306,
-      "min_speedup": -1.025641025641022,
-      "max_slowdown": 1.0362694300518172,
-      "max_speedup": 0.0,
+      "min_speedup": -1.178781925343808,
+      "max_slowdown": 1.1928429423459175,
+      "max_speedup": 0.23923444976077235,
       "speedups": [
         0.0,
-        -0.9569377990430672,
+        0.23923444976077235,
         -0.23474178403755097,
-        0.0,
+        -1.178781925343808,
         -0.24691358024691024,
         -1.025641025641022
       ],
@@ -3077,12 +3045,12 @@
           "focal_full": "gapbs/bc-kron-4GB",
           "corunner_short": "mcf",
           "corunner_full": "spec_cpu2006/429.mcf",
-          "shared_mpki": 47.1,
+          "shared_mpki": 49.8,
           "uniform_mpki": 49.3,
-          "shared_cpi": 4.14,
+          "shared_cpi": 4.19,
           "uniform_cpi": 4.18,
-          "speedup": -0.9569377990430672,
-          "slowdown": 0.9661835748792313,
+          "speedup": 0.23923444976077235,
+          "slowdown": 0.0,
           "model_a": 0.019,
           "model_b": 3.245,
           "mosmodel_points": [
@@ -3101,7 +3069,7 @@
           "stlb_focal_only_percent": 0.0,
           "stlb_corunner_only_percent": 88.73,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 11.897106109324774
+          "corunner_speedup": 11.2540192926045
         },
         {
           "focal_short": "bc_k4",
@@ -3139,12 +3107,12 @@
           "focal_full": "gapbs/bc-kron-4GB",
           "corunner_short": "pr",
           "corunner_full": "gapbs/pr-urand-4GB",
-          "shared_mpki": 52.7,
+          "shared_mpki": 48.9,
           "uniform_mpki": 52.7,
-          "shared_cpi": 5.09,
+          "shared_cpi": 5.03,
           "uniform_cpi": 5.09,
-          "speedup": 0.0,
-          "slowdown": 0.0,
+          "speedup": -1.178781925343808,
+          "slowdown": 1.1928429423459175,
           "model_a": 0.018,
           "model_b": 4.145,
           "mosmodel_points": [
@@ -3163,14 +3131,14 @@
           "stlb_focal_only_percent": 0.0,
           "stlb_corunner_only_percent": 3.1,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
+          "corunner_speedup": -0.13642564802182067
         },
         {
           "focal_short": "bc_k4",
           "focal_full": "gapbs/bc-kron-4GB",
           "corunner_short": "sssp1",
           "corunner_full": "gapbs/sssp-urand-1GB",
-          "shared_mpki": 46.8,
+          "shared_mpki": 47.0,
           "uniform_mpki": 47.1,
           "shared_cpi": 4.04,
           "uniform_cpi": 4.05,
@@ -3201,7 +3169,7 @@
           "focal_full": "gapbs/bc-kron-4GB",
           "corunner_short": "xalan17",
           "corunner_full": "spec_cpu2017/623.xalancbmk_s",
-          "shared_mpki": 50.0,
+          "shared_mpki": 49.6,
           "uniform_mpki": 52.6,
           "shared_cpi": 3.86,
           "uniform_cpi": 3.9,
@@ -3230,20 +3198,578 @@
       ]
     },
     {
+      "short": "pr",
+      "full": "gapbs/pr-urand-4GB",
+      "co_runner_count": 17,
+      "mean_speedup": -0.27377262696002924,
+      "median_speedup": 0.0,
+      "min_speedup": -1.331114808652245,
+      "max_slowdown": 1.3490725126475533,
+      "max_speedup": 0.23474178403755097,
+      "speedups": [
+        -0.886524822695034,
+        0.0,
+        -0.13642564802182067,
+        0.0,
+        0.0,
+        -0.6756756756756799,
+        0.0,
+        0.23474178403755097,
+        0.0,
+        0.0,
+        0.0,
+        -0.8431703204047181,
+        0.0,
+        0.0,
+        -1.01596516690855,
+        0.0,
+        -1.331114808652245
+      ],
+      "pairs": [
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "astar",
+          "corunner_full": "spec_cpu2006/473.astar",
+          "shared_mpki": 160.2,
+          "uniform_mpki": 172.4,
+          "shared_cpi": 5.59,
+          "uniform_cpi": 5.64,
+          "speedup": -0.886524822695034,
+          "slowdown": 0.8944543828264706,
+          "model_a": 0.004,
+          "model_b": 4.949,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 160.08,
+              "cpi": 5.57
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.0,
+              "cpi": 4.95
+            }
+          ],
+          "stlb_shared_percent": 0.23,
+          "stlb_focal_only_percent": 3.79,
+          "stlb_corunner_only_percent": 95.99,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 16.666666666666675
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "bc",
+          "corunner_full": "gapbs/bc-urand-4GB",
+          "shared_mpki": 160.5,
+          "uniform_mpki": 160.6,
+          "shared_cpi": 7.07,
+          "uniform_cpi": 7.07,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.008,
+          "model_b": 5.79,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 160.54,
+              "cpi": 7.03
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 5.79
+            }
+          ],
+          "stlb_shared_percent": 99.98,
+          "stlb_focal_only_percent": 0.02,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "bc_k4",
+          "corunner_full": "gapbs/bc-kron-4GB",
+          "shared_mpki": 160.1,
+          "uniform_mpki": 160.9,
+          "shared_cpi": 7.32,
+          "uniform_cpi": 7.33,
+          "speedup": -0.13642564802182067,
+          "slowdown": 0.1366120218579292,
+          "model_a": 0.009,
+          "model_b": 5.883,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 160.94,
+              "cpi": 7.29
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 5.88
+            }
+          ],
+          "stlb_shared_percent": 96.9,
+          "stlb_focal_only_percent": 3.1,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": -1.178781925343808
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "bfs1",
+          "corunner_full": "gapbs/bfs-urand-1GB",
+          "shared_mpki": 159.7,
+          "uniform_mpki": 159.7,
+          "shared_cpi": 6.41,
+          "uniform_cpi": 6.41,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.005,
+          "model_b": 5.612,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 159.86,
+              "cpi": 6.38
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 5.61
+            }
+          ],
+          "stlb_shared_percent": 96.61,
+          "stlb_focal_only_percent": 3.39,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": -1.2903225806451646
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "cactuss",
+          "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+          "shared_mpki": 159.5,
+          "uniform_mpki": 159.5,
+          "shared_cpi": 6.11,
+          "uniform_cpi": 6.11,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.004,
+          "model_b": 5.473,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 159.58,
+              "cpi": 6.07
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.0,
+              "cpi": 5.47
+            }
+          ],
+          "stlb_shared_percent": 89.31,
+          "stlb_focal_only_percent": 10.69,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "cc",
+          "corunner_full": "gapbs/cc-urand-4GB",
+          "shared_mpki": 159.8,
+          "uniform_mpki": 171.2,
+          "shared_cpi": 5.88,
+          "uniform_cpi": 5.92,
+          "speedup": -0.6756756756756799,
+          "slowdown": 0.6802721088435382,
+          "model_a": 0.003,
+          "model_b": 5.404,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 159.67,
+              "cpi": 5.9
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 5.4
+            }
+          ],
+          "stlb_shared_percent": 6.1,
+          "stlb_focal_only_percent": 0.07,
+          "stlb_corunner_only_percent": 93.83,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 19.453924914675767
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "gamess",
+          "corunner_full": "spec_cpu2006/416.gamess",
+          "shared_mpki": 159.0,
+          "uniform_mpki": 159.0,
+          "shared_cpi": 5.24,
+          "uniform_cpi": 5.24,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.003,
+          "model_b": 4.766,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 158.97,
+              "cpi": 5.2
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.0,
+              "cpi": 4.77
+            }
+          ],
+          "stlb_shared_percent": 96.18,
+          "stlb_focal_only_percent": 3.82,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "graph4",
+          "corunner_full": "graph500-2.1/4GB",
+          "shared_mpki": 163.8,
+          "uniform_mpki": 162.1,
+          "shared_cpi": 8.54,
+          "uniform_cpi": 8.52,
+          "speedup": 0.23474178403755097,
+          "slowdown": 0.0,
+          "model_a": 0.013,
+          "model_b": 6.41,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 162.07,
+              "cpi": 8.47
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.03,
+              "cpi": 6.41
+            }
+          ],
+          "stlb_shared_percent": 97.29,
+          "stlb_focal_only_percent": 2.71,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "gups",
+          "corunner_full": "gups/2GB",
+          "shared_mpki": 159.7,
+          "uniform_mpki": 159.7,
+          "shared_cpi": 8.61,
+          "uniform_cpi": 8.61,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.016,
+          "model_b": 6.056,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 159.91,
+              "cpi": 8.61
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 6.06
+            }
+          ],
+          "stlb_shared_percent": 94.96,
+          "stlb_focal_only_percent": 5.04,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": -0.2358490566037652
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "mcf17",
+          "corunner_full": "spec_cpu2017/605.mcf_s",
+          "shared_mpki": 160.8,
+          "uniform_mpki": 160.8,
+          "shared_cpi": 7.11,
+          "uniform_cpi": 7.11,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.007,
+          "model_b": 5.986,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 160.94,
+              "cpi": 7.09
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 5.99
+            }
+          ],
+          "stlb_shared_percent": 96.81,
+          "stlb_focal_only_percent": 3.19,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "omnet06",
+          "corunner_full": "spec_cpu2006/471.omnetpp",
+          "shared_mpki": 159.7,
+          "uniform_mpki": 159.7,
+          "shared_cpi": 5.97,
+          "uniform_cpi": 5.97,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.004,
+          "model_b": 5.332,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 159.75,
+              "cpi": 6.05
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 5.33
+            }
+          ],
+          "stlb_shared_percent": 96.32,
+          "stlb_focal_only_percent": 3.68,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "omnet17",
+          "corunner_full": "spec_cpu2017/620.omnetpp_s",
+          "shared_mpki": 159.7,
+          "uniform_mpki": 174.1,
+          "shared_cpi": 5.88,
+          "uniform_cpi": 5.93,
+          "speedup": -0.8431703204047181,
+          "slowdown": 0.8503401360544283,
+          "model_a": 0.004,
+          "model_b": 5.237,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 159.78,
+              "cpi": 5.89
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 5.24
+            }
+          ],
+          "stlb_shared_percent": 3.19,
+          "stlb_focal_only_percent": 3.56,
+          "stlb_corunner_only_percent": 93.25,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 7.1729957805907185
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "pr",
+          "corunner_full": "gapbs/pr-urand-4GB",
+          "shared_mpki": 162.5,
+          "uniform_mpki": 162.5,
+          "shared_cpi": 9.73,
+          "uniform_cpi": 9.73,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.012,
+          "model_b": 7.776,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 162.48,
+              "cpi": 9.7
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.04,
+              "cpi": 7.78
+            }
+          ],
+          "stlb_shared_percent": 99.97,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 0.03,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "pr_k4",
+          "corunner_full": "gapbs/pr-kron-4GB",
+          "shared_mpki": 162.5,
+          "uniform_mpki": 162.5,
+          "shared_cpi": 9.14,
+          "uniform_cpi": 9.14,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.013,
+          "model_b": 7.031,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 162.46,
+              "cpi": 9.09
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.04,
+              "cpi": 7.03
+            }
+          ],
+          "stlb_shared_percent": 99.63,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 0.37,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "sssp1",
+          "corunner_full": "gapbs/sssp-urand-1GB",
+          "shared_mpki": 161.1,
+          "uniform_mpki": 172.7,
+          "shared_cpi": 6.82,
+          "uniform_cpi": 6.89,
+          "speedup": -1.01596516690855,
+          "slowdown": 1.026392961876832,
+          "model_a": 0.006,
+          "model_b": 5.856,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 161.08,
+              "cpi": 6.81
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 5.86
+            }
+          ],
+          "stlb_shared_percent": 3.84,
+          "stlb_focal_only_percent": 0.29,
+          "stlb_corunner_only_percent": 95.88,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 4.553119730185506
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "sssp_k4",
+          "corunner_full": "gapbs/sssp-kron-4GB",
+          "shared_mpki": 161.4,
+          "uniform_mpki": 161.4,
+          "shared_cpi": 7.44,
+          "uniform_cpi": 7.44,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.009,
+          "model_b": 5.99,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 161.36,
+              "cpi": 7.39
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 5.99
+            }
+          ],
+          "stlb_shared_percent": 98.49,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 1.51,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "pr",
+          "focal_full": "gapbs/pr-urand-4GB",
+          "corunner_short": "xalan17",
+          "corunner_full": "spec_cpu2017/623.xalancbmk_s",
+          "shared_mpki": 160.5,
+          "uniform_mpki": 173.4,
+          "shared_cpi": 5.93,
+          "uniform_cpi": 6.01,
+          "speedup": -1.331114808652245,
+          "slowdown": 1.3490725126475533,
+          "model_a": 0.006,
+          "model_b": 4.972,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 160.84,
+              "cpi": 5.89
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 4.97
+            }
+          ],
+          "stlb_shared_percent": 3.23,
+          "stlb_focal_only_percent": 0.3,
+          "stlb_corunner_only_percent": 96.47,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 38.39999999999999
+        }
+      ]
+    },
+    {
       "short": "bc",
       "full": "gapbs/bc-urand-4GB",
       "co_runner_count": 6,
-      "mean_speedup": -0.347473521194717,
+      "mean_speedup": -0.31983394131633314,
       "median_speedup": 0.0,
       "min_speedup": -1.2638230647709303,
       "max_slowdown": 1.2799999999999923,
-      "max_speedup": 0.0,
+      "max_speedup": 0.16583747927030323,
       "speedups": [
         0.0,
         -0.8210180623973717,
         0.0,
         0.0,
-        0.0,
+        0.16583747927030323,
         -1.2638230647709303
       ],
       "pairs": [
@@ -3252,7 +3778,7 @@
           "focal_full": "gapbs/bc-urand-4GB",
           "corunner_short": "bfs1",
           "corunner_full": "gapbs/bfs-urand-1GB",
-          "shared_mpki": 58.9,
+          "shared_mpki": 59.0,
           "uniform_mpki": 58.9,
           "shared_cpi": 6.97,
           "uniform_cpi": 6.97,
@@ -3307,7 +3833,7 @@
           "stlb_focal_only_percent": 0.36,
           "stlb_corunner_only_percent": 31.81,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 3.592814371257491
+          "corunner_speedup": 3.8922155688622784
         },
         {
           "focal_short": "bc",
@@ -3376,11 +3902,11 @@
           "focal_full": "gapbs/bc-urand-4GB",
           "corunner_short": "sssp1",
           "corunner_full": "gapbs/sssp-urand-1GB",
-          "shared_mpki": 54.7,
+          "shared_mpki": 54.8,
           "uniform_mpki": 54.7,
-          "shared_cpi": 6.03,
+          "shared_cpi": 6.04,
           "uniform_cpi": 6.03,
-          "speedup": 0.0,
+          "speedup": 0.16583747927030323,
           "slowdown": 0.0,
           "model_a": 0.031,
           "model_b": 4.338,
@@ -3407,7 +3933,7 @@
           "focal_full": "gapbs/bc-urand-4GB",
           "corunner_short": "xalan17",
           "corunner_full": "spec_cpu2017/623.xalancbmk_s",
-          "shared_mpki": 63.0,
+          "shared_mpki": 62.9,
           "uniform_mpki": 66.6,
           "shared_cpi": 6.25,
           "uniform_cpi": 6.33,
@@ -4029,14 +4555,14 @@
       "short": "pr_k4",
       "full": "gapbs/pr-kron-4GB",
       "co_runner_count": 6,
-      "mean_speedup": -0.43650872133330076,
-      "median_speedup": -0.5028543394880014,
-      "min_speedup": -0.830564784053156,
-      "max_slowdown": 0.8375209380234505,
+      "mean_speedup": -0.2980812573244414,
+      "median_speedup": -0.16501650165016146,
+      "min_speedup": -0.7827788649706457,
+      "max_slowdown": 0.7889546351084853,
       "max_speedup": 0.0,
       "speedups": [
         0.0,
-        -0.830564784053156,
+        0.0,
         -0.3300330033003229,
         0.0,
         -0.6756756756756799,
@@ -4077,33 +4603,33 @@
         {
           "focal_short": "pr_k4",
           "focal_full": "gapbs/pr-kron-4GB",
-          "corunner_short": "mcf",
-          "corunner_full": "spec_cpu2006/429.mcf",
-          "shared_mpki": 150.9,
-          "uniform_mpki": 155.7,
-          "shared_cpi": 5.97,
-          "uniform_cpi": 6.02,
-          "speedup": -0.830564784053156,
-          "slowdown": 0.8375209380234505,
-          "model_a": 0.009,
-          "model_b": 4.615,
+          "corunner_short": "cactuss",
+          "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+          "shared_mpki": 149.3,
+          "uniform_mpki": 149.3,
+          "shared_cpi": 5.1,
+          "uniform_cpi": 5.1,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.005,
+          "model_b": 4.35,
           "mosmodel_points": [
             {
               "layout": "4KB",
-              "mpki": 150.61,
-              "cpi": 6.02
+              "mpki": 149.05,
+              "cpi": 5.12
             },
             {
               "layout": "2MB",
-              "mpki": 0.17,
-              "cpi": 4.62
+              "mpki": 0.0,
+              "cpi": 4.35
             }
           ],
-          "stlb_shared_percent": 2.0,
-          "stlb_focal_only_percent": 2.93,
-          "stlb_corunner_only_percent": 95.07,
+          "stlb_shared_percent": 96.42,
+          "stlb_focal_only_percent": 3.58,
+          "stlb_corunner_only_percent": 0.0,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 32.43847874720358
+          "corunner_speedup": 0.0
         },
         {
           "focal_short": "pr_k4",
@@ -4227,597 +4753,7 @@
           "stlb_focal_only_percent": 0.29,
           "stlb_corunner_only_percent": 96.89,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 45.21739130434783
-        }
-      ]
-    },
-    {
-      "short": "pr",
-      "full": "gapbs/pr-urand-4GB",
-      "co_runner_count": 18,
-      "mean_speedup": -0.3410785192415179,
-      "median_speedup": 0.0,
-      "min_speedup": -1.386962552011095,
-      "max_slowdown": 1.4064697609001309,
-      "max_speedup": 0.0,
-      "speedups": [
-        -0.886524822695034,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        -0.6756756756756799,
-        0.0,
-        0.0,
-        0.0,
-        -1.386962552011095,
-        0.0,
-        0.0,
-        -0.8431703204047181,
-        0.0,
-        0.0,
-        -1.01596516690855,
-        0.0,
-        -1.331114808652245
-      ],
-      "pairs": [
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "astar",
-          "corunner_full": "spec_cpu2006/473.astar",
-          "shared_mpki": 160.2,
-          "uniform_mpki": 172.4,
-          "shared_cpi": 5.59,
-          "uniform_cpi": 5.64,
-          "speedup": -0.886524822695034,
-          "slowdown": 0.8944543828264706,
-          "model_a": 0.004,
-          "model_b": 4.949,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 160.08,
-              "cpi": 5.57
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.0,
-              "cpi": 4.95
-            }
-          ],
-          "stlb_shared_percent": 0.23,
-          "stlb_focal_only_percent": 3.79,
-          "stlb_corunner_only_percent": 95.99,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 16.666666666666675
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "bc",
-          "corunner_full": "gapbs/bc-urand-4GB",
-          "shared_mpki": 160.6,
-          "uniform_mpki": 160.6,
-          "shared_cpi": 7.07,
-          "uniform_cpi": 7.07,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.008,
-          "model_b": 5.79,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 160.54,
-              "cpi": 7.03
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 5.79
-            }
-          ],
-          "stlb_shared_percent": 99.98,
-          "stlb_focal_only_percent": 0.02,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "bc_k4",
-          "corunner_full": "gapbs/bc-kron-4GB",
-          "shared_mpki": 160.9,
-          "uniform_mpki": 160.9,
-          "shared_cpi": 7.33,
-          "uniform_cpi": 7.33,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.009,
-          "model_b": 5.883,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 160.94,
-              "cpi": 7.29
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 5.88
-            }
-          ],
-          "stlb_shared_percent": 96.9,
-          "stlb_focal_only_percent": 3.1,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "bfs1",
-          "corunner_full": "gapbs/bfs-urand-1GB",
-          "shared_mpki": 159.7,
-          "uniform_mpki": 159.7,
-          "shared_cpi": 6.41,
-          "uniform_cpi": 6.41,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.005,
-          "model_b": 5.612,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 159.86,
-              "cpi": 6.38
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 5.61
-            }
-          ],
-          "stlb_shared_percent": 96.61,
-          "stlb_focal_only_percent": 3.39,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -1.2903225806451646
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "cactuss",
-          "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
-          "shared_mpki": 159.5,
-          "uniform_mpki": 159.5,
-          "shared_cpi": 6.11,
-          "uniform_cpi": 6.11,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.004,
-          "model_b": 5.473,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 159.58,
-              "cpi": 6.07
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.0,
-              "cpi": 5.47
-            }
-          ],
-          "stlb_shared_percent": 89.31,
-          "stlb_focal_only_percent": 10.69,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "cc",
-          "corunner_full": "gapbs/cc-urand-4GB",
-          "shared_mpki": 159.8,
-          "uniform_mpki": 171.2,
-          "shared_cpi": 5.88,
-          "uniform_cpi": 5.92,
-          "speedup": -0.6756756756756799,
-          "slowdown": 0.6802721088435382,
-          "model_a": 0.003,
-          "model_b": 5.404,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 159.67,
-              "cpi": 5.9
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 5.4
-            }
-          ],
-          "stlb_shared_percent": 6.1,
-          "stlb_focal_only_percent": 0.07,
-          "stlb_corunner_only_percent": 93.83,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 19.453924914675767
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "gamess",
-          "corunner_full": "spec_cpu2006/416.gamess",
-          "shared_mpki": 159.0,
-          "uniform_mpki": 159.0,
-          "shared_cpi": 5.24,
-          "uniform_cpi": 5.24,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.003,
-          "model_b": 4.766,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 158.97,
-              "cpi": 5.2
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.0,
-              "cpi": 4.77
-            }
-          ],
-          "stlb_shared_percent": 96.18,
-          "stlb_focal_only_percent": 3.82,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "graph4",
-          "corunner_full": "graph500-2.1/4GB",
-          "shared_mpki": 162.1,
-          "uniform_mpki": 162.1,
-          "shared_cpi": 8.52,
-          "uniform_cpi": 8.52,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.013,
-          "model_b": 6.41,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 162.07,
-              "cpi": 8.47
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.03,
-              "cpi": 6.41
-            }
-          ],
-          "stlb_shared_percent": 97.29,
-          "stlb_focal_only_percent": 2.71,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "gups",
-          "corunner_full": "gups/2GB",
-          "shared_mpki": 159.7,
-          "uniform_mpki": 159.7,
-          "shared_cpi": 8.61,
-          "uniform_cpi": 8.61,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.016,
-          "model_b": 6.056,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 159.91,
-              "cpi": 8.61
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 6.06
-            }
-          ],
-          "stlb_shared_percent": 94.96,
-          "stlb_focal_only_percent": 5.04,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": -0.2358490566037652
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "mcf",
-          "corunner_full": "spec_cpu2006/429.mcf",
-          "shared_mpki": 161.7,
-          "uniform_mpki": 174.8,
-          "shared_cpi": 7.11,
-          "uniform_cpi": 7.21,
-          "speedup": -1.386962552011095,
-          "slowdown": 1.4064697609001309,
-          "model_a": 0.008,
-          "model_b": 5.814,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 161.44,
-              "cpi": 7.08
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 5.81
-            }
-          ],
-          "stlb_shared_percent": 2.29,
-          "stlb_focal_only_percent": 3.1,
-          "stlb_corunner_only_percent": 94.62,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 20.674157303370787
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "mcf17",
-          "corunner_full": "spec_cpu2017/605.mcf_s",
-          "shared_mpki": 160.8,
-          "uniform_mpki": 160.8,
-          "shared_cpi": 7.11,
-          "uniform_cpi": 7.11,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.007,
-          "model_b": 5.986,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 160.94,
-              "cpi": 7.09
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 5.99
-            }
-          ],
-          "stlb_shared_percent": 96.81,
-          "stlb_focal_only_percent": 3.19,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "omnet06",
-          "corunner_full": "spec_cpu2006/471.omnetpp",
-          "shared_mpki": 159.7,
-          "uniform_mpki": 159.7,
-          "shared_cpi": 5.97,
-          "uniform_cpi": 5.97,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.004,
-          "model_b": 5.332,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 159.75,
-              "cpi": 6.05
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 5.33
-            }
-          ],
-          "stlb_shared_percent": 96.32,
-          "stlb_focal_only_percent": 3.68,
-          "stlb_corunner_only_percent": 0.0,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "omnet17",
-          "corunner_full": "spec_cpu2017/620.omnetpp_s",
-          "shared_mpki": 159.7,
-          "uniform_mpki": 174.1,
-          "shared_cpi": 5.88,
-          "uniform_cpi": 5.93,
-          "speedup": -0.8431703204047181,
-          "slowdown": 0.8503401360544283,
-          "model_a": 0.004,
-          "model_b": 5.237,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 159.78,
-              "cpi": 5.89
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 5.24
-            }
-          ],
-          "stlb_shared_percent": 3.19,
-          "stlb_focal_only_percent": 3.56,
-          "stlb_corunner_only_percent": 93.25,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 7.1729957805907185
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "pr",
-          "corunner_full": "gapbs/pr-urand-4GB",
-          "shared_mpki": 162.5,
-          "uniform_mpki": 162.5,
-          "shared_cpi": 9.73,
-          "uniform_cpi": 9.73,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.012,
-          "model_b": 7.776,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 162.48,
-              "cpi": 9.7
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.04,
-              "cpi": 7.78
-            }
-          ],
-          "stlb_shared_percent": 99.97,
-          "stlb_focal_only_percent": 0.0,
-          "stlb_corunner_only_percent": 0.03,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "pr_k4",
-          "corunner_full": "gapbs/pr-kron-4GB",
-          "shared_mpki": 162.5,
-          "uniform_mpki": 162.5,
-          "shared_cpi": 9.14,
-          "uniform_cpi": 9.14,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.013,
-          "model_b": 7.031,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 162.46,
-              "cpi": 9.09
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.04,
-              "cpi": 7.03
-            }
-          ],
-          "stlb_shared_percent": 99.63,
-          "stlb_focal_only_percent": 0.0,
-          "stlb_corunner_only_percent": 0.37,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "sssp1",
-          "corunner_full": "gapbs/sssp-urand-1GB",
-          "shared_mpki": 161.1,
-          "uniform_mpki": 172.7,
-          "shared_cpi": 6.82,
-          "uniform_cpi": 6.89,
-          "speedup": -1.01596516690855,
-          "slowdown": 1.026392961876832,
-          "model_a": 0.006,
-          "model_b": 5.856,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 161.08,
-              "cpi": 6.81
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 5.86
-            }
-          ],
-          "stlb_shared_percent": 3.84,
-          "stlb_focal_only_percent": 0.29,
-          "stlb_corunner_only_percent": 95.88,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 4.553119730185506
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "sssp_k4",
-          "corunner_full": "gapbs/sssp-kron-4GB",
-          "shared_mpki": 161.4,
-          "uniform_mpki": 161.4,
-          "shared_cpi": 7.44,
-          "uniform_cpi": 7.44,
-          "speedup": 0.0,
-          "slowdown": 0.0,
-          "model_a": 0.009,
-          "model_b": 5.99,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 161.36,
-              "cpi": 7.39
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.02,
-              "cpi": 5.99
-            }
-          ],
-          "stlb_shared_percent": 98.49,
-          "stlb_focal_only_percent": 0.0,
-          "stlb_corunner_only_percent": 1.51,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
-        },
-        {
-          "focal_short": "pr",
-          "focal_full": "gapbs/pr-urand-4GB",
-          "corunner_short": "xalan17",
-          "corunner_full": "spec_cpu2017/623.xalancbmk_s",
-          "shared_mpki": 160.5,
-          "uniform_mpki": 173.4,
-          "shared_cpi": 5.93,
-          "uniform_cpi": 6.01,
-          "speedup": -1.331114808652245,
-          "slowdown": 1.3490725126475533,
-          "model_a": 0.006,
-          "model_b": 4.972,
-          "mosmodel_points": [
-            {
-              "layout": "4KB",
-              "mpki": 160.84,
-              "cpi": 5.89
-            },
-            {
-              "layout": "2MB",
-              "mpki": 0.01,
-              "cpi": 4.97
-            }
-          ],
-          "stlb_shared_percent": 3.23,
-          "stlb_focal_only_percent": 0.3,
-          "stlb_corunner_only_percent": 96.47,
-          "stlb_state_sample_count": null,
-          "corunner_speedup": 38.39999999999999
+          "corunner_speedup": 46.08695652173913
         }
       ]
     },
@@ -5031,14 +4967,14 @@
       "short": "graph4",
       "full": "graph500-2.1/4GB",
       "co_runner_count": 6,
-      "mean_speedup": -0.6953926773535161,
-      "median_speedup": -0.7913595413595431,
+      "mean_speedup": -0.480800402675402,
+      "median_speedup": -0.3409090909090917,
       "min_speedup": -1.302083333333326,
       "max_slowdown": 1.319261213720302,
       "max_speedup": 0.0,
       "speedups": [
         0.0,
-        -1.2875536480686844,
+        0.0,
         -0.6818181818181834,
         0.0,
         -0.9009009009009028,
@@ -5079,40 +5015,40 @@
         {
           "focal_short": "graph4",
           "focal_full": "graph500-2.1/4GB",
-          "corunner_short": "mcf",
-          "corunner_full": "spec_cpu2006/429.mcf",
-          "shared_mpki": 97.9,
-          "uniform_mpki": 103.4,
-          "shared_cpi": 4.6,
-          "uniform_cpi": 4.66,
-          "speedup": -1.2875536480686844,
-          "slowdown": 1.3043478260869712,
-          "model_a": 0.012,
-          "model_b": 3.422,
+          "corunner_short": "cactuss",
+          "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+          "shared_mpki": 95.6,
+          "uniform_mpki": 95.6,
+          "shared_cpi": 4.03,
+          "uniform_cpi": 4.03,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.008,
+          "model_b": 3.263,
           "mosmodel_points": [
             {
               "layout": "4KB",
-              "mpki": 96.55,
-              "cpi": 4.55
+              "mpki": 94.31,
+              "cpi": 3.97
             },
             {
               "layout": "2MB",
-              "mpki": 0.5,
-              "cpi": 3.43
+              "mpki": 0.06,
+              "cpi": 3.26
             }
           ],
-          "stlb_shared_percent": 2.34,
+          "stlb_shared_percent": 100.0,
           "stlb_focal_only_percent": 0.0,
-          "stlb_corunner_only_percent": 97.66,
+          "stlb_corunner_only_percent": 0.0,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 30.20833333333335
+          "corunner_speedup": 0.0
         },
         {
           "focal_short": "graph4",
           "focal_full": "graph500-2.1/4GB",
           "corunner_short": "mcf17",
           "corunner_full": "spec_cpu2017/605.mcf_s",
-          "shared_mpki": 96.3,
+          "shared_mpki": 96.2,
           "uniform_mpki": 99.0,
           "shared_cpi": 4.37,
           "uniform_cpi": 4.4,
@@ -5143,7 +5079,7 @@
           "focal_full": "graph500-2.1/4GB",
           "corunner_short": "pr",
           "corunner_full": "gapbs/pr-urand-4GB",
-          "shared_mpki": 98.3,
+          "shared_mpki": 98.6,
           "uniform_mpki": 98.7,
           "shared_cpi": 6.05,
           "uniform_cpi": 6.05,
@@ -5167,7 +5103,7 @@
           "stlb_focal_only_percent": 0.0,
           "stlb_corunner_only_percent": 2.71,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 0.0
+          "corunner_speedup": 0.23474178403755097
         },
         {
           "focal_short": "graph4",
@@ -5442,13 +5378,14 @@
     {
       "short": "gamess",
       "full": "spec_cpu2006/416.gamess",
-      "co_runner_count": 6,
+      "co_runner_count": 7,
       "mean_speedup": 0.0,
       "median_speedup": 0.0,
       "min_speedup": 0.0,
       "max_slowdown": 0.0,
       "max_speedup": 0.0,
       "speedups": [
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -5491,6 +5428,37 @@
         {
           "focal_short": "gamess",
           "focal_full": "spec_cpu2006/416.gamess",
+          "corunner_short": "cactuss",
+          "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+          "shared_mpki": 0.0,
+          "uniform_mpki": 0.0,
+          "shared_cpi": 0.59,
+          "uniform_cpi": 0.59,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.0,
+          "model_b": 0.587,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 0.0,
+              "cpi": 0.59
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.0,
+              "cpi": 0.59
+            }
+          ],
+          "stlb_shared_percent": 100.0,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "gamess",
+          "focal_full": "spec_cpu2006/416.gamess",
           "corunner_short": "mcf",
           "corunner_full": "spec_cpu2006/429.mcf",
           "shared_mpki": 0.1,
@@ -5517,7 +5485,7 @@
           "stlb_focal_only_percent": 0.0,
           "stlb_corunner_only_percent": 39.82,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 0.34965034965035446
+          "corunner_speedup": 0.6993006993007089
         },
         {
           "focal_short": "gamess",
@@ -5648,13 +5616,14 @@
     {
       "short": "omnet06",
       "full": "spec_cpu2006/471.omnetpp",
-      "co_runner_count": 6,
-      "mean_speedup": -0.08333333333333341,
+      "co_runner_count": 7,
+      "mean_speedup": -0.0714285714285715,
       "median_speedup": 0.0,
       "min_speedup": -0.5000000000000004,
       "max_slowdown": 0.5025125628140614,
       "max_speedup": 0.0,
       "speedups": [
+        0.0,
         0.0,
         -0.5000000000000004,
         0.0,
@@ -5690,6 +5659,37 @@
           ],
           "stlb_shared_percent": 100.0,
           "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "omnet06",
+          "focal_full": "spec_cpu2006/471.omnetpp",
+          "corunner_short": "cactuss",
+          "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+          "shared_mpki": 9.4,
+          "uniform_mpki": 9.4,
+          "shared_cpi": 1.64,
+          "uniform_cpi": 1.64,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.023,
+          "model_b": 1.424,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 9.58,
+              "cpi": 1.64
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 1.42
+            }
+          ],
+          "stlb_shared_percent": 99.03,
+          "stlb_focal_only_percent": 0.97,
           "stlb_corunner_only_percent": 0.0,
           "stlb_state_sample_count": null,
           "corunner_speedup": 0.0
@@ -5792,7 +5792,7 @@
           "focal_full": "spec_cpu2006/471.omnetpp",
           "corunner_short": "sssp1",
           "corunner_full": "gapbs/sssp-urand-1GB",
-          "shared_mpki": 10.2,
+          "shared_mpki": 10.3,
           "uniform_mpki": 10.3,
           "shared_cpi": 1.97,
           "uniform_cpi": 1.97,
@@ -5854,7 +5854,7 @@
     {
       "short": "cactuss",
       "full": "spec_cpu2017/607.cactuBSSN_s",
-      "co_runner_count": 8,
+      "co_runner_count": 14,
       "mean_speedup": 0.0,
       "median_speedup": 0.0,
       "min_speedup": 0.0,
@@ -5868,9 +5868,46 @@
         0.0,
         0.0,
         0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0
       ],
       "pairs": [
+        {
+          "focal_short": "cactuss",
+          "focal_full": "spec_cpu2017/607.cactuBSSN_s",
+          "corunner_short": "astar",
+          "corunner_full": "spec_cpu2006/473.astar",
+          "shared_mpki": 0.1,
+          "uniform_mpki": 44.0,
+          "shared_cpi": 1.08,
+          "uniform_cpi": 1.08,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.0,
+          "model_b": 1.078,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 0.14,
+              "cpi": 1.08
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.0,
+              "cpi": 1.05
+            }
+          ],
+          "stlb_shared_percent": 20.46,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 79.54,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.8695652173912993
+        },
         {
           "focal_short": "cactuss",
           "focal_full": "spec_cpu2017/607.cactuBSSN_s",
@@ -5936,6 +5973,99 @@
         {
           "focal_short": "cactuss",
           "focal_full": "spec_cpu2017/607.cactuBSSN_s",
+          "corunner_short": "cc",
+          "corunner_full": "gapbs/cc-urand-4GB",
+          "shared_mpki": 0.1,
+          "uniform_mpki": 42.6,
+          "shared_cpi": 1.22,
+          "uniform_cpi": 1.22,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.0,
+          "model_b": 1.215,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 0.13,
+              "cpi": 1.21
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 1.18
+            }
+          ],
+          "stlb_shared_percent": 16.29,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 83.71,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 1.8433179723502224
+        },
+        {
+          "focal_short": "cactuss",
+          "focal_full": "spec_cpu2017/607.cactuBSSN_s",
+          "corunner_short": "gamess",
+          "corunner_full": "spec_cpu2006/416.gamess",
+          "shared_mpki": 0.1,
+          "uniform_mpki": 0.1,
+          "shared_cpi": 1.05,
+          "uniform_cpi": 1.05,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.0,
+          "model_b": 1.047,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 0.11,
+              "cpi": 1.05
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.0,
+              "cpi": 1.01
+            }
+          ],
+          "stlb_shared_percent": 100.0,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "cactuss",
+          "focal_full": "spec_cpu2017/607.cactuBSSN_s",
+          "corunner_short": "graph4",
+          "corunner_full": "graph500-2.1/4GB",
+          "shared_mpki": 0.1,
+          "uniform_mpki": 0.1,
+          "shared_cpi": 1.16,
+          "uniform_cpi": 1.16,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.0,
+          "model_b": 1.163,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 0.25,
+              "cpi": 1.16
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 1.12
+            }
+          ],
+          "stlb_shared_percent": 100.0,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 0.0,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "cactuss",
+          "focal_full": "spec_cpu2017/607.cactuBSSN_s",
           "corunner_short": "mcf",
           "corunner_full": "spec_cpu2006/429.mcf",
           "shared_mpki": 0.1,
@@ -5962,7 +6092,7 @@
           "stlb_focal_only_percent": 0.0,
           "stlb_corunner_only_percent": 89.93,
           "stlb_state_sample_count": null,
-          "corunner_speedup": 2.6315789473684292
+          "corunner_speedup": 2.960526315789469
         },
         {
           "focal_short": "cactuss",
@@ -5994,6 +6124,37 @@
           "stlb_corunner_only_percent": 76.86,
           "stlb_state_sample_count": null,
           "corunner_speedup": 3.141361256544495
+        },
+        {
+          "focal_short": "cactuss",
+          "focal_full": "spec_cpu2017/607.cactuBSSN_s",
+          "corunner_short": "omnet06",
+          "corunner_full": "spec_cpu2006/471.omnetpp",
+          "shared_mpki": 0.1,
+          "uniform_mpki": 0.6,
+          "shared_cpi": 1.05,
+          "uniform_cpi": 1.05,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.0,
+          "model_b": 1.054,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 0.14,
+              "cpi": 1.05
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.01,
+              "cpi": 1.02
+            }
+          ],
+          "stlb_shared_percent": 99.03,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 0.97,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
         },
         {
           "focal_short": "cactuss",
@@ -6054,6 +6215,37 @@
           "stlb_shared_percent": 89.31,
           "stlb_focal_only_percent": 0.0,
           "stlb_corunner_only_percent": 10.69,
+          "stlb_state_sample_count": null,
+          "corunner_speedup": 0.0
+        },
+        {
+          "focal_short": "cactuss",
+          "focal_full": "spec_cpu2017/607.cactuBSSN_s",
+          "corunner_short": "pr_k4",
+          "corunner_full": "gapbs/pr-kron-4GB",
+          "shared_mpki": 0.1,
+          "uniform_mpki": 2.7,
+          "shared_cpi": 1.3,
+          "uniform_cpi": 1.3,
+          "speedup": 0.0,
+          "slowdown": 0.0,
+          "model_a": 0.0,
+          "model_b": 1.3,
+          "mosmodel_points": [
+            {
+              "layout": "4KB",
+              "mpki": 0.3,
+              "cpi": 1.3
+            },
+            {
+              "layout": "2MB",
+              "mpki": 0.02,
+              "cpi": 1.25
+            }
+          ],
+          "stlb_shared_percent": 96.42,
+          "stlb_focal_only_percent": 0.0,
+          "stlb_corunner_only_percent": 3.58,
           "stlb_state_sample_count": null,
           "corunner_speedup": 0.0
         },
@@ -6195,6 +6387,77 @@
       }
     },
     {
+      "workload": "astar+cactuss",
+      "benchmark1_short": "astar",
+      "benchmark2_short": "cactuss",
+      "benchmark1_full": "spec_cpu2006/473.astar",
+      "benchmark2_full": "spec_cpu2017/607.cactuBSSN_s",
+      "baseline_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/shared/lru/all_workloads.csv",
+      "wptlb_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/uniform_ownership/lru/pi_5ms_dw3_oi10p/all_workloads.csv",
+      "side1": {
+        "focal_short": "astar",
+        "focal_full": "spec_cpu2006/473.astar",
+        "corunner_short": "cactuss",
+        "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+        "shared_mpki": 5.0,
+        "uniform_mpki": 4.3,
+        "shared_cpi": 2.32,
+        "uniform_cpi": 2.3,
+        "speedup": 0.8695652173912993,
+        "slowdown": 0.0,
+        "model_a": 0.032,
+        "model_b": 2.161,
+        "mosmodel_points": [
+          {
+            "layout": "4KB",
+            "mpki": 5.65,
+            "cpi": 2.34
+          },
+          {
+            "layout": "2MB",
+            "mpki": 0.0,
+            "cpi": 2.16
+          }
+        ],
+        "stlb_shared_percent": 20.46,
+        "stlb_focal_only_percent": 79.54,
+        "stlb_corunner_only_percent": 0.0,
+        "stlb_state_sample_count": null,
+        "corunner_speedup": 0.0
+      },
+      "side2": {
+        "focal_short": "cactuss",
+        "focal_full": "spec_cpu2017/607.cactuBSSN_s",
+        "corunner_short": "astar",
+        "corunner_full": "spec_cpu2006/473.astar",
+        "shared_mpki": 0.1,
+        "uniform_mpki": 44.0,
+        "shared_cpi": 1.08,
+        "uniform_cpi": 1.08,
+        "speedup": 0.0,
+        "slowdown": 0.0,
+        "model_a": 0.0,
+        "model_b": 1.078,
+        "mosmodel_points": [
+          {
+            "layout": "4KB",
+            "mpki": 0.14,
+            "cpi": 1.08
+          },
+          {
+            "layout": "2MB",
+            "mpki": 0.0,
+            "cpi": 1.05
+          }
+        ],
+        "stlb_shared_percent": 20.46,
+        "stlb_focal_only_percent": 0.0,
+        "stlb_corunner_only_percent": 79.54,
+        "stlb_state_sample_count": null,
+        "corunner_speedup": 0.8695652173912993
+      }
+    },
+    {
       "workload": "astar+mcf",
       "benchmark1_short": "astar",
       "benchmark2_short": "mcf",
@@ -6207,7 +6470,7 @@
         "focal_full": "spec_cpu2006/473.astar",
         "corunner_short": "mcf",
         "corunner_full": "spec_cpu2006/429.mcf",
-        "shared_mpki": 15.5,
+        "shared_mpki": 15.4,
         "uniform_mpki": 19.9,
         "shared_cpi": 2.53,
         "uniform_cpi": 2.62,
@@ -6231,18 +6494,18 @@
         "stlb_focal_only_percent": 0.0,
         "stlb_corunner_only_percent": 35.67,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 3.8709677419354938
+        "corunner_speedup": 2.580645161290329
       },
       "side2": {
         "focal_short": "mcf",
         "focal_full": "spec_cpu2006/429.mcf",
         "corunner_short": "astar",
         "corunner_full": "spec_cpu2006/473.astar",
-        "shared_mpki": 23.9,
+        "shared_mpki": 21.6,
         "uniform_mpki": 17.3,
-        "shared_cpi": 3.22,
+        "shared_cpi": 3.18,
         "uniform_cpi": 3.1,
-        "speedup": 3.8709677419354938,
+        "speedup": 2.580645161290329,
         "slowdown": 0.0,
         "model_a": 0.018,
         "model_b": 2.793,
@@ -6278,7 +6541,7 @@
         "focal_full": "spec_cpu2006/473.astar",
         "corunner_short": "mcf17",
         "corunner_full": "spec_cpu2017/605.mcf_s",
-        "shared_mpki": 9.6,
+        "shared_mpki": 9.5,
         "uniform_mpki": 9.9,
         "shared_cpi": 2.5,
         "uniform_cpi": 2.51,
@@ -6522,7 +6785,7 @@
         "focal_full": "spec_cpu2017/623.xalancbmk_s",
         "corunner_short": "astar",
         "corunner_full": "spec_cpu2006/473.astar",
-        "shared_mpki": 6.9,
+        "shared_mpki": 7.0,
         "uniform_mpki": 5.2,
         "shared_cpi": 1.21,
         "uniform_cpi": 1.14,
@@ -6562,7 +6825,7 @@
         "focal_full": "gapbs/bc-urand-4GB",
         "corunner_short": "bfs1",
         "corunner_full": "gapbs/bfs-urand-1GB",
-        "shared_mpki": 58.9,
+        "shared_mpki": 59.0,
         "uniform_mpki": 58.9,
         "shared_cpi": 6.97,
         "uniform_cpi": 6.97,
@@ -6657,18 +6920,18 @@
         "stlb_focal_only_percent": 0.36,
         "stlb_corunner_only_percent": 31.81,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 3.592814371257491
+        "corunner_speedup": 3.8922155688622784
       },
       "side2": {
         "focal_short": "mcf",
         "focal_full": "spec_cpu2006/429.mcf",
         "corunner_short": "bc",
         "corunner_full": "gapbs/bc-urand-4GB",
-        "shared_mpki": 23.3,
+        "shared_mpki": 23.5,
         "uniform_mpki": 17.8,
-        "shared_cpi": 3.46,
+        "shared_cpi": 3.47,
         "uniform_cpi": 3.34,
-        "speedup": 3.592814371257491,
+        "speedup": 3.8922155688622784,
         "slowdown": 0.0,
         "model_a": 0.023,
         "model_b": 2.929,
@@ -6806,7 +7069,7 @@
         "focal_full": "gapbs/pr-urand-4GB",
         "corunner_short": "bc",
         "corunner_full": "gapbs/bc-urand-4GB",
-        "shared_mpki": 160.6,
+        "shared_mpki": 160.5,
         "uniform_mpki": 160.6,
         "shared_cpi": 7.07,
         "uniform_cpi": 7.07,
@@ -6846,11 +7109,11 @@
         "focal_full": "gapbs/bc-urand-4GB",
         "corunner_short": "sssp1",
         "corunner_full": "gapbs/sssp-urand-1GB",
-        "shared_mpki": 54.7,
+        "shared_mpki": 54.8,
         "uniform_mpki": 54.7,
-        "shared_cpi": 6.03,
+        "shared_cpi": 6.04,
         "uniform_cpi": 6.03,
-        "speedup": 0.0,
+        "speedup": 0.16583747927030323,
         "slowdown": 0.0,
         "model_a": 0.031,
         "model_b": 4.338,
@@ -6877,7 +7140,7 @@
         "focal_full": "gapbs/sssp-urand-1GB",
         "corunner_short": "bc",
         "corunner_full": "gapbs/bc-urand-4GB",
-        "shared_mpki": 58.1,
+        "shared_mpki": 58.2,
         "uniform_mpki": 58.2,
         "shared_cpi": 4.95,
         "uniform_cpi": 4.95,
@@ -6901,7 +7164,7 @@
         "stlb_focal_only_percent": 3.05,
         "stlb_corunner_only_percent": 0.34,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 0.0
+        "corunner_speedup": 0.16583747927030323
       }
     },
     {
@@ -6917,7 +7180,7 @@
         "focal_full": "gapbs/bc-urand-4GB",
         "corunner_short": "xalan17",
         "corunner_full": "spec_cpu2017/623.xalancbmk_s",
-        "shared_mpki": 63.0,
+        "shared_mpki": 62.9,
         "uniform_mpki": 66.6,
         "shared_cpi": 6.25,
         "uniform_cpi": 6.33,
@@ -7059,12 +7322,12 @@
         "focal_full": "gapbs/bc-kron-4GB",
         "corunner_short": "mcf",
         "corunner_full": "spec_cpu2006/429.mcf",
-        "shared_mpki": 47.1,
+        "shared_mpki": 49.8,
         "uniform_mpki": 49.3,
-        "shared_cpi": 4.14,
+        "shared_cpi": 4.19,
         "uniform_cpi": 4.18,
-        "speedup": -0.9569377990430672,
-        "slowdown": 0.9661835748792313,
+        "speedup": 0.23923444976077235,
+        "slowdown": 0.0,
         "model_a": 0.019,
         "model_b": 3.245,
         "mosmodel_points": [
@@ -7083,18 +7346,18 @@
         "stlb_focal_only_percent": 0.0,
         "stlb_corunner_only_percent": 88.73,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 11.897106109324774
+        "corunner_speedup": 11.2540192926045
       },
       "side2": {
         "focal_short": "mcf",
         "focal_full": "spec_cpu2006/429.mcf",
         "corunner_short": "bc_k4",
         "corunner_full": "gapbs/bc-kron-4GB",
-        "shared_mpki": 28.6,
+        "shared_mpki": 27.5,
         "uniform_mpki": 9.8,
-        "shared_cpi": 3.48,
+        "shared_cpi": 3.46,
         "uniform_cpi": 3.11,
-        "speedup": 11.897106109324774,
+        "speedup": 11.2540192926045,
         "slowdown": 0.0,
         "model_a": 0.02,
         "model_b": 2.913,
@@ -7114,7 +7377,7 @@
         "stlb_focal_only_percent": 88.73,
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
-        "corunner_speedup": -0.9569377990430672
+        "corunner_speedup": 0.23923444976077235
       }
     },
     {
@@ -7161,7 +7424,7 @@
         "focal_full": "spec_cpu2017/605.mcf_s",
         "corunner_short": "bc_k4",
         "corunner_full": "gapbs/bc-kron-4GB",
-        "shared_mpki": 8.6,
+        "shared_mpki": 8.5,
         "uniform_mpki": 3.8,
         "shared_cpi": 2.08,
         "uniform_cpi": 2.01,
@@ -7201,12 +7464,12 @@
         "focal_full": "gapbs/bc-kron-4GB",
         "corunner_short": "pr",
         "corunner_full": "gapbs/pr-urand-4GB",
-        "shared_mpki": 52.7,
+        "shared_mpki": 48.9,
         "uniform_mpki": 52.7,
-        "shared_cpi": 5.09,
+        "shared_cpi": 5.03,
         "uniform_cpi": 5.09,
-        "speedup": 0.0,
-        "slowdown": 0.0,
+        "speedup": -1.178781925343808,
+        "slowdown": 1.1928429423459175,
         "model_a": 0.018,
         "model_b": 4.145,
         "mosmodel_points": [
@@ -7225,19 +7488,19 @@
         "stlb_focal_only_percent": 0.0,
         "stlb_corunner_only_percent": 3.1,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 0.0
+        "corunner_speedup": -0.13642564802182067
       },
       "side2": {
         "focal_short": "pr",
         "focal_full": "gapbs/pr-urand-4GB",
         "corunner_short": "bc_k4",
         "corunner_full": "gapbs/bc-kron-4GB",
-        "shared_mpki": 160.9,
+        "shared_mpki": 160.1,
         "uniform_mpki": 160.9,
-        "shared_cpi": 7.33,
+        "shared_cpi": 7.32,
         "uniform_cpi": 7.33,
-        "speedup": 0.0,
-        "slowdown": 0.0,
+        "speedup": -0.13642564802182067,
+        "slowdown": 0.1366120218579292,
         "model_a": 0.009,
         "model_b": 5.883,
         "mosmodel_points": [
@@ -7256,7 +7519,7 @@
         "stlb_focal_only_percent": 3.1,
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 0.0
+        "corunner_speedup": -1.178781925343808
       }
     },
     {
@@ -7272,7 +7535,7 @@
         "focal_full": "gapbs/bc-kron-4GB",
         "corunner_short": "sssp1",
         "corunner_full": "gapbs/sssp-urand-1GB",
-        "shared_mpki": 46.8,
+        "shared_mpki": 47.0,
         "uniform_mpki": 47.1,
         "shared_cpi": 4.04,
         "uniform_cpi": 4.05,
@@ -7303,7 +7566,7 @@
         "focal_full": "gapbs/sssp-urand-1GB",
         "corunner_short": "bc_k4",
         "corunner_full": "gapbs/bc-kron-4GB",
-        "shared_mpki": 59.6,
+        "shared_mpki": 59.5,
         "uniform_mpki": 57.1,
         "shared_cpi": 5.1,
         "uniform_cpi": 5.05,
@@ -7343,7 +7606,7 @@
         "focal_full": "gapbs/bc-kron-4GB",
         "corunner_short": "xalan17",
         "corunner_full": "spec_cpu2017/623.xalancbmk_s",
-        "shared_mpki": 50.0,
+        "shared_mpki": 49.6,
         "uniform_mpki": 52.6,
         "shared_cpi": 3.86,
         "uniform_cpi": 3.9,
@@ -7871,7 +8134,7 @@
         "focal_full": "spec_cpu2006/429.mcf",
         "corunner_short": "bfs1",
         "corunner_full": "gapbs/bfs-urand-1GB",
-        "shared_mpki": 19.8,
+        "shared_mpki": 19.9,
         "uniform_mpki": 16.9,
         "shared_cpi": 3.73,
         "uniform_cpi": 3.67,
@@ -8538,6 +8801,219 @@
       }
     },
     {
+      "workload": "cactuss+cc",
+      "benchmark1_short": "cactuss",
+      "benchmark2_short": "cc",
+      "benchmark1_full": "spec_cpu2017/607.cactuBSSN_s",
+      "benchmark2_full": "gapbs/cc-urand-4GB",
+      "baseline_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/shared/lru/all_workloads.csv",
+      "wptlb_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/uniform_ownership/lru/pi_5ms_dw3_oi10p/all_workloads.csv",
+      "side1": {
+        "focal_short": "cactuss",
+        "focal_full": "spec_cpu2017/607.cactuBSSN_s",
+        "corunner_short": "cc",
+        "corunner_full": "gapbs/cc-urand-4GB",
+        "shared_mpki": 0.1,
+        "uniform_mpki": 42.6,
+        "shared_cpi": 1.22,
+        "uniform_cpi": 1.22,
+        "speedup": 0.0,
+        "slowdown": 0.0,
+        "model_a": 0.0,
+        "model_b": 1.215,
+        "mosmodel_points": [
+          {
+            "layout": "4KB",
+            "mpki": 0.13,
+            "cpi": 1.21
+          },
+          {
+            "layout": "2MB",
+            "mpki": 0.01,
+            "cpi": 1.18
+          }
+        ],
+        "stlb_shared_percent": 16.29,
+        "stlb_focal_only_percent": 0.0,
+        "stlb_corunner_only_percent": 83.71,
+        "stlb_state_sample_count": null,
+        "corunner_speedup": 1.8433179723502224
+      },
+      "side2": {
+        "focal_short": "cc",
+        "focal_full": "gapbs/cc-urand-4GB",
+        "corunner_short": "cactuss",
+        "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+        "shared_mpki": 8.1,
+        "uniform_mpki": 7.0,
+        "shared_cpi": 4.42,
+        "uniform_cpi": 4.34,
+        "speedup": 1.8433179723502224,
+        "slowdown": 0.0,
+        "model_a": 0.073,
+        "model_b": 3.826,
+        "mosmodel_points": [
+          {
+            "layout": "4KB",
+            "mpki": 8.85,
+            "cpi": 4.47
+          },
+          {
+            "layout": "2MB",
+            "mpki": 0.0,
+            "cpi": 3.83
+          }
+        ],
+        "stlb_shared_percent": 16.29,
+        "stlb_focal_only_percent": 83.71,
+        "stlb_corunner_only_percent": 0.0,
+        "stlb_state_sample_count": null,
+        "corunner_speedup": 0.0
+      }
+    },
+    {
+      "workload": "cactuss+gamess",
+      "benchmark1_short": "cactuss",
+      "benchmark2_short": "gamess",
+      "benchmark1_full": "spec_cpu2017/607.cactuBSSN_s",
+      "benchmark2_full": "spec_cpu2006/416.gamess",
+      "baseline_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/shared/lru/all_workloads.csv",
+      "wptlb_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/uniform_ownership/lru/pi_5ms_dw3_oi10p/all_workloads.csv",
+      "side1": {
+        "focal_short": "cactuss",
+        "focal_full": "spec_cpu2017/607.cactuBSSN_s",
+        "corunner_short": "gamess",
+        "corunner_full": "spec_cpu2006/416.gamess",
+        "shared_mpki": 0.1,
+        "uniform_mpki": 0.1,
+        "shared_cpi": 1.05,
+        "uniform_cpi": 1.05,
+        "speedup": 0.0,
+        "slowdown": 0.0,
+        "model_a": 0.0,
+        "model_b": 1.047,
+        "mosmodel_points": [
+          {
+            "layout": "4KB",
+            "mpki": 0.11,
+            "cpi": 1.05
+          },
+          {
+            "layout": "2MB",
+            "mpki": 0.0,
+            "cpi": 1.01
+          }
+        ],
+        "stlb_shared_percent": 100.0,
+        "stlb_focal_only_percent": 0.0,
+        "stlb_corunner_only_percent": 0.0,
+        "stlb_state_sample_count": null,
+        "corunner_speedup": 0.0
+      },
+      "side2": {
+        "focal_short": "gamess",
+        "focal_full": "spec_cpu2006/416.gamess",
+        "corunner_short": "cactuss",
+        "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+        "shared_mpki": 0.0,
+        "uniform_mpki": 0.0,
+        "shared_cpi": 0.59,
+        "uniform_cpi": 0.59,
+        "speedup": 0.0,
+        "slowdown": 0.0,
+        "model_a": 0.0,
+        "model_b": 0.587,
+        "mosmodel_points": [
+          {
+            "layout": "4KB",
+            "mpki": 0.0,
+            "cpi": 0.59
+          },
+          {
+            "layout": "2MB",
+            "mpki": 0.0,
+            "cpi": 0.59
+          }
+        ],
+        "stlb_shared_percent": 100.0,
+        "stlb_focal_only_percent": 0.0,
+        "stlb_corunner_only_percent": 0.0,
+        "stlb_state_sample_count": null,
+        "corunner_speedup": 0.0
+      }
+    },
+    {
+      "workload": "cactuss+graph4",
+      "benchmark1_short": "cactuss",
+      "benchmark2_short": "graph4",
+      "benchmark1_full": "spec_cpu2017/607.cactuBSSN_s",
+      "benchmark2_full": "graph500-2.1/4GB",
+      "baseline_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/shared/lru/all_workloads.csv",
+      "wptlb_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/uniform_ownership/lru/pi_5ms_dw3_oi10p/all_workloads.csv",
+      "side1": {
+        "focal_short": "cactuss",
+        "focal_full": "spec_cpu2017/607.cactuBSSN_s",
+        "corunner_short": "graph4",
+        "corunner_full": "graph500-2.1/4GB",
+        "shared_mpki": 0.1,
+        "uniform_mpki": 0.1,
+        "shared_cpi": 1.16,
+        "uniform_cpi": 1.16,
+        "speedup": 0.0,
+        "slowdown": 0.0,
+        "model_a": 0.0,
+        "model_b": 1.163,
+        "mosmodel_points": [
+          {
+            "layout": "4KB",
+            "mpki": 0.25,
+            "cpi": 1.16
+          },
+          {
+            "layout": "2MB",
+            "mpki": 0.02,
+            "cpi": 1.12
+          }
+        ],
+        "stlb_shared_percent": 100.0,
+        "stlb_focal_only_percent": 0.0,
+        "stlb_corunner_only_percent": 0.0,
+        "stlb_state_sample_count": null,
+        "corunner_speedup": 0.0
+      },
+      "side2": {
+        "focal_short": "graph4",
+        "focal_full": "graph500-2.1/4GB",
+        "corunner_short": "cactuss",
+        "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+        "shared_mpki": 95.6,
+        "uniform_mpki": 95.6,
+        "shared_cpi": 4.03,
+        "uniform_cpi": 4.03,
+        "speedup": 0.0,
+        "slowdown": 0.0,
+        "model_a": 0.008,
+        "model_b": 3.263,
+        "mosmodel_points": [
+          {
+            "layout": "4KB",
+            "mpki": 94.31,
+            "cpi": 3.97
+          },
+          {
+            "layout": "2MB",
+            "mpki": 0.06,
+            "cpi": 3.26
+          }
+        ],
+        "stlb_shared_percent": 100.0,
+        "stlb_focal_only_percent": 0.0,
+        "stlb_corunner_only_percent": 0.0,
+        "stlb_state_sample_count": null,
+        "corunner_speedup": 0.0
+      }
+    },
+    {
       "workload": "cactuss+mcf",
       "benchmark1_short": "cactuss",
       "benchmark2_short": "mcf",
@@ -8574,18 +9050,18 @@
         "stlb_focal_only_percent": 0.0,
         "stlb_corunner_only_percent": 89.93,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 2.6315789473684292
+        "corunner_speedup": 2.960526315789469
       },
       "side2": {
         "focal_short": "mcf",
         "focal_full": "spec_cpu2006/429.mcf",
         "corunner_short": "cactuss",
         "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
-        "shared_mpki": 13.5,
+        "shared_mpki": 13.9,
         "uniform_mpki": 9.1,
-        "shared_cpi": 3.12,
+        "shared_cpi": 3.13,
         "uniform_cpi": 3.04,
-        "speedup": 2.6315789473684292,
+        "speedup": 2.960526315789469,
         "slowdown": 0.0,
         "model_a": 0.018,
         "model_b": 2.88,
@@ -8652,7 +9128,7 @@
         "focal_full": "spec_cpu2017/605.mcf_s",
         "corunner_short": "cactuss",
         "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
-        "shared_mpki": 3.2,
+        "shared_mpki": 3.1,
         "uniform_mpki": 1.3,
         "shared_cpi": 1.97,
         "uniform_cpi": 1.91,
@@ -8674,6 +9150,77 @@
         ],
         "stlb_shared_percent": 23.14,
         "stlb_focal_only_percent": 76.86,
+        "stlb_corunner_only_percent": 0.0,
+        "stlb_state_sample_count": null,
+        "corunner_speedup": 0.0
+      }
+    },
+    {
+      "workload": "cactuss+omnet06",
+      "benchmark1_short": "cactuss",
+      "benchmark2_short": "omnet06",
+      "benchmark1_full": "spec_cpu2017/607.cactuBSSN_s",
+      "benchmark2_full": "spec_cpu2006/471.omnetpp",
+      "baseline_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/shared/lru/all_workloads.csv",
+      "wptlb_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/uniform_ownership/lru/pi_5ms_dw3_oi10p/all_workloads.csv",
+      "side1": {
+        "focal_short": "cactuss",
+        "focal_full": "spec_cpu2017/607.cactuBSSN_s",
+        "corunner_short": "omnet06",
+        "corunner_full": "spec_cpu2006/471.omnetpp",
+        "shared_mpki": 0.1,
+        "uniform_mpki": 0.6,
+        "shared_cpi": 1.05,
+        "uniform_cpi": 1.05,
+        "speedup": 0.0,
+        "slowdown": 0.0,
+        "model_a": 0.0,
+        "model_b": 1.054,
+        "mosmodel_points": [
+          {
+            "layout": "4KB",
+            "mpki": 0.14,
+            "cpi": 1.05
+          },
+          {
+            "layout": "2MB",
+            "mpki": 0.01,
+            "cpi": 1.02
+          }
+        ],
+        "stlb_shared_percent": 99.03,
+        "stlb_focal_only_percent": 0.0,
+        "stlb_corunner_only_percent": 0.97,
+        "stlb_state_sample_count": null,
+        "corunner_speedup": 0.0
+      },
+      "side2": {
+        "focal_short": "omnet06",
+        "focal_full": "spec_cpu2006/471.omnetpp",
+        "corunner_short": "cactuss",
+        "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+        "shared_mpki": 9.4,
+        "uniform_mpki": 9.4,
+        "shared_cpi": 1.64,
+        "uniform_cpi": 1.64,
+        "speedup": 0.0,
+        "slowdown": 0.0,
+        "model_a": 0.023,
+        "model_b": 1.424,
+        "mosmodel_points": [
+          {
+            "layout": "4KB",
+            "mpki": 9.58,
+            "cpi": 1.64
+          },
+          {
+            "layout": "2MB",
+            "mpki": 0.01,
+            "cpi": 1.42
+          }
+        ],
+        "stlb_shared_percent": 99.03,
+        "stlb_focal_only_percent": 0.97,
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
@@ -8816,6 +9363,77 @@
         ],
         "stlb_shared_percent": 89.31,
         "stlb_focal_only_percent": 10.69,
+        "stlb_corunner_only_percent": 0.0,
+        "stlb_state_sample_count": null,
+        "corunner_speedup": 0.0
+      }
+    },
+    {
+      "workload": "cactuss+pr_k4",
+      "benchmark1_short": "cactuss",
+      "benchmark2_short": "pr_k4",
+      "benchmark1_full": "spec_cpu2017/607.cactuBSSN_s",
+      "benchmark2_full": "gapbs/pr-kron-4GB",
+      "baseline_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/shared/lru/all_workloads.csv",
+      "wptlb_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/uniform_ownership/lru/pi_5ms_dw3_oi10p/all_workloads.csv",
+      "side1": {
+        "focal_short": "cactuss",
+        "focal_full": "spec_cpu2017/607.cactuBSSN_s",
+        "corunner_short": "pr_k4",
+        "corunner_full": "gapbs/pr-kron-4GB",
+        "shared_mpki": 0.1,
+        "uniform_mpki": 2.7,
+        "shared_cpi": 1.3,
+        "uniform_cpi": 1.3,
+        "speedup": 0.0,
+        "slowdown": 0.0,
+        "model_a": 0.0,
+        "model_b": 1.3,
+        "mosmodel_points": [
+          {
+            "layout": "4KB",
+            "mpki": 0.3,
+            "cpi": 1.3
+          },
+          {
+            "layout": "2MB",
+            "mpki": 0.02,
+            "cpi": 1.25
+          }
+        ],
+        "stlb_shared_percent": 96.42,
+        "stlb_focal_only_percent": 0.0,
+        "stlb_corunner_only_percent": 3.58,
+        "stlb_state_sample_count": null,
+        "corunner_speedup": 0.0
+      },
+      "side2": {
+        "focal_short": "pr_k4",
+        "focal_full": "gapbs/pr-kron-4GB",
+        "corunner_short": "cactuss",
+        "corunner_full": "spec_cpu2017/607.cactuBSSN_s",
+        "shared_mpki": 149.3,
+        "uniform_mpki": 149.3,
+        "shared_cpi": 5.1,
+        "uniform_cpi": 5.1,
+        "speedup": 0.0,
+        "slowdown": 0.0,
+        "model_a": 0.005,
+        "model_b": 4.35,
+        "mosmodel_points": [
+          {
+            "layout": "4KB",
+            "mpki": 149.05,
+            "cpi": 5.12
+          },
+          {
+            "layout": "2MB",
+            "mpki": 0.0,
+            "cpi": 4.35
+          }
+        ],
+        "stlb_shared_percent": 96.42,
+        "stlb_focal_only_percent": 3.58,
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
@@ -8976,7 +9594,7 @@
         "focal_full": "gapbs/cc-urand-4GB",
         "corunner_short": "mcf",
         "corunner_full": "spec_cpu2006/429.mcf",
-        "shared_mpki": 17.1,
+        "shared_mpki": 17.0,
         "uniform_mpki": 17.0,
         "shared_cpi": 5.33,
         "uniform_cpi": 5.33,
@@ -9000,19 +9618,19 @@
         "stlb_focal_only_percent": 2.88,
         "stlb_corunner_only_percent": 3.43,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 0.0
+        "corunner_speedup": -0.3095975232198067
       },
       "side2": {
         "focal_short": "mcf",
         "focal_full": "spec_cpu2006/429.mcf",
         "corunner_short": "cc",
         "corunner_full": "gapbs/cc-urand-4GB",
-        "shared_mpki": 17.0,
+        "shared_mpki": 16.9,
         "uniform_mpki": 17.3,
-        "shared_cpi": 3.23,
+        "shared_cpi": 3.22,
         "uniform_cpi": 3.23,
-        "speedup": 0.0,
-        "slowdown": 0.0,
+        "speedup": -0.3095975232198067,
+        "slowdown": 0.31055900621117516,
         "model_a": 0.023,
         "model_b": 2.837,
         "mosmodel_points": [
@@ -9260,11 +9878,11 @@
         "focal_full": "gapbs/cc-urand-4GB",
         "corunner_short": "xalan17",
         "corunner_full": "spec_cpu2017/623.xalancbmk_s",
-        "shared_mpki": 16.0,
+        "shared_mpki": 15.9,
         "uniform_mpki": 15.9,
-        "shared_cpi": 4.2,
+        "shared_cpi": 4.19,
         "uniform_cpi": 4.19,
-        "speedup": 0.23866348448686736,
+        "speedup": 0.0,
         "slowdown": 0.0,
         "model_a": 0.045,
         "model_b": 3.474,
@@ -9291,7 +9909,7 @@
         "focal_full": "spec_cpu2017/623.xalancbmk_s",
         "corunner_short": "cc",
         "corunner_full": "gapbs/cc-urand-4GB",
-        "shared_mpki": 6.1,
+        "shared_mpki": 6.2,
         "uniform_mpki": 6.3,
         "shared_cpi": 1.19,
         "uniform_cpi": 1.2,
@@ -9315,7 +9933,7 @@
         "stlb_focal_only_percent": 4.56,
         "stlb_corunner_only_percent": 1.27,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 0.23866348448686736
+        "corunner_speedup": 0.0
       }
     },
     {
@@ -9355,7 +9973,7 @@
         "stlb_focal_only_percent": 0.0,
         "stlb_corunner_only_percent": 39.82,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 0.34965034965035446
+        "corunner_speedup": 0.6993006993007089
       },
       "side2": {
         "focal_short": "mcf",
@@ -9364,9 +9982,9 @@
         "corunner_full": "spec_cpu2006/416.gamess",
         "shared_mpki": 10.4,
         "uniform_mpki": 9.7,
-        "shared_cpi": 2.87,
+        "shared_cpi": 2.88,
         "uniform_cpi": 2.86,
-        "speedup": 0.34965034965035446,
+        "speedup": 0.6993006993007089,
         "slowdown": 0.0,
         "model_a": 0.025,
         "model_b": 2.615,
@@ -9674,77 +10292,6 @@
       }
     },
     {
-      "workload": "graph4+mcf",
-      "benchmark1_short": "graph4",
-      "benchmark2_short": "mcf",
-      "benchmark1_full": "graph500-2.1/4GB",
-      "benchmark2_full": "spec_cpu2006/429.mcf",
-      "baseline_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/shared/lru/all_workloads.csv",
-      "wptlb_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/uniform_ownership/lru/pi_5ms_dw3_oi10p/all_workloads.csv",
-      "side1": {
-        "focal_short": "graph4",
-        "focal_full": "graph500-2.1/4GB",
-        "corunner_short": "mcf",
-        "corunner_full": "spec_cpu2006/429.mcf",
-        "shared_mpki": 97.9,
-        "uniform_mpki": 103.4,
-        "shared_cpi": 4.6,
-        "uniform_cpi": 4.66,
-        "speedup": -1.2875536480686844,
-        "slowdown": 1.3043478260869712,
-        "model_a": 0.012,
-        "model_b": 3.422,
-        "mosmodel_points": [
-          {
-            "layout": "4KB",
-            "mpki": 96.55,
-            "cpi": 4.55
-          },
-          {
-            "layout": "2MB",
-            "mpki": 0.5,
-            "cpi": 3.43
-          }
-        ],
-        "stlb_shared_percent": 2.34,
-        "stlb_focal_only_percent": 0.0,
-        "stlb_corunner_only_percent": 97.66,
-        "stlb_state_sample_count": null,
-        "corunner_speedup": 30.20833333333335
-      },
-      "side2": {
-        "focal_short": "mcf",
-        "focal_full": "spec_cpu2006/429.mcf",
-        "corunner_short": "graph4",
-        "corunner_full": "graph500-2.1/4GB",
-        "shared_mpki": 54.2,
-        "uniform_mpki": 11.3,
-        "shared_cpi": 5.0,
-        "uniform_cpi": 3.84,
-        "speedup": 30.20833333333335,
-        "slowdown": 0.0,
-        "model_a": 0.027,
-        "model_b": 3.535,
-        "mosmodel_points": [
-          {
-            "layout": "4KB",
-            "mpki": 48.4,
-            "cpi": 4.84
-          },
-          {
-            "layout": "2MB",
-            "mpki": 5.51,
-            "cpi": 3.68
-          }
-        ],
-        "stlb_shared_percent": 2.34,
-        "stlb_focal_only_percent": 97.66,
-        "stlb_corunner_only_percent": 0.0,
-        "stlb_state_sample_count": null,
-        "corunner_speedup": -1.2875536480686844
-      }
-    },
-    {
       "workload": "graph4+mcf17",
       "benchmark1_short": "graph4",
       "benchmark2_short": "mcf17",
@@ -9757,7 +10304,7 @@
         "focal_full": "graph500-2.1/4GB",
         "corunner_short": "mcf17",
         "corunner_full": "spec_cpu2017/605.mcf_s",
-        "shared_mpki": 96.3,
+        "shared_mpki": 96.2,
         "uniform_mpki": 99.0,
         "shared_cpi": 4.37,
         "uniform_cpi": 4.4,
@@ -9788,7 +10335,7 @@
         "focal_full": "spec_cpu2017/605.mcf_s",
         "corunner_short": "graph4",
         "corunner_full": "graph500-2.1/4GB",
-        "shared_mpki": 14.0,
+        "shared_mpki": 14.1,
         "uniform_mpki": 3.9,
         "shared_cpi": 2.49,
         "uniform_cpi": 2.36,
@@ -9828,7 +10375,7 @@
         "focal_full": "graph500-2.1/4GB",
         "corunner_short": "pr",
         "corunner_full": "gapbs/pr-urand-4GB",
-        "shared_mpki": 98.3,
+        "shared_mpki": 98.6,
         "uniform_mpki": 98.7,
         "shared_cpi": 6.05,
         "uniform_cpi": 6.05,
@@ -9852,18 +10399,18 @@
         "stlb_focal_only_percent": 0.0,
         "stlb_corunner_only_percent": 2.71,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 0.0
+        "corunner_speedup": 0.23474178403755097
       },
       "side2": {
         "focal_short": "pr",
         "focal_full": "gapbs/pr-urand-4GB",
         "corunner_short": "graph4",
         "corunner_full": "graph500-2.1/4GB",
-        "shared_mpki": 162.1,
+        "shared_mpki": 163.8,
         "uniform_mpki": 162.1,
-        "shared_cpi": 8.52,
+        "shared_cpi": 8.54,
         "uniform_cpi": 8.52,
-        "speedup": 0.0,
+        "speedup": 0.23474178403755097,
         "slowdown": 0.0,
         "model_a": 0.013,
         "model_b": 6.41,
@@ -9930,7 +10477,7 @@
         "focal_full": "gapbs/sssp-urand-1GB",
         "corunner_short": "graph4",
         "corunner_full": "graph500-2.1/4GB",
-        "shared_mpki": 64.7,
+        "shared_mpki": 64.8,
         "uniform_mpki": 49.9,
         "shared_cpi": 5.7,
         "uniform_cpi": 5.38,
@@ -10001,7 +10548,7 @@
         "focal_full": "spec_cpu2017/623.xalancbmk_s",
         "corunner_short": "graph4",
         "corunner_full": "graph500-2.1/4GB",
-        "shared_mpki": 13.0,
+        "shared_mpki": 13.1,
         "uniform_mpki": 1.7,
         "shared_cpi": 1.5,
         "uniform_cpi": 1.01,
@@ -10072,7 +10619,7 @@
         "focal_full": "spec_cpu2006/429.mcf",
         "corunner_short": "gups",
         "corunner_full": "gups/2GB",
-        "shared_mpki": 28.5,
+        "shared_mpki": 28.4,
         "uniform_mpki": 28.1,
         "shared_cpi": 4.25,
         "uniform_cpi": 4.23,
@@ -10356,7 +10903,7 @@
         "focal_full": "spec_cpu2017/623.xalancbmk_s",
         "corunner_short": "gups",
         "corunner_full": "gups/2GB",
-        "shared_mpki": 8.6,
+        "shared_mpki": 8.7,
         "uniform_mpki": 5.0,
         "shared_cpi": 1.44,
         "uniform_cpi": 1.24,
@@ -10665,148 +11212,6 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
-    },
-    {
-      "workload": "mcf+pr",
-      "benchmark1_short": "mcf",
-      "benchmark2_short": "pr",
-      "benchmark1_full": "spec_cpu2006/429.mcf",
-      "benchmark2_full": "gapbs/pr-urand-4GB",
-      "baseline_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/shared/lru/all_workloads.csv",
-      "wptlb_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/uniform_ownership/lru/pi_5ms_dw3_oi10p/all_workloads.csv",
-      "side1": {
-        "focal_short": "mcf",
-        "focal_full": "spec_cpu2006/429.mcf",
-        "corunner_short": "pr",
-        "corunner_full": "gapbs/pr-urand-4GB",
-        "shared_mpki": 57.1,
-        "uniform_mpki": 15.3,
-        "shared_cpi": 5.37,
-        "uniform_cpi": 4.45,
-        "speedup": 20.674157303370787,
-        "slowdown": 0.0,
-        "model_a": 0.022,
-        "model_b": 4.111,
-        "mosmodel_points": [
-          {
-            "layout": "4KB",
-            "mpki": 51.77,
-            "cpi": 5.26
-          },
-          {
-            "layout": "2MB",
-            "mpki": 8.78,
-            "cpi": 4.31
-          }
-        ],
-        "stlb_shared_percent": 2.29,
-        "stlb_focal_only_percent": 94.62,
-        "stlb_corunner_only_percent": 3.1,
-        "stlb_state_sample_count": null,
-        "corunner_speedup": -1.386962552011095
-      },
-      "side2": {
-        "focal_short": "pr",
-        "focal_full": "gapbs/pr-urand-4GB",
-        "corunner_short": "mcf",
-        "corunner_full": "spec_cpu2006/429.mcf",
-        "shared_mpki": 161.7,
-        "uniform_mpki": 174.8,
-        "shared_cpi": 7.11,
-        "uniform_cpi": 7.21,
-        "speedup": -1.386962552011095,
-        "slowdown": 1.4064697609001309,
-        "model_a": 0.008,
-        "model_b": 5.814,
-        "mosmodel_points": [
-          {
-            "layout": "4KB",
-            "mpki": 161.44,
-            "cpi": 7.08
-          },
-          {
-            "layout": "2MB",
-            "mpki": 0.02,
-            "cpi": 5.81
-          }
-        ],
-        "stlb_shared_percent": 2.29,
-        "stlb_focal_only_percent": 3.1,
-        "stlb_corunner_only_percent": 94.62,
-        "stlb_state_sample_count": null,
-        "corunner_speedup": 20.674157303370787
-      }
-    },
-    {
-      "workload": "mcf+pr_k4",
-      "benchmark1_short": "mcf",
-      "benchmark2_short": "pr_k4",
-      "benchmark1_full": "spec_cpu2006/429.mcf",
-      "benchmark2_full": "gapbs/pr-kron-4GB",
-      "baseline_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/shared/lru/all_workloads.csv",
-      "wptlb_results_csv": "../tlbsim2/archive/hosam.morad/results/smt/uniform_ownership/lru/pi_5ms_dw3_oi10p/all_workloads.csv",
-      "side1": {
-        "focal_short": "mcf",
-        "focal_full": "spec_cpu2006/429.mcf",
-        "corunner_short": "pr_k4",
-        "corunner_full": "gapbs/pr-kron-4GB",
-        "shared_mpki": 59.6,
-        "uniform_mpki": 15.5,
-        "shared_cpi": 5.92,
-        "uniform_cpi": 4.47,
-        "speedup": 32.43847874720358,
-        "slowdown": 0.0,
-        "model_a": 0.033,
-        "model_b": 3.957,
-        "mosmodel_points": [
-          {
-            "layout": "4KB",
-            "mpki": 52.53,
-            "cpi": 5.67
-          },
-          {
-            "layout": "2MB",
-            "mpki": 8.45,
-            "cpi": 4.23
-          }
-        ],
-        "stlb_shared_percent": 2.0,
-        "stlb_focal_only_percent": 95.07,
-        "stlb_corunner_only_percent": 2.93,
-        "stlb_state_sample_count": null,
-        "corunner_speedup": -0.830564784053156
-      },
-      "side2": {
-        "focal_short": "pr_k4",
-        "focal_full": "gapbs/pr-kron-4GB",
-        "corunner_short": "mcf",
-        "corunner_full": "spec_cpu2006/429.mcf",
-        "shared_mpki": 150.9,
-        "uniform_mpki": 155.7,
-        "shared_cpi": 5.97,
-        "uniform_cpi": 6.02,
-        "speedup": -0.830564784053156,
-        "slowdown": 0.8375209380234505,
-        "model_a": 0.009,
-        "model_b": 4.615,
-        "mosmodel_points": [
-          {
-            "layout": "4KB",
-            "mpki": 150.61,
-            "cpi": 6.02
-          },
-          {
-            "layout": "2MB",
-            "mpki": 0.17,
-            "cpi": 4.62
-          }
-        ],
-        "stlb_shared_percent": 2.0,
-        "stlb_focal_only_percent": 2.93,
-        "stlb_corunner_only_percent": 95.07,
-        "stlb_state_sample_count": null,
-        "corunner_speedup": 32.43847874720358
       }
     },
     {
@@ -11390,7 +11795,7 @@
         "focal_full": "spec_cpu2017/605.mcf_s",
         "corunner_short": "sssp1",
         "corunner_full": "gapbs/sssp-urand-1GB",
-        "shared_mpki": 10.6,
+        "shared_mpki": 10.5,
         "uniform_mpki": 10.6,
         "shared_cpi": 2.15,
         "uniform_cpi": 2.15,
@@ -11532,12 +11937,12 @@
         "focal_full": "spec_cpu2017/605.mcf_s",
         "corunner_short": "xalan17",
         "corunner_full": "spec_cpu2017/623.xalancbmk_s",
-        "shared_mpki": 10.5,
+        "shared_mpki": 10.6,
         "uniform_mpki": 10.8,
-        "shared_cpi": 2.02,
+        "shared_cpi": 2.03,
         "uniform_cpi": 2.03,
-        "speedup": -0.49261083743841194,
-        "slowdown": 0.4950495049504955,
+        "speedup": 0.0,
+        "slowdown": 0.0,
         "model_a": 0.012,
         "model_b": 1.898,
         "mosmodel_points": [
@@ -11563,7 +11968,7 @@
         "focal_full": "spec_cpu2017/623.xalancbmk_s",
         "corunner_short": "mcf17",
         "corunner_full": "spec_cpu2017/605.mcf_s",
-        "shared_mpki": 8.3,
+        "shared_mpki": 8.4,
         "uniform_mpki": 8.0,
         "shared_cpi": 1.35,
         "uniform_cpi": 1.33,
@@ -11587,7 +11992,7 @@
         "stlb_focal_only_percent": 7.66,
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
-        "corunner_speedup": -0.49261083743841194
+        "corunner_speedup": 0.0
       }
     },
     {
@@ -11674,7 +12079,7 @@
         "focal_full": "spec_cpu2006/471.omnetpp",
         "corunner_short": "sssp1",
         "corunner_full": "gapbs/sssp-urand-1GB",
-        "shared_mpki": 10.2,
+        "shared_mpki": 10.3,
         "uniform_mpki": 10.3,
         "shared_cpi": 1.97,
         "uniform_cpi": 1.97,
@@ -11705,7 +12110,7 @@
         "focal_full": "gapbs/sssp-urand-1GB",
         "corunner_short": "omnet06",
         "corunner_full": "spec_cpu2006/471.omnetpp",
-        "shared_mpki": 54.3,
+        "shared_mpki": 54.4,
         "uniform_mpki": 53.2,
         "shared_cpi": 4.73,
         "uniform_cpi": 4.71,
@@ -11982,7 +12387,7 @@
         "stlb_focal_only_percent": 0.0,
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 0.0
+        "corunner_speedup": 0.8771929824561431
       },
       "side2": {
         "focal_short": "xalan17",
@@ -11991,9 +12396,9 @@
         "corunner_full": "spec_cpu2017/620.omnetpp_s",
         "shared_mpki": 5.4,
         "uniform_mpki": 5.4,
-        "shared_cpi": 1.14,
+        "shared_cpi": 1.15,
         "uniform_cpi": 1.14,
-        "speedup": 0.0,
+        "speedup": 0.8771929824561431,
         "slowdown": 0.0,
         "model_a": 0.045,
         "model_b": 0.903,
@@ -12202,7 +12607,7 @@
         "focal_full": "gapbs/sssp-urand-1GB",
         "corunner_short": "pr",
         "corunner_full": "gapbs/pr-urand-4GB",
-        "shared_mpki": 65.1,
+        "shared_mpki": 65.2,
         "uniform_mpki": 49.1,
         "shared_cpi": 6.2,
         "uniform_cpi": 5.93,
@@ -12344,7 +12749,7 @@
         "focal_full": "spec_cpu2017/623.xalancbmk_s",
         "corunner_short": "pr",
         "corunner_full": "gapbs/pr-urand-4GB",
-        "shared_mpki": 13.0,
+        "shared_mpki": 13.1,
         "uniform_mpki": 1.6,
         "shared_cpi": 1.73,
         "uniform_cpi": 1.25,
@@ -12479,18 +12884,18 @@
         "stlb_focal_only_percent": 0.29,
         "stlb_corunner_only_percent": 96.89,
         "stlb_state_sample_count": null,
-        "corunner_speedup": 45.21739130434783
+        "corunner_speedup": 46.08695652173913
       },
       "side2": {
         "focal_short": "xalan17",
         "focal_full": "spec_cpu2017/623.xalancbmk_s",
         "corunner_short": "pr_k4",
         "corunner_full": "gapbs/pr-kron-4GB",
-        "shared_mpki": 13.2,
+        "shared_mpki": 13.3,
         "uniform_mpki": 1.7,
-        "shared_cpi": 1.67,
+        "shared_cpi": 1.68,
         "uniform_cpi": 1.15,
-        "speedup": 45.21739130434783,
+        "speedup": 46.08695652173913,
         "slowdown": 0.0,
         "model_a": 0.045,
         "model_b": 1.078,
