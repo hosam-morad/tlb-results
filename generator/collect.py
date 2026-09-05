@@ -6,7 +6,7 @@ import json
 import subprocess
 import sys
 from pathlib import Path
-from statistics import mean, median
+from statistics import geometric_mean, median
 
 from archive_results import ArchiveResults, ArchiveResult
 from mosmodel import load_coefficients, load_training_data, speedup
@@ -81,6 +81,21 @@ def split_pair(workload: str) -> tuple[str, str]:
     if len(parts) != 2 or not parts[0] or not parts[1]:
         raise ValueError(f"invalid workload: {workload!r}")
     return parts[0], parts[1]
+
+
+def speedup_factor(speedup_percent: float) -> float:
+    factor = 1.0 + speedup_percent / 100.0
+    if factor <= 0.0:
+        raise ValueError(
+            f"speedup factor must be positive, got {factor} "
+            f"from {speedup_percent}%"
+        )
+    return factor
+
+
+def geometric_mean_speedup(speedups: list[float]) -> float:
+    factors = [speedup_factor(value) for value in speedups]
+    return (geometric_mean(factors) - 1.0) * 100.0
 
 
 def directional_lookup(
@@ -220,6 +235,12 @@ def main() -> int:
         side1["corunner_speedup"] = side2["speedup"]
         side2["corunner_speedup"] = side1["speedup"]
 
+        # Treat one physical co-running workload as one experimental unit.
+        # Combine its two directional speedup factors geometrically.
+        pair_speedup = geometric_mean_speedup(
+            [side1["speedup"], side2["speedup"]]
+        )
+
         pair_results.append(
             {
                 "workload": workload,
@@ -231,6 +252,7 @@ def main() -> int:
                 "wptlb_results_csv": str(wptlb_results_csv),
                 "side1": side1,
                 "side2": side2,
+                "pair_speedup": pair_speedup,
             }
         )
 
@@ -243,9 +265,11 @@ def main() -> int:
                 "uniform_mpki",
                 "shared_cpi",
                 "uniform_cpi",
-                "speedup",
             ):
                 combined[key] = (side1[key] + side2[key]) / 2.0
+            # A self-pair is one physical pair too. Its two benchmark
+            # instances are therefore combined with the same GM definition.
+            combined["speedup"] = pair_speedup
             combined["slowdown"] = max(0.0, -combined["speedup"])
             combined["corunner_speedup"] = combined["speedup"]
             directional_results.append(combined)
@@ -264,7 +288,7 @@ def main() -> int:
                 "short": short,
                 "full": items[0]["focal_full"],
                 "co_runner_count": len(items),
-                "mean_speedup": mean(values),
+                "geometric_mean_speedup": geometric_mean_speedup(values),
                 "median_speedup": median(values),
                 "min_speedup": min(values),
                 "max_slowdown": max(0.0, -min(values)),
@@ -275,6 +299,21 @@ def main() -> int:
         )
 
     benchmarks.sort(key=lambda item: (-item["max_speedup"], item["full"]))
+
+    # Overall headline metric: every physical co-running pair receives equal
+    # weight. Each pair was first reduced from its two directional results to
+    # one geometric-mean speedup factor.
+    physical_pair_speedups = [
+        pair_result["pair_speedup"] for pair_result in pair_results
+    ]
+    overall = {
+        "physical_pair_count": len(physical_pair_speedups),
+        "geometric_mean_speedup": (
+            geometric_mean_speedup(physical_pair_speedups)
+            if physical_pair_speedups
+            else None
+        ),
+    }
 
     output = {
         "inputs": {
@@ -290,6 +329,7 @@ def main() -> int:
             "completed_workload_count": len(pair_results),
             "skipped_workloads": skipped_workloads,
         },
+        "overall": overall,
         "benchmarks": benchmarks,
         "pairs": pair_results,
     }

@@ -12,12 +12,16 @@
     "completed_workload_count": 210,
     "skipped_workloads": []
   },
+  "overall": {
+    "physical_pair_count": 210,
+    "geometric_mean_speedup": 1.4759081071737956
+  },
   "benchmarks": [
     {
       "short": "xalan17",
       "full": "spec_cpu2017/623.xalancbmk_s",
       "co_runner_count": 20,
-      "mean_speedup": 15.766302283359549,
+      "geometric_mean_speedup": 14.671131321784525,
       "median_speedup": 9.014231382652438,
       "min_speedup": -0.8333333333333304,
       "max_slowdown": 0.8333333333333304,
@@ -671,7 +675,7 @@
       "short": "mcf",
       "full": "spec_cpu2006/429.mcf",
       "co_runner_count": 20,
-      "mean_speedup": 6.4884880724877725,
+      "geometric_mean_speedup": 6.128808529525043,
       "median_speedup": 2.6099706744868056,
       "min_speedup": -0.3095975232198067,
       "max_slowdown": 0.3095975232198067,
@@ -686,7 +690,7 @@
         0.6993006993007089,
         24.031007751937985,
         0.47281323877068626,
-        -0.12195121951219523,
+        -0.12202567083390292,
         0.25706940874035134,
         2.639296187683282,
         0.0,
@@ -987,8 +991,8 @@
           "uniform_mpki": 42.55,
           "shared_cpi": 4.1,
           "uniform_cpi": 4.105,
-          "speedup": -0.12195121951219523,
-          "slowdown": 0.12195121951219523,
+          "speedup": -0.12202567083390292,
+          "slowdown": 0.12202567083390292,
           "model_a": 0.011,
           "model_b": 3.632,
           "mosmodel_points": [
@@ -1007,7 +1011,7 @@
           "stlb_focal_only_percent": 0.4,
           "stlb_corunner_only_percent": 0.0,
           "stlb_state_sample_count": null,
-          "corunner_speedup": -0.12195121951219523
+          "corunner_speedup": -0.12202567083390292
         },
         {
           "focal_short": "mcf",
@@ -1325,7 +1329,7 @@
       "short": "cc",
       "full": "gapbs/cc-urand-4GB",
       "co_runner_count": 20,
-      "mean_speedup": 7.445454908796076,
+      "geometric_mean_speedup": 7.198312691265363,
       "median_speedup": 4.691500256016379,
       "min_speedup": 0.0,
       "max_slowdown": 0.0,
@@ -1979,7 +1983,7 @@
       "short": "astar",
       "full": "spec_cpu2006/473.astar",
       "co_runner_count": 20,
-      "mean_speedup": 4.739982214852745,
+      "geometric_mean_speedup": 4.52822138266753,
       "median_speedup": 1.7354798808028815,
       "min_speedup": -3.435114503816805,
       "max_slowdown": 3.435114503816805,
@@ -2633,7 +2637,7 @@
       "short": "omnet17",
       "full": "spec_cpu2017/620.omnetpp_s",
       "co_runner_count": 20,
-      "mean_speedup": 0.8023673177600077,
+      "geometric_mean_speedup": 0.7780486868640635,
       "median_speedup": 0.0,
       "min_speedup": -0.4672897196261738,
       "max_slowdown": 0.4672897196261738,
@@ -3287,7 +3291,7 @@
       "short": "sssp1",
       "full": "gapbs/sssp-urand-1GB",
       "co_runner_count": 20,
-      "mean_speedup": 0.7197110931714018,
+      "geometric_mean_speedup": 0.6909223661020647,
       "median_speedup": 0.0,
       "min_speedup": -4.9792531120331995,
       "max_slowdown": 4.9792531120331995,
@@ -3941,7 +3945,7 @@
       "short": "mcf17",
       "full": "spec_cpu2017/605.mcf_s",
       "co_runner_count": 20,
-      "mean_speedup": 1.1005712613931085,
+      "geometric_mean_speedup": 1.0871927982017748,
       "median_speedup": 0.0,
       "min_speedup": 0.0,
       "max_slowdown": 0.0,
@@ -4595,7 +4599,7 @@
       "short": "bc_k4",
       "full": "gapbs/bc-kron-4GB",
       "co_runner_count": 20,
-      "mean_speedup": -0.11185173661248327,
+      "geometric_mean_speedup": -0.11232299932462109,
       "median_speedup": 0.0,
       "min_speedup": -1.025641025641022,
       "max_slowdown": 1.025641025641022,
@@ -5249,7 +5253,7 @@
       "short": "gups",
       "full": "gups/2GB",
       "co_runner_count": 20,
-      "mean_speedup": -0.4897037167186552,
+      "geometric_mean_speedup": -0.49652519407764606,
       "median_speedup": 0.0,
       "min_speedup": -3.6619718309859106,
       "max_slowdown": 3.6619718309859106,
@@ -5903,7 +5907,7 @@
       "short": "sssp_k4",
       "full": "gapbs/sssp-kron-4GB",
       "co_runner_count": 20,
-      "mean_speedup": -0.3140422827591688,
+      "geometric_mean_speedup": -0.31544525206430585,
       "median_speedup": 0.0,
       "min_speedup": -1.4742014742014864,
       "max_slowdown": 1.4742014742014864,
@@ -6557,14 +6561,14 @@
       "short": "bc",
       "full": "gapbs/bc-urand-4GB",
       "co_runner_count": 20,
-      "mean_speedup": -0.20133927164928844,
+      "geometric_mean_speedup": -0.20232380969386066,
       "median_speedup": 0.0,
       "min_speedup": -1.5000000000000013,
       "max_slowdown": 1.5000000000000013,
       "max_speedup": 0.16583747927030323,
       "speedups": [
         -0.3552397868561208,
-        -0.08012820512820484,
+        -0.08016033352356011,
         0.0,
         0.0,
         0.0,
@@ -6625,8 +6629,8 @@
           "uniform_mpki": 54.650000000000006,
           "shared_cpi": 6.23,
           "uniform_cpi": 6.235,
-          "speedup": -0.08012820512820484,
-          "slowdown": 0.08012820512820484,
+          "speedup": -0.08016033352356011,
+          "slowdown": 0.08016033352356011,
           "model_a": 0.032,
           "model_b": 4.486,
           "mosmodel_points": [
@@ -6645,7 +6649,7 @@
           "stlb_focal_only_percent": 0.0,
           "stlb_corunner_only_percent": 0.03,
           "stlb_state_sample_count": null,
-          "corunner_speedup": -0.08012820512820484
+          "corunner_speedup": -0.08016033352356011
         },
         {
           "focal_short": "bc",
@@ -7211,7 +7215,7 @@
       "short": "rnd_acc",
       "full": "hpcc/single_random_access-4GB",
       "co_runner_count": 20,
-      "mean_speedup": -0.008512594125470452,
+      "geometric_mean_speedup": -0.00852866220523163,
       "median_speedup": 0.0,
       "min_speedup": -0.170068027210879,
       "max_slowdown": 0.170068027210879,
@@ -7865,7 +7869,7 @@
       "short": "rnd_acc_lcg",
       "full": "hpcc/single_random_access_lcg-4GB",
       "co_runner_count": 20,
-      "mean_speedup": -0.006149459775903199,
+      "geometric_mean_speedup": -0.006158482518980879,
       "median_speedup": 0.0,
       "min_speedup": -0.12531328320802837,
       "max_slowdown": 0.12531328320802837,
@@ -8519,7 +8523,7 @@
       "short": "bfs1",
       "full": "gapbs/bfs-urand-1GB",
       "co_runner_count": 20,
-      "mean_speedup": -0.6914012077459347,
+      "geometric_mean_speedup": -0.6962140226598135,
       "median_speedup": 0.0,
       "min_speedup": -3.208556149732622,
       "max_slowdown": 3.208556149732622,
@@ -9173,7 +9177,7 @@
       "short": "pr_k4",
       "full": "gapbs/pr-kron-4GB",
       "co_runner_count": 20,
-      "mean_speedup": -0.2413353172856325,
+      "geometric_mean_speedup": -0.24192660776310992,
       "median_speedup": 0.0,
       "min_speedup": -0.830564784053156,
       "max_slowdown": 0.830564784053156,
@@ -9827,7 +9831,7 @@
       "short": "pr",
       "full": "gapbs/pr-urand-4GB",
       "co_runner_count": 20,
-      "mean_speedup": -0.3069706673173661,
+      "geometric_mean_speedup": -0.3081780167467296,
       "median_speedup": 0.0,
       "min_speedup": -1.386962552011095,
       "max_slowdown": 1.386962552011095,
@@ -10481,7 +10485,7 @@
       "short": "graph4",
       "full": "graph500-2.1/4GB",
       "co_runner_count": 20,
-      "mean_speedup": -0.3458035219417488,
+      "geometric_mean_speedup": -0.34709953449891806,
       "median_speedup": 0.0,
       "min_speedup": -1.3297872340425454,
       "max_slowdown": 1.3297872340425454,
@@ -11135,7 +11139,7 @@
       "short": "gamess",
       "full": "spec_cpu2006/416.gamess",
       "co_runner_count": 20,
-      "mean_speedup": 0.0,
+      "geometric_mean_speedup": 0.0,
       "median_speedup": 0.0,
       "min_speedup": 0.0,
       "max_slowdown": 0.0,
@@ -11789,7 +11793,7 @@
       "short": "omnet06",
       "full": "spec_cpu2006/471.omnetpp",
       "co_runner_count": 20,
-      "mean_speedup": -0.025000000000000022,
+      "geometric_mean_speedup": -0.02505956868315007,
       "median_speedup": 0.0,
       "min_speedup": -0.5000000000000004,
       "max_slowdown": 0.5000000000000004,
@@ -12443,7 +12447,7 @@
       "short": "cactuss",
       "full": "spec_cpu2017/607.cactuBSSN_s",
       "co_runner_count": 20,
-      "mean_speedup": 0.0,
+      "geometric_mean_speedup": 0.0,
       "median_speedup": 0.0,
       "min_speedup": 0.0,
       "max_slowdown": 0.0,
@@ -13164,7 +13168,8 @@
         "stlb_corunner_only_percent": 5.2,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.38910505836574627
-      }
+      },
+      "pair_speedup": -0.38910505836574627
     },
     {
       "workload": "astar+bc",
@@ -13235,7 +13240,8 @@
         "stlb_corunner_only_percent": 19.98,
         "stlb_state_sample_count": null,
         "corunner_speedup": 1.2875536480686511
-      }
+      },
+      "pair_speedup": 0.4627990643190527
     },
     {
       "workload": "astar+bc_k4",
@@ -13306,7 +13312,8 @@
         "stlb_corunner_only_percent": 75.13,
         "stlb_state_sample_count": null,
         "corunner_speedup": 8.968609865470857
-      }
+      },
+      "pair_speedup": 3.9958389992021948
     },
     {
       "workload": "astar+bfs1",
@@ -13377,7 +13384,8 @@
         "stlb_corunner_only_percent": 21.22,
         "stlb_state_sample_count": null,
         "corunner_speedup": 2.183406113537112
-      }
+      },
+      "pair_speedup": 0.2055085978478477
     },
     {
       "workload": "astar+cactuss",
@@ -13448,7 +13456,8 @@
         "stlb_corunner_only_percent": 79.54,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.8695652173912993
-      }
+      },
+      "pair_speedup": 0.4338415163889442
     },
     {
       "workload": "astar+cc",
@@ -13519,7 +13528,8 @@
         "stlb_corunner_only_percent": 0.46,
         "stlb_state_sample_count": null,
         "corunner_speedup": -2.9535864978903037
-      }
+      },
+      "pair_speedup": -0.8904511133992377
     },
     {
       "workload": "astar+gamess",
@@ -13590,7 +13600,8 @@
         "stlb_corunner_only_percent": 80.64,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "astar+graph4",
@@ -13661,7 +13672,8 @@
         "stlb_corunner_only_percent": 96.35,
         "stlb_state_sample_count": null,
         "corunner_speedup": 16.157205240174676
-      }
+      },
+      "pair_speedup": 7.057256434802328
     },
     {
       "workload": "astar+gups",
@@ -13732,7 +13744,8 @@
         "stlb_corunner_only_percent": 52.46,
         "stlb_state_sample_count": null,
         "corunner_speedup": 8.547008547008561
-      }
+      },
+      "pair_speedup": 2.9305980739338766
     },
     {
       "workload": "astar+mcf",
@@ -13803,7 +13816,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -3.435114503816805
-      }
+      },
+      "pair_speedup": -0.47267584163331877
     },
     {
       "workload": "astar+mcf17",
@@ -13874,7 +13888,8 @@
         "stlb_corunner_only_percent": 2.22,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.3984063745019806
-      }
+      },
+      "pair_speedup": -0.19940199302510564
     },
     {
       "workload": "astar+omnet06",
@@ -13945,7 +13960,8 @@
         "stlb_corunner_only_percent": 18.14,
         "stlb_state_sample_count": null,
         "corunner_speedup": 2.212389380530988
-      }
+      },
+      "pair_speedup": 1.100143115888308
     },
     {
       "workload": "astar+omnet17",
@@ -14016,7 +14032,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "astar+pr",
@@ -14087,7 +14104,8 @@
         "stlb_corunner_only_percent": 95.99,
         "stlb_state_sample_count": null,
         "corunner_speedup": 16.666666666666675
-      }
+      },
+      "pair_speedup": 7.532500997073344
     },
     {
       "workload": "astar+pr_k4",
@@ -14158,7 +14176,8 @@
         "stlb_corunner_only_percent": 96.15,
         "stlb_state_sample_count": null,
         "corunner_speedup": 17.948717948717952
-      }
+      },
+      "pair_speedup": 8.165391235099694
     },
     {
       "workload": "astar+rnd_acc",
@@ -14229,7 +14248,8 @@
         "stlb_corunner_only_percent": 51.29,
         "stlb_state_sample_count": null,
         "corunner_speedup": 11.91489361702127
-      }
+      },
+      "pair_speedup": 5.699840191597105
     },
     {
       "workload": "astar+rnd_acc_lcg",
@@ -14300,7 +14320,8 @@
         "stlb_corunner_only_percent": 36.31,
         "stlb_state_sample_count": null,
         "corunner_speedup": 8.713692946058082
-      }
+      },
+      "pair_speedup": 4.265858719936744
     },
     {
       "workload": "astar+sssp1",
@@ -14371,7 +14392,8 @@
         "stlb_corunner_only_percent": 0.07,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.4098360655737654
-      }
+      },
+      "pair_speedup": -0.20512842113266094
     },
     {
       "workload": "astar+sssp_k4",
@@ -14442,7 +14464,8 @@
         "stlb_corunner_only_percent": 73.64,
         "stlb_state_sample_count": null,
         "corunner_speedup": 9.375
-      }
+      },
+      "pair_speedup": 3.916789974376522
     },
     {
       "workload": "astar+xalan17",
@@ -14513,7 +14536,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -2.4590163934426257
-      }
+      },
+      "pair_speedup": 1.7498610559568695
     },
     {
       "workload": "bc+bc",
@@ -14584,7 +14608,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": -0.08016033352356011
     },
     {
       "workload": "bc+bc_k4",
@@ -14655,7 +14680,8 @@
         "stlb_corunner_only_percent": 0.34,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+bfs1",
@@ -14726,7 +14752,8 @@
         "stlb_corunner_only_percent": 0.5,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+cactuss",
@@ -14797,7 +14824,8 @@
         "stlb_corunner_only_percent": 0.35,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+cc",
@@ -14868,7 +14896,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -1.5000000000000013
-      }
+      },
+      "pair_speedup": 3.831012327142047
     },
     {
       "workload": "bc+gamess",
@@ -14939,7 +14968,8 @@
         "stlb_corunner_only_percent": 0.01,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+graph4",
@@ -15010,7 +15040,8 @@
         "stlb_corunner_only_percent": 0.32,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+gups",
@@ -15081,7 +15112,8 @@
         "stlb_corunner_only_percent": 0.56,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+mcf",
@@ -15152,7 +15184,8 @@
         "stlb_corunner_only_percent": 0.36,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.8210180623973717
-      }
+      },
+      "pair_speedup": 1.5082468145406924
     },
     {
       "workload": "bc+mcf17",
@@ -15223,7 +15256,8 @@
         "stlb_corunner_only_percent": 0.39,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+omnet06",
@@ -15294,7 +15328,8 @@
         "stlb_corunner_only_percent": 0.43,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.17241379310344307
-      }
+      },
+      "pair_speedup": -0.08624408676423112
     },
     {
       "workload": "bc+omnet17",
@@ -15365,7 +15400,8 @@
         "stlb_corunner_only_percent": 0.24,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+pr",
@@ -15436,7 +15472,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+pr_k4",
@@ -15507,7 +15544,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+rnd_acc",
@@ -15578,7 +15616,8 @@
         "stlb_corunner_only_percent": 0.33,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+rnd_acc_lcg",
@@ -15649,7 +15688,8 @@
         "stlb_corunner_only_percent": 0.34,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+sssp1",
@@ -15720,7 +15760,8 @@
         "stlb_corunner_only_percent": 0.34,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.16583747927030323
-      }
+      },
+      "pair_speedup": 0.08288439052419605
     },
     {
       "workload": "bc+sssp_k4",
@@ -15791,7 +15832,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc+xalan17",
@@ -15862,7 +15904,8 @@
         "stlb_corunner_only_percent": 0.46,
         "stlb_state_sample_count": null,
         "corunner_speedup": -1.2638230647709303
-      }
+      },
+      "pair_speedup": 8.335425545616747
     },
     {
       "workload": "bc_k4+bc_k4",
@@ -15933,7 +15976,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc_k4+bfs1",
@@ -16004,7 +16048,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc_k4+cactuss",
@@ -16075,7 +16120,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc_k4+cc",
@@ -16146,7 +16192,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.5063291139240533
-      }
+      },
+      "pair_speedup": 4.686895250203871
     },
     {
       "workload": "bc_k4+gamess",
@@ -16217,7 +16264,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.287356321839094
-      }
+      },
+      "pair_speedup": 0.1435750918844958
     },
     {
       "workload": "bc_k4+graph4",
@@ -16288,7 +16336,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc_k4+gups",
@@ -16359,7 +16408,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.12944989238328208
     },
     {
       "workload": "bc_k4+mcf",
@@ -16430,7 +16480,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.23923444976077235
-      }
+      },
+      "pair_speedup": 5.603114174486312
     },
     {
       "workload": "bc_k4+mcf17",
@@ -16501,7 +16552,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.23474178403755097
-      }
+      },
+      "pair_speedup": 1.60692407195131
     },
     {
       "workload": "bc_k4+omnet06",
@@ -16572,7 +16624,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc_k4+omnet17",
@@ -16643,7 +16696,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc_k4+pr",
@@ -16714,7 +16768,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc_k4+pr_k4",
@@ -16785,7 +16840,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc_k4+rnd_acc",
@@ -16856,7 +16912,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc_k4+rnd_acc_lcg",
@@ -16927,7 +16984,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc_k4+sssp1",
@@ -16998,7 +17056,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.24691358024691024
-      }
+      },
+      "pair_speedup": 0.36968702787747443
     },
     {
       "workload": "bc_k4+sssp_k4",
@@ -17069,7 +17128,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bc_k4+xalan17",
@@ -17140,7 +17200,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -1.025641025641022
-      }
+      },
+      "pair_speedup": 14.118105357171062
     },
     {
       "workload": "bfs1+bfs1",
@@ -17211,7 +17272,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bfs1+cactuss",
@@ -17282,7 +17344,8 @@
         "stlb_corunner_only_percent": 3.96,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bfs1+cc",
@@ -17353,7 +17416,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -3.208556149732622
-      }
+      },
+      "pair_speedup": -0.7636958099640045
     },
     {
       "workload": "bfs1+gamess",
@@ -17424,7 +17488,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bfs1+graph4",
@@ -17495,7 +17560,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bfs1+gups",
@@ -17566,7 +17632,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bfs1+mcf",
@@ -17637,7 +17704,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -1.4354066985645786
-      }
+      },
+      "pair_speedup": 0.08796308555067966
     },
     {
       "workload": "bfs1+mcf17",
@@ -17708,7 +17776,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.46511627906975495
-      }
+      },
+      "pair_speedup": 0.16864998396406428
     },
     {
       "workload": "bfs1+omnet06",
@@ -17779,7 +17848,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bfs1+omnet17",
@@ -17850,7 +17920,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bfs1+pr",
@@ -17921,7 +17992,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -1.2903225806451646
-      }
+      },
+      "pair_speedup": -0.6472559919179499
     },
     {
       "workload": "bfs1+pr_k4",
@@ -17992,7 +18064,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -1.5094339622641506
-      }
+      },
+      "pair_speedup": -0.7575866689368271
     },
     {
       "workload": "bfs1+rnd_acc",
@@ -18063,7 +18136,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bfs1+rnd_acc_lcg",
@@ -18134,7 +18208,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bfs1+sssp1",
@@ -18205,7 +18280,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "bfs1+sssp_k4",
@@ -18276,7 +18352,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -2.450980392156865
-      }
+      },
+      "pair_speedup": -1.2330927851625373
     },
     {
       "workload": "bfs1+xalan17",
@@ -18347,7 +18424,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -1.7341040462427793
-      }
+      },
+      "pair_speedup": 0.795309054649751
     },
     {
       "workload": "cactuss+cactuss",
@@ -18418,7 +18496,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cactuss+cc",
@@ -18489,7 +18568,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.9174504099019654
     },
     {
       "workload": "cactuss+gamess",
@@ -18560,7 +18640,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cactuss+graph4",
@@ -18631,7 +18712,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cactuss+gups",
@@ -18702,7 +18784,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cactuss+mcf",
@@ -18773,7 +18856,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 1.4694664989372441
     },
     {
       "workload": "cactuss+mcf17",
@@ -18844,7 +18928,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 1.5585354643047777
     },
     {
       "workload": "cactuss+omnet06",
@@ -18915,7 +19000,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cactuss+omnet17",
@@ -18986,7 +19072,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cactuss+pr",
@@ -19057,7 +19144,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cactuss+pr_k4",
@@ -19128,7 +19216,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cactuss+rnd_acc",
@@ -19199,7 +19288,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cactuss+rnd_acc_lcg",
@@ -19270,7 +19360,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cactuss+sssp1",
@@ -19341,7 +19432,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cactuss+sssp_k4",
@@ -19412,7 +19504,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cactuss+xalan17",
@@ -19483,7 +19576,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 6.659021132723808
     },
     {
       "workload": "cc+cc",
@@ -19554,7 +19648,8 @@
         "stlb_corunner_only_percent": 0.7,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cc+gamess",
@@ -19625,7 +19720,8 @@
         "stlb_corunner_only_percent": 7.6,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.278551532033422
-      }
+      },
+      "pair_speedup": 0.139178912168747
     },
     {
       "workload": "cc+graph4",
@@ -19696,7 +19792,8 @@
         "stlb_corunner_only_percent": 90.75,
         "stlb_state_sample_count": null,
         "corunner_speedup": 16.6030534351145
-      }
+      },
+      "pair_speedup": 7.423393130363043
     },
     {
       "workload": "cc+gups",
@@ -19767,7 +19864,8 @@
         "stlb_corunner_only_percent": 88.17,
         "stlb_state_sample_count": null,
         "corunner_speedup": 12.42484969939881
-      }
+      },
+      "pair_speedup": 4.071073489408472
     },
     {
       "workload": "cc+mcf",
@@ -19838,7 +19936,8 @@
         "stlb_corunner_only_percent": 2.88,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": -0.1549187607220226
     },
     {
       "workload": "cc+mcf17",
@@ -19909,7 +20008,8 @@
         "stlb_corunner_only_percent": 8.66,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.4158004158004269
-      }
+      },
+      "pair_speedup": 0.2076845435520669
     },
     {
       "workload": "cc+omnet06",
@@ -19980,7 +20080,8 @@
         "stlb_corunner_only_percent": 11.59,
         "stlb_state_sample_count": null,
         "corunner_speedup": 1.7094017094017033
-      }
+      },
+      "pair_speedup": 0.8510791758827407
     },
     {
       "workload": "cc+omnet17",
@@ -20051,7 +20152,8 @@
         "stlb_corunner_only_percent": 0.24,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "cc+pr",
@@ -20122,7 +20224,8 @@
         "stlb_corunner_only_percent": 93.83,
         "stlb_state_sample_count": null,
         "corunner_speedup": 19.453924914675767
-      }
+      },
+      "pair_speedup": 8.925113633352444
     },
     {
       "workload": "cc+pr_k4",
@@ -20193,7 +20296,8 @@
         "stlb_corunner_only_percent": 94.18,
         "stlb_state_sample_count": null,
         "corunner_speedup": 21.006944444444443
-      }
+      },
+      "pair_speedup": 9.67198720934066
     },
     {
       "workload": "cc+rnd_acc",
@@ -20264,7 +20368,8 @@
         "stlb_corunner_only_percent": 92.15,
         "stlb_state_sample_count": null,
         "corunner_speedup": 15.369649805447484
-      }
+      },
+      "pair_speedup": 7.410264782025133
     },
     {
       "workload": "cc+rnd_acc_lcg",
@@ -20335,7 +20440,8 @@
         "stlb_corunner_only_percent": 89.42,
         "stlb_state_sample_count": null,
         "corunner_speedup": 15.689981096408312
-      }
+      },
+      "pair_speedup": 7.491863032861068
     },
     {
       "workload": "cc+sssp1",
@@ -20406,7 +20512,8 @@
         "stlb_corunner_only_percent": 55.63,
         "stlb_state_sample_count": null,
         "corunner_speedup": 7.539682539682535
-      }
+      },
+      "pair_speedup": 1.0866012635476707
     },
     {
       "workload": "cc+sssp_k4",
@@ -20477,7 +20584,8 @@
         "stlb_corunner_only_percent": 93.25,
         "stlb_state_sample_count": null,
         "corunner_speedup": 14.012738853503182
-      }
+      },
+      "pair_speedup": 5.986773409018986
     },
     {
       "workload": "cc+xalan17",
@@ -20548,7 +20656,8 @@
         "stlb_corunner_only_percent": 1.27,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": -0.41753835806895845
     },
     {
       "workload": "gamess+gamess",
@@ -20619,7 +20728,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gamess+graph4",
@@ -20690,7 +20800,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gamess+gups",
@@ -20761,7 +20872,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gamess+mcf",
@@ -20832,7 +20944,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.34904120085090806
     },
     {
       "workload": "gamess+mcf17",
@@ -20903,7 +21016,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.5797150014228425
     },
     {
       "workload": "gamess+omnet06",
@@ -20974,7 +21088,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gamess+omnet17",
@@ -21045,7 +21160,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gamess+pr",
@@ -21116,7 +21232,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gamess+pr_k4",
@@ -21187,7 +21304,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gamess+rnd_acc",
@@ -21258,7 +21376,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gamess+rnd_acc_lcg",
@@ -21329,7 +21448,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gamess+sssp1",
@@ -21400,7 +21520,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gamess+sssp_k4",
@@ -21471,7 +21592,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gamess+xalan17",
@@ -21542,7 +21664,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 2.667134666067983
     },
     {
       "workload": "graph4+graph4",
@@ -21613,7 +21736,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "graph4+gups",
@@ -21684,7 +21808,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "graph4+mcf",
@@ -21755,7 +21880,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -1.2875536480686844
-      }
+      },
+      "pair_speedup": 10.649917300869038
     },
     {
       "workload": "graph4+mcf17",
@@ -21826,7 +21952,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.6818181818181834
-      }
+      },
+      "pair_speedup": 2.366546592747354
     },
     {
       "workload": "graph4+omnet06",
@@ -21897,7 +22024,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "graph4+omnet17",
@@ -21968,7 +22096,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.2249721628549306
     },
     {
       "workload": "graph4+pr",
@@ -22039,7 +22168,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "graph4+pr_k4",
@@ -22110,7 +22240,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.16891891891891442
-      }
+      },
+      "pair_speedup": -0.08449515661691498
     },
     {
       "workload": "graph4+rnd_acc",
@@ -22181,7 +22312,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "graph4+rnd_acc_lcg",
@@ -22252,7 +22384,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "graph4+sssp1",
@@ -22323,7 +22456,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.9009009009009028
-      }
+      },
+      "pair_speedup": 2.4663209575404688
     },
     {
       "workload": "graph4+sssp_k4",
@@ -22394,7 +22528,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.21141649048627142
-      }
+      },
+      "pair_speedup": -0.1057641755472849
     },
     {
       "workload": "graph4+xalan17",
@@ -22465,7 +22600,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -1.302083333333326
-      }
+      },
+      "pair_speedup": 21.07066711488612
     },
     {
       "workload": "gups+gups",
@@ -22536,7 +22672,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gups+mcf",
@@ -22607,7 +22744,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.27173913043478937
-      }
+      },
+      "pair_speedup": 0.09984479995575057
     },
     {
       "workload": "gups+mcf17",
@@ -22678,7 +22816,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gups+omnet06",
@@ -22749,7 +22888,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gups+omnet17",
@@ -22820,7 +22960,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gups+pr",
@@ -22891,7 +23032,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.2358490566037652
-      }
+      },
+      "pair_speedup": -0.11799414138888853
     },
     {
       "workload": "gups+pr_k4",
@@ -22962,7 +23104,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gups+rnd_acc",
@@ -23033,7 +23176,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gups+rnd_acc_lcg",
@@ -23104,7 +23248,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gups+sssp1",
@@ -23175,7 +23320,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gups+sssp_k4",
@@ -23246,7 +23392,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "gups+xalan17",
@@ -23317,7 +23464,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -3.488372093023262
-      }
+      },
+      "pair_speedup": 5.866906776799796
     },
     {
       "workload": "mcf+mcf",
@@ -23388,7 +23536,8 @@
         "stlb_corunner_only_percent": 0.4,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": -0.12202567083390292
     },
     {
       "workload": "mcf+mcf17",
@@ -23459,7 +23608,8 @@
         "stlb_corunner_only_percent": 3.94,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.25706940874035134
-      }
+      },
+      "pair_speedup": 0.12845220452593065
     },
     {
       "workload": "mcf+omnet06",
@@ -23530,7 +23680,8 @@
         "stlb_corunner_only_percent": 15.08,
         "stlb_state_sample_count": null,
         "corunner_speedup": 2.639296187683282
-      }
+      },
+      "pair_speedup": 1.0574587582454775
     },
     {
       "workload": "mcf+omnet17",
@@ -23601,7 +23752,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "mcf+pr",
@@ -23672,7 +23824,8 @@
         "stlb_corunner_only_percent": 94.62,
         "stlb_state_sample_count": null,
         "corunner_speedup": 23.059360730593603
-      }
+      },
+      "pair_speedup": 10.16014409963162
     },
     {
       "workload": "mcf+pr_k4",
@@ -23743,7 +23896,8 @@
         "stlb_corunner_only_percent": 95.07,
         "stlb_state_sample_count": null,
         "corunner_speedup": 31.12582781456954
-      }
+      },
+      "pair_speedup": 14.033654184167732
     },
     {
       "workload": "mcf+rnd_acc",
@@ -23814,7 +23968,8 @@
         "stlb_corunner_only_percent": 29.25,
         "stlb_state_sample_count": null,
         "corunner_speedup": 6.726457399103136
-      }
+      },
+      "pair_speedup": 3.2383869405767873
     },
     {
       "workload": "mcf+rnd_acc_lcg",
@@ -23885,7 +24040,8 @@
         "stlb_corunner_only_percent": 5.75,
         "stlb_state_sample_count": null,
         "corunner_speedup": 1.2345679012345512
-      }
+      },
+      "pair_speedup": 0.6153904237490737
     },
     {
       "workload": "mcf+sssp1",
@@ -23956,7 +24112,8 @@
         "stlb_corunner_only_percent": 28.57,
         "stlb_state_sample_count": null,
         "corunner_speedup": 3.693931398416894
-      }
+      },
+      "pair_speedup": 0.9716801649324758
     },
     {
       "workload": "mcf+sssp_k4",
@@ -24027,7 +24184,8 @@
         "stlb_corunner_only_percent": 85.57,
         "stlb_state_sample_count": null,
         "corunner_speedup": 13.939393939393941
-      }
+      },
+      "pair_speedup": 6.159419775530561
     },
     {
       "workload": "mcf+xalan17",
@@ -24098,7 +24256,8 @@
         "stlb_corunner_only_percent": 0.12,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "mcf17+mcf17",
@@ -24169,7 +24328,8 @@
         "stlb_corunner_only_percent": 0.03,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "mcf17+omnet06",
@@ -24240,7 +24400,8 @@
         "stlb_corunner_only_percent": 16.62,
         "stlb_state_sample_count": null,
         "corunner_speedup": 1.0638297872340496
-      }
+      },
+      "pair_speedup": 0.5305077015102189
     },
     {
       "workload": "mcf17+omnet17",
@@ -24311,7 +24472,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "mcf17+pr",
@@ -24382,7 +24544,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "mcf17+pr_k4",
@@ -24453,7 +24616,8 @@
         "stlb_corunner_only_percent": 45.34,
         "stlb_state_sample_count": null,
         "corunner_speedup": 3.125
-      }
+      },
+      "pair_speedup": 1.382766516477818
     },
     {
       "workload": "mcf17+rnd_acc",
@@ -24524,7 +24688,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "mcf17+rnd_acc_lcg",
@@ -24595,7 +24760,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "mcf17+sssp1",
@@ -24666,7 +24832,8 @@
         "stlb_corunner_only_percent": 0.07,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "mcf17+sssp_k4",
@@ -24737,7 +24904,8 @@
         "stlb_corunner_only_percent": 41.4,
         "stlb_state_sample_count": null,
         "corunner_speedup": 3.7209302325581506
-      }
+      },
+      "pair_speedup": 1.4988241983089345
     },
     {
       "workload": "mcf17+xalan17",
@@ -24808,7 +24976,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.7490741389201361
     },
     {
       "workload": "omnet06+omnet06",
@@ -24879,7 +25048,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "omnet06+omnet17",
@@ -24950,7 +25120,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.5141422064833368
     },
     {
       "workload": "omnet06+pr",
@@ -25021,7 +25192,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "omnet06+pr_k4",
@@ -25092,7 +25264,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "omnet06+rnd_acc",
@@ -25163,7 +25336,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "omnet06+rnd_acc_lcg",
@@ -25234,7 +25408,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "omnet06+sssp1",
@@ -25305,7 +25480,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.21208931566398803
     },
     {
       "workload": "omnet06+sssp_k4",
@@ -25376,7 +25552,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "omnet06+xalan17",
@@ -25447,7 +25624,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 2.20777158038703
     },
     {
       "workload": "omnet17+omnet17",
@@ -25518,7 +25696,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "omnet17+pr",
@@ -25589,7 +25768,8 @@
         "stlb_corunner_only_percent": 93.25,
         "stlb_state_sample_count": null,
         "corunner_speedup": 7.1729957805907185
-      }
+      },
+      "pair_speedup": 3.0870238626958146
     },
     {
       "workload": "omnet17+pr_k4",
@@ -25660,7 +25840,8 @@
         "stlb_corunner_only_percent": 93.41,
         "stlb_state_sample_count": null,
         "corunner_speedup": 7.860262008733621
-      }
+      },
+      "pair_speedup": 3.4395378531167697
     },
     {
       "workload": "omnet17+rnd_acc",
@@ -25731,7 +25912,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "omnet17+rnd_acc_lcg",
@@ -25802,7 +25984,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "omnet17+sssp1",
@@ -25873,7 +26056,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "omnet17+sssp_k4",
@@ -25944,7 +26128,8 @@
         "stlb_corunner_only_percent": 0.02,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.4672897196261738
-      }
+      },
+      "pair_speedup": -0.2339184490170343
     },
     {
       "workload": "omnet17+xalan17",
@@ -26015,7 +26200,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.43763885240239997
     },
     {
       "workload": "pr+pr",
@@ -26086,7 +26272,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "pr+pr_k4",
@@ -26157,7 +26344,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "pr+rnd_acc",
@@ -26228,7 +26416,8 @@
         "stlb_corunner_only_percent": 0.28,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "pr+rnd_acc_lcg",
@@ -26299,7 +26488,8 @@
         "stlb_corunner_only_percent": 0.34,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "pr+sssp1",
@@ -26370,7 +26560,8 @@
         "stlb_corunner_only_percent": 0.29,
         "stlb_state_sample_count": null,
         "corunner_speedup": -1.01596516690855
-      }
+      },
+      "pair_speedup": 1.7304754991396942
     },
     {
       "workload": "pr+sssp_k4",
@@ -26441,7 +26632,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "pr+xalan17",
@@ -26512,7 +26704,8 @@
         "stlb_corunner_only_percent": 0.3,
         "stlb_state_sample_count": null,
         "corunner_speedup": -1.331114808652245
-      }
+      },
+      "pair_speedup": 16.85792104295938
     },
     {
       "workload": "pr_k4+pr_k4",
@@ -26583,7 +26776,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "pr_k4+rnd_acc",
@@ -26654,7 +26848,8 @@
         "stlb_corunner_only_percent": 0.25,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "pr_k4+rnd_acc_lcg",
@@ -26725,7 +26920,8 @@
         "stlb_corunner_only_percent": 0.25,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "pr_k4+sssp1",
@@ -26796,7 +26992,8 @@
         "stlb_corunner_only_percent": 0.31,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.6756756756756799
-      }
+      },
+      "pair_speedup": 2.457569696293449
     },
     {
       "workload": "pr_k4+sssp_k4",
@@ -26867,7 +27064,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "pr_k4+xalan17",
@@ -26938,7 +27136,8 @@
         "stlb_corunner_only_percent": 0.29,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.7827788649706457
-      }
+      },
+      "pair_speedup": 20.392449390154077
     },
     {
       "workload": "rnd_acc+rnd_acc",
@@ -27009,7 +27208,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "rnd_acc+rnd_acc_lcg",
@@ -27080,7 +27280,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "rnd_acc+sssp1",
@@ -27151,7 +27352,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.13550135501354532
-      }
+      },
+      "pair_speedup": 0.14774992838408885
     },
     {
       "workload": "rnd_acc+sssp_k4",
@@ -27222,7 +27424,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "rnd_acc+xalan17",
@@ -27293,7 +27496,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 16.20788916538114
     },
     {
       "workload": "rnd_acc_lcg+rnd_acc_lcg",
@@ -27364,7 +27568,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "rnd_acc_lcg+sssp1",
@@ -27435,7 +27640,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.10395010395012338
-      }
+      },
+      "pair_speedup": 0.12997478919518635
     },
     {
       "workload": "rnd_acc_lcg+sssp_k4",
@@ -27506,7 +27712,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": -0.10162601626015899
-      }
+      },
+      "pair_speedup": 0.03774225776327356
     },
     {
       "workload": "rnd_acc_lcg+xalan17",
@@ -27577,7 +27784,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 5.777177069589023
     },
     {
       "workload": "sssp1+sssp1",
@@ -27648,7 +27856,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "sssp1+sssp_k4",
@@ -27719,7 +27928,8 @@
         "stlb_corunner_only_percent": 58.54,
         "stlb_state_sample_count": null,
         "corunner_speedup": 3.131115459882561
-      }
+      },
+      "pair_speedup": 1.2121338193044506
     },
     {
       "workload": "sssp1+xalan17",
@@ -27790,7 +28000,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.386848639873949
     },
     {
       "workload": "sssp_k4+sssp_k4",
@@ -27861,7 +28072,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     },
     {
       "workload": "sssp_k4+xalan17",
@@ -27932,7 +28144,8 @@
         "stlb_corunner_only_percent": 0.26,
         "stlb_state_sample_count": null,
         "corunner_speedup": -1.278772378516635
-      }
+      },
+      "pair_speedup": 14.729378755099676
     },
     {
       "workload": "xalan17+xalan17",
@@ -28003,7 +28216,8 @@
         "stlb_corunner_only_percent": 0.0,
         "stlb_state_sample_count": null,
         "corunner_speedup": 0.0
-      }
+      },
+      "pair_speedup": 0.0
     }
   ]
 }

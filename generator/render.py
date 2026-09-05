@@ -83,17 +83,28 @@ def figure_html(
     )
 
 
-def render_summary_table(benchmarks: list[dict]) -> str:
-    rows = [
+def render_summary_table(
+    benchmarks: list[dict],
+    overall: dict | None = None,
+) -> str:
+    rows: list[str] = []
+    if overall and overall.get("geometric_mean_speedup") is not None:
+        rows.append(
+            '<p><strong>Overall physical-pair geometric mean '
+            f'({overall["physical_pair_count"]} pairs): '
+            f'{fmt_pct(overall["geometric_mean_speedup"])}</strong></p>'
+        )
+
+    rows.extend([
         "<table><thead><tr>",
         "<th>Benchmark</th>",
         "<th>Co-runners</th>",
-        "<th>Mean speedup</th>",
+        "<th>Geometric mean speedup</th>",
         "<th>Median speedup</th>",
         "<th>Max slowdown</th>",
         "<th>Max speedup</th>",
         "</tr></thead><tbody>",
-    ]
+    ])
 
     for benchmark in benchmarks:
         rows.extend(
@@ -102,7 +113,7 @@ def render_summary_table(benchmarks: list[dict]) -> str:
                 f'<td><a href="#{benchmark_anchor(benchmark["full"])}">'
                 f'{html.escape(benchmark["full"])}</a></td>',
                 f'<td>{benchmark["co_runner_count"]}</td>',
-                f'<td>{fmt_pct(benchmark["mean_speedup"])}</td>',
+                f'<td>{fmt_pct(benchmark["geometric_mean_speedup"])}</td>',
                 f'<td>{fmt_pct(benchmark["median_speedup"])}</td>',
                 f'<td>{fmt_slowdown(benchmark["max_slowdown"])}</td>',
                 f'<td>{fmt_pct(benchmark["max_speedup"])}</td>',
@@ -263,7 +274,10 @@ def main() -> int:
         else ""
     )
 
-    page = template.replace("__SUMMARY_TABLE__", render_summary_table(data["benchmarks"]))
+    page = template.replace(
+        "__SUMMARY_TABLE__",
+        render_summary_table(data["benchmarks"], data.get("overall")),
+    )
     page = page.replace("__SUMMARY_PLOT__", summary_html)
     page = page.replace(
         "__BENCHMARK_SECTIONS__",

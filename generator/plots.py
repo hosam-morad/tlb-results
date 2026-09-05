@@ -48,19 +48,25 @@ def summary_boxplot(benchmarks: list[dict], output_base: Path) -> None:
 
     series = [benchmark["speedups"] for benchmark in benchmarks]
     labels = [benchmark["short"] for benchmark in benchmarks]
+    geometric_means = [
+        benchmark["geometric_mean_speedup"] for benchmark in benchmarks
+    ]
     positions = list(range(1, len(benchmarks) + 1))
 
     boxplot = ax.boxplot(
         series,
         labels=labels,
-        showmeans=True,
+        showmeans=False,
         showfliers=False,
         whis=(0, 100),
     )
 
     all_values: list[float] = []
-    for x, values in zip(positions, series):
+    for x, values, geometric_mean_value in zip(
+        positions, series, geometric_means
+    ):
         all_values.extend(values)
+        all_values.append(geometric_mean_value)
         if len(values) == 1:
             offsets = [0.0]
         else:
@@ -75,6 +81,13 @@ def summary_boxplot(benchmarks: list[dict], output_base: Path) -> None:
             s=22,
             marker="o",
             alpha=0.85,
+        )
+        ax.scatter(
+            [x],
+            [geometric_mean_value],
+            s=48,
+            marker="D",
+            label="_nolegend_",
         )
 
         min_value = min(values)
@@ -108,15 +121,23 @@ def summary_boxplot(benchmarks: list[dict], output_base: Path) -> None:
     point_handle = Line2D(
         [], [], marker="o", linestyle="None", markersize=5, label="Co-runner point"
     )
+    geometric_mean_handle = Line2D(
+        [],
+        [],
+        marker="D",
+        linestyle="None",
+        markersize=6,
+        label="Geometric mean",
+    )
     ax.legend(
         [
             boxplot["boxes"][0],
             boxplot["medians"][0],
-            boxplot["means"][0],
             boxplot["whiskers"][0],
             point_handle,
+            geometric_mean_handle,
         ],
-        ["IQR", "Median", "Mean", "Min/Max", "Co-runner point"],
+        ["IQR", "Median", "Min/Max", "Co-runner point", "Geometric mean"],
         loc="best",
         fontsize=8,
         ncol=5,
