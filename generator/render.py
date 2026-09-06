@@ -90,7 +90,7 @@ def render_summary_table(
     rows: list[str] = []
     if overall and overall.get("geometric_mean_speedup") is not None:
         rows.append(
-            '<p><strong>Overall physical-pair geometric mean '
+            '<p><strong>Overall pair geometric mean '
             f'({overall["physical_pair_count"]} pairs): '
             f'{fmt_pct(overall["geometric_mean_speedup"])}</strong></p>'
         )
