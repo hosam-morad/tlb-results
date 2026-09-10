@@ -12,6 +12,7 @@ from pathlib import Path
 from plots import (
     benchmark_speedup_barplot,
     mosmodel_plot,
+    mosmodel_x_limits,
     mosmodel_y_limits,
     summary_boxplot,
 )
@@ -185,6 +186,7 @@ def render_benchmark_sections(benchmarks: list[dict], figures_dir: Path) -> str:
             version=figure_version(figures_dir, speedup_base_name),
         )
 
+        mosmodel_xlim = mosmodel_x_limits(sorted_pairs)
         mosmodel_ylim = mosmodel_y_limits(sorted_pairs)
         plots: list[str] = []
         for item in sorted_pairs:
@@ -197,6 +199,7 @@ def render_benchmark_sections(benchmarks: list[dict], figures_dir: Path) -> str:
             mosmodel_plot(
                 item,
                 figures_dir / base_name,
+                x_limits=mosmodel_xlim,
                 y_limits=mosmodel_ylim,
             )
             plots.append(

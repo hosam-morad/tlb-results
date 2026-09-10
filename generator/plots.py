@@ -243,9 +243,31 @@ def mosmodel_y_limits(items: list[dict]) -> tuple[float, float] | None:
     return lower, high + upper_padding
 
 
+def mosmodel_x_limits(items: list[dict]) -> tuple[float, float] | None:
+    mpki_values: list[float] = []
+    for item in items:
+        mpki_values.extend(
+            [
+                float(item["shared_mpki"]),
+                float(item["uniform_mpki"]),
+            ]
+        )
+        mpki_values.extend(float(point["mpki"]) for point in item["mosmodel_points"])
+
+    if not mpki_values:
+        return None
+
+    low = min(mpki_values)
+    high = max(mpki_values)
+    span = max(high - low, 1.0)
+    padding = 0.12 * span
+    return max(0.0, low - padding), high + padding
+
+
 def mosmodel_plot(
     item: dict,
     output_base: Path,
+    x_limits: tuple[float, float] | None = None,
     y_limits: tuple[float, float] | None = None,
 ) -> None:
     a = item["model_a"]
@@ -254,12 +276,17 @@ def mosmodel_plot(
     uniform_mpki = item["uniform_mpki"]
     measured = item["mosmodel_points"]
 
-    x_values = [shared_mpki, uniform_mpki] + [point["mpki"] for point in measured]
-    x_min = min(x_values)
-    x_max = max(x_values)
-    span = max(x_max - x_min, 1.0)
-    start = max(0.0, x_min - 0.12 * span)
-    end = x_max + 0.12 * span
+    if x_limits is None:
+        x_values = [shared_mpki, uniform_mpki] + [
+            point["mpki"] for point in measured
+        ]
+        x_min = min(x_values)
+        x_max = max(x_values)
+        span = max(x_max - x_min, 1.0)
+        start = max(0.0, x_min - 0.12 * span)
+        end = x_max + 0.12 * span
+    else:
+        start, end = x_limits
     line_x = [start + (end - start) * i / 100.0 for i in range(101)]
     line_y = [a * x + b for x in line_x]
 
@@ -298,6 +325,8 @@ def mosmodel_plot(
     ax.set_xlabel("MPKI")
     ax.set_ylabel("CPI")
     ax.set_title(item["corunner_full"])
+    if x_limits is not None:
+        ax.set_xlim(*x_limits)
     if y_limits is not None:
         ax.set_ylim(*y_limits)
     ax.grid(linewidth=0.5, alpha=0.3)

@@ -36,7 +36,6 @@ smt_results_html_force:
 
 $(smt_results_html_json): \
 	smt_results_html_force \
-	tlb-results/archive \
 	$(smt_results_html_dir)/collect.py \
 	$(smt_results_html_dir)/archive_results.py \
 	$(smt_results_html_dir)/benchmark_names.py \
