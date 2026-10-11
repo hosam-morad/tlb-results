@@ -1,0 +1,37 @@
+:root { color-scheme: light dark; --bg:#f6f7f9; --card:#fff; --text:#18202a; --muted:#667085; --line:#d8dde6; --accent:#185adb; }
+@media (prefers-color-scheme: dark) { :root { --bg:#12151a; --card:#1b2027; --text:#edf2f7; --muted:#a9b3c1; --line:#343b46; --accent:#7aa2ff; } }
+* { box-sizing:border-box; } html { scroll-behavior:smooth; } body { margin:0; background:var(--bg); color:var(--text); font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:1500px; margin:0 auto; padding:28px; } h1,h2,h3 { line-height:1.2; } h1 { margin-bottom:4px; } h2 { margin-top:42px; border-bottom:1px solid var(--line); padding-bottom:8px; }
+.subtitle { color:var(--muted); margin-top:6px; } code { color:var(--text); } a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:18px; margin:16px 0; overflow:auto; }
+table { width:100%; border-collapse:collapse; } th,td { padding:9px 10px; border-bottom:1px solid var(--line); text-align:right; white-space:nowrap; } th:first-child,td:first-child { text-align:left; } th { position:sticky; top:0; background:var(--card); }
+.num-pos { color:#16803b; font-weight:600; } .num-neg { color:#c43b3b; font-weight:600; }
+.summary-plot img { width:100%; height:auto; min-width:900px; display:block; } .benchmark-speedup-plot img { width:100%; height:auto; min-width:700px; display:block; }
+.plot-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(460px,1fr)); gap:16px; } .plot-card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px; overflow:hidden; } .plot-card img { width:100%; height:auto; display:block; }
+.model-equation { margin-top:8px; color:var(--text); font-size:13px; text-align:center; } .back { float:right; font-size:13px; font-weight:400; }
+.stlb-state { display:flex; flex-direction:column; gap:2px; text-align:left; white-space:nowrap; line-height:1.3; } .stlb-state b { font-weight:600; }
+
+.speedup-overview-heatmap img { width:100%; height:auto; display:block; }
+.speedup-overview-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin:16px 0; }
+.speedup-overview-small { display:flex; align-items:center; justify-content:center; overflow:hidden; }
+.speedup-overview-small img { width:100%; max-width:560px; height:auto; display:block; }
+@media (max-width:900px) { .speedup-overview-grid { grid-template-columns:1fr; } }
+
+/* Combined weighted/non-weighted site navigation. */
+.site-nav { display:flex; align-items:center; gap:8px; margin:0 0 20px; flex-wrap:wrap; }
+.site-nav-link { display:inline-block; padding:7px 11px; border:1px solid var(--line); border-radius:8px; background:var(--card); font-weight:600; }
+.site-nav-link:hover { text-decoration:none; border-color:var(--accent); }
+.site-nav-link.active { color:var(--card); background:var(--accent); border-color:var(--accent); }
+
+/* Combined-site landing page. */
+.landing-main { max-width:980px; min-height:100vh; display:flex; flex-direction:column; justify-content:center; }
+.landing-header { text-align:center; margin-bottom:28px; }
+.landing-header h1 { font-size:34px; }
+.variant-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; }
+.variant-card { display:flex; flex-direction:column; min-height:220px; padding:26px; border:1px solid var(--line); border-radius:14px; background:var(--card); color:var(--text); box-shadow:0 4px 18px rgba(0,0,0,0.04); }
+.variant-card:hover { text-decoration:none; border-color:var(--accent); transform:translateY(-1px); }
+.variant-card h2 { margin:0 0 10px; border:0; padding:0; font-size:25px; }
+.variant-card p { margin:0 0 14px; color:var(--muted); }
+.variant-card code { display:block; overflow-wrap:anywhere; color:var(--muted); font-size:12px; }
+.variant-link { margin-top:auto; padding-top:22px; color:var(--accent); font-weight:700; }
+@media (max-width:760px) { .variant-grid { grid-template-columns:1fr; } .landing-main { justify-content:flex-start; } }
